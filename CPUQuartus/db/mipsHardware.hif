@@ -1337,8 +1337,8 @@ Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsync
 # entity
 unidadeControle
 # storage
-db|mipsHardware.(3).cnf
-db|mipsHardware.(3).cnf
+db|mipsHardware.(2).cnf
+db|mipsHardware.(2).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -1346,130 +1346,7 @@ ON
 # case_sensitive
 # source_file
 unidadecontrole.sv
-1858f771c1f4de6a73ccbc9e8bf87783
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# user_parameter {
-fetch1
-0000000
-PARAMETER_UNSIGNED_BIN
-USR
-fetch2
-0000001
-PARAMETER_UNSIGNED_BIN
-USR
-fetch3
-0000010
-PARAMETER_UNSIGNED_BIN
-USR
-decode
-0000011
-PARAMETER_UNSIGNED_BIN
-USR
-decode2
-0000100
-PARAMETER_UNSIGNED_BIN
-USR
-wait_
-0000101
-PARAMETER_UNSIGNED_BIN
-USR
-execute
-0000110
-PARAMETER_UNSIGNED_BIN
-USR
-add_sub_and
-0000111
-PARAMETER_UNSIGNED_BIN
-USR
-addi_addiu
-001010
-PARAMETER_UNSIGNED_BIN
-USR
-break2
-0001001
-PARAMETER_UNSIGNED_BIN
-USR
-xchg2
-0001010
-PARAMETER_UNSIGNED_BIN
-USR
-closeWR
-1000100
-PARAMETER_UNSIGNED_BIN
-USR
-wait_Final
-1000101
-PARAMETER_UNSIGNED_BIN
-USR
-formatR
-000000
-PARAMETER_UNSIGNED_BIN
-USR
-xchg1
-000101
-PARAMETER_UNSIGNED_BIN
-USR
-break1
-001101
-PARAMETER_UNSIGNED_BIN
-USR
-rte
-010011
-PARAMETER_UNSIGNED_BIN
-USR
-andR
-100100
-PARAMETER_UNSIGNED_BIN
-USR
-addR
-100000
-PARAMETER_UNSIGNED_BIN
-USR
-subR
-100010
-PARAMETER_UNSIGNED_BIN
-USR
-addi
-001000
-PARAMETER_UNSIGNED_BIN
-USR
-addiu
-001001
-PARAMETER_UNSIGNED_BIN
-USR
-}
-# macro_sequence
-
-# end
-# entity
-unidadeControle
-# storage
-db|mipsHardware.(19).cnf
-db|mipsHardware.(19).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-unidadecontrole.sv
-1858f771c1f4de6a73ccbc9e8bf87783
+5488af473fb81c62ef9cd349619f6b
 9
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -1532,6 +1409,10 @@ xchg2
 0001010
 PARAMETER_UNSIGNED_BIN
 DEF
+xchg3
+0001011
+PARAMETER_UNSIGNED_BIN
+DEF
 closeWR
 1000100
 PARAMETER_UNSIGNED_BIN
@@ -1586,12 +1467,12 @@ unidadeControle:inst17
 # entity
 schemeHard
 # storage
-db|mipsHardware.(2).cnf
-db|mipsHardware.(2).cnf
+db|mipsHardware.(3).cnf
+db|mipsHardware.(3).cnf
 # case_insensitive
 # source_file
 schemehard.bdf
-97bc985d48b77ce3b98725a4b460dde4
+66536304f3d7fc9327efc848d703bf3
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

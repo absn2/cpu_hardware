@@ -1783,6 +1783,11 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"xchg3"
+		"0001011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -3415,14 +3420,6 @@ applicable agreement for further details.
 	(pt 1720 720)
 )
 (connector
-	(pt 1744 600)
-	(pt 1744 704)
-)
-(connector
-	(pt 1744 704)
-	(pt 1744 720)
-)
-(connector
 	(pt 2296 -888)
 	(pt 2328 -888)
 	(bus)
@@ -3436,6 +3433,14 @@ applicable agreement for further details.
 	(pt 2296 -888)
 	(pt 2296 -752)
 	(bus)
+)
+(connector
+	(pt 1744 600)
+	(pt 1744 704)
+)
+(connector
+	(pt 1744 704)
+	(pt 1744 720)
 )
 (junction (pt 3320 248))
 (junction (pt 1832 144))
