@@ -8,12 +8,11 @@ module memToReg(
 	input logic [31:0] e6, 
 	input logic [31:0] e7,
 	input logic [31:0] e8,
-	input logic [31:0] e9,
 	output logic [31:0] memToRegOut,
 	input logic [3:0]memToRegmux
 );
 
-parameter  e10 = 32'd227;
+parameter  e9 = 32'd227;
 
 
 
@@ -29,7 +28,6 @@ always
 		4'b0111: memToRegOut = e7;
 		4'b1000: memToRegOut = e8;
 		4'b1001: memToRegOut = e9;
-		4'b1010: memToRegOut = e10;
 		
 	endcase
 	

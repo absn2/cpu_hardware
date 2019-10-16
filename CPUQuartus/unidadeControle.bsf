@@ -194,9 +194,9 @@ applicable agreement for further details.
 	(port
 		(pt 208 256)
 		(output)
-		(text "shiftcontrol" (rect 0 0 55 12)(font "Arial" ))
-		(text "shiftcontrol" (rect 132 251 187 263)(font "Arial" ))
-		(line (pt 208 256)(pt 192 256)(line_width 1))
+		(text "shiftcontrol[2..0]" (rect 0 0 81 12)(font "Arial" ))
+		(text "shiftcontrol[2..0]" (rect 106 251 187 263)(font "Arial" ))
+		(line (pt 208 256)(pt 192 256)(line_width 3))
 	)
 	(port
 		(pt 208 272)
@@ -350,6 +350,41 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"slt2"
+		"0001100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sll2"
+		"0001101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sra2"
+		"0001110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sll_sra_srl_sllv_srav"
+		"0001111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"srl2"
+		"0010000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sllv2"
+		"0010001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"srav2"
+		"0010010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -365,8 +400,38 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"sll"
+		"000000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"srl"
+		"000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sra"
+		"000011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sllv"
+		"000100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"srav"
+		"000111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"xchg1"
 		"000101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"jr"
+		"001000"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -392,6 +457,11 @@ applicable agreement for further details.
 	(parameter
 		"subR"
 		"100010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"slt1"
+		"101010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter

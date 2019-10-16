@@ -1919,9 +1919,9 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000;
-		NUMERATOR = 1367;
+		NUMERATOR = 1401;
 		DENOMINATOR = 1000000;
-		TOP_INDEX = 70;
+		TOP_INDEX = 103;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -4092,7 +4092,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut";
+		SIGNAL = "shift";
 		INDEX = 270;
 		FORMAT = T;
 		SCALE = 1;
@@ -4100,7 +4100,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[6]";
+		SIGNAL = "shift[4]";
 		INDEX = 271;
 		FORMAT = E;
 		SCALE = 1;
@@ -4108,7 +4108,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[5]";
+		SIGNAL = "shift[3]";
 		INDEX = 272;
 		FORMAT = E;
 		SCALE = 1;
@@ -4116,7 +4116,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[4]";
+		SIGNAL = "shift[2]";
 		INDEX = 273;
 		FORMAT = E;
 		SCALE = 1;
@@ -4124,7 +4124,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[3]";
+		SIGNAL = "shift[1]";
 		INDEX = 274;
 		FORMAT = E;
 		SCALE = 1;
@@ -4132,7 +4132,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[2]";
+		SIGNAL = "shift[0]";
 		INDEX = 275;
 		FORMAT = E;
 		SCALE = 1;
@@ -4140,15 +4140,15 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[1]";
+		SIGNAL = "shiftOut";
 		INDEX = 276;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "stateOut[0]";
+		SIGNAL = "shiftOut[31]";
 		INDEX = 277;
 		FORMAT = E;
 		SCALE = 1;
@@ -4156,15 +4156,15 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t";
+		SIGNAL = "shiftOut[30]";
 		INDEX = 278;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[31]";
+		SIGNAL = "shiftOut[29]";
 		INDEX = 279;
 		FORMAT = E;
 		SCALE = 1;
@@ -4172,7 +4172,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[30]";
+		SIGNAL = "shiftOut[28]";
 		INDEX = 280;
 		FORMAT = E;
 		SCALE = 1;
@@ -4180,7 +4180,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[29]";
+		SIGNAL = "shiftOut[27]";
 		INDEX = 281;
 		FORMAT = E;
 		SCALE = 1;
@@ -4188,7 +4188,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[28]";
+		SIGNAL = "shiftOut[26]";
 		INDEX = 282;
 		FORMAT = E;
 		SCALE = 1;
@@ -4196,7 +4196,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[27]";
+		SIGNAL = "shiftOut[25]";
 		INDEX = 283;
 		FORMAT = E;
 		SCALE = 1;
@@ -4204,7 +4204,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[26]";
+		SIGNAL = "shiftOut[24]";
 		INDEX = 284;
 		FORMAT = E;
 		SCALE = 1;
@@ -4212,7 +4212,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[25]";
+		SIGNAL = "shiftOut[23]";
 		INDEX = 285;
 		FORMAT = E;
 		SCALE = 1;
@@ -4220,7 +4220,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[24]";
+		SIGNAL = "shiftOut[22]";
 		INDEX = 286;
 		FORMAT = E;
 		SCALE = 1;
@@ -4228,7 +4228,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[23]";
+		SIGNAL = "shiftOut[21]";
 		INDEX = 287;
 		FORMAT = E;
 		SCALE = 1;
@@ -4236,7 +4236,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[22]";
+		SIGNAL = "shiftOut[20]";
 		INDEX = 288;
 		FORMAT = E;
 		SCALE = 1;
@@ -4244,7 +4244,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[21]";
+		SIGNAL = "shiftOut[19]";
 		INDEX = 289;
 		FORMAT = E;
 		SCALE = 1;
@@ -4252,7 +4252,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[20]";
+		SIGNAL = "shiftOut[18]";
 		INDEX = 290;
 		FORMAT = E;
 		SCALE = 1;
@@ -4260,7 +4260,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[19]";
+		SIGNAL = "shiftOut[17]";
 		INDEX = 291;
 		FORMAT = E;
 		SCALE = 1;
@@ -4268,7 +4268,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[18]";
+		SIGNAL = "shiftOut[16]";
 		INDEX = 292;
 		FORMAT = E;
 		SCALE = 1;
@@ -4276,7 +4276,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[17]";
+		SIGNAL = "shiftOut[15]";
 		INDEX = 293;
 		FORMAT = E;
 		SCALE = 1;
@@ -4284,7 +4284,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[16]";
+		SIGNAL = "shiftOut[14]";
 		INDEX = 294;
 		FORMAT = E;
 		SCALE = 1;
@@ -4292,7 +4292,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[15]";
+		SIGNAL = "shiftOut[13]";
 		INDEX = 295;
 		FORMAT = E;
 		SCALE = 1;
@@ -4300,7 +4300,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[14]";
+		SIGNAL = "shiftOut[12]";
 		INDEX = 296;
 		FORMAT = E;
 		SCALE = 1;
@@ -4308,7 +4308,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[13]";
+		SIGNAL = "shiftOut[11]";
 		INDEX = 297;
 		FORMAT = E;
 		SCALE = 1;
@@ -4316,7 +4316,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[12]";
+		SIGNAL = "shiftOut[10]";
 		INDEX = 298;
 		FORMAT = E;
 		SCALE = 1;
@@ -4324,7 +4324,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[11]";
+		SIGNAL = "shiftOut[9]";
 		INDEX = 299;
 		FORMAT = E;
 		SCALE = 1;
@@ -4332,7 +4332,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[10]";
+		SIGNAL = "shiftOut[8]";
 		INDEX = 300;
 		FORMAT = E;
 		SCALE = 1;
@@ -4340,7 +4340,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[9]";
+		SIGNAL = "shiftOut[7]";
 		INDEX = 301;
 		FORMAT = E;
 		SCALE = 1;
@@ -4348,7 +4348,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[8]";
+		SIGNAL = "shiftOut[6]";
 		INDEX = 302;
 		FORMAT = E;
 		SCALE = 1;
@@ -4356,7 +4356,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[7]";
+		SIGNAL = "shiftOut[5]";
 		INDEX = 303;
 		FORMAT = E;
 		SCALE = 1;
@@ -4364,7 +4364,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[6]";
+		SIGNAL = "shiftOut[4]";
 		INDEX = 304;
 		FORMAT = E;
 		SCALE = 1;
@@ -4372,7 +4372,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[5]";
+		SIGNAL = "shiftOut[3]";
 		INDEX = 305;
 		FORMAT = E;
 		SCALE = 1;
@@ -4380,7 +4380,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[4]";
+		SIGNAL = "shiftOut[2]";
 		INDEX = 306;
 		FORMAT = E;
 		SCALE = 1;
@@ -4388,7 +4388,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[3]";
+		SIGNAL = "shiftOut[1]";
 		INDEX = 307;
 		FORMAT = E;
 		SCALE = 1;
@@ -4396,7 +4396,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[2]";
+		SIGNAL = "shiftOut[0]";
 		INDEX = 308;
 		FORMAT = E;
 		SCALE = 1;
@@ -4404,7 +4404,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[1]";
+		SIGNAL = "sltOut";
 		INDEX = 309;
 		FORMAT = E;
 		SCALE = 1;
@@ -4412,23 +4412,23 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ulaOut_t[0]";
+		SIGNAL = "SourceSh";
 		INDEX = 310;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "wrData";
-		INDEX = 311;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[31]";
+		SIGNAL = "SourceSh[31]";
+		INDEX = 311;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "SourceSh[30]";
 		INDEX = 312;
 		FORMAT = E;
 		SCALE = 1;
@@ -4436,7 +4436,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[30]";
+		SIGNAL = "SourceSh[29]";
 		INDEX = 313;
 		FORMAT = E;
 		SCALE = 1;
@@ -4444,7 +4444,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[29]";
+		SIGNAL = "SourceSh[28]";
 		INDEX = 314;
 		FORMAT = E;
 		SCALE = 1;
@@ -4452,7 +4452,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[28]";
+		SIGNAL = "SourceSh[27]";
 		INDEX = 315;
 		FORMAT = E;
 		SCALE = 1;
@@ -4460,7 +4460,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[27]";
+		SIGNAL = "SourceSh[26]";
 		INDEX = 316;
 		FORMAT = E;
 		SCALE = 1;
@@ -4468,7 +4468,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[26]";
+		SIGNAL = "SourceSh[25]";
 		INDEX = 317;
 		FORMAT = E;
 		SCALE = 1;
@@ -4476,7 +4476,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[25]";
+		SIGNAL = "SourceSh[24]";
 		INDEX = 318;
 		FORMAT = E;
 		SCALE = 1;
@@ -4484,7 +4484,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[24]";
+		SIGNAL = "SourceSh[23]";
 		INDEX = 319;
 		FORMAT = E;
 		SCALE = 1;
@@ -4492,7 +4492,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[23]";
+		SIGNAL = "SourceSh[22]";
 		INDEX = 320;
 		FORMAT = E;
 		SCALE = 1;
@@ -4500,7 +4500,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[22]";
+		SIGNAL = "SourceSh[21]";
 		INDEX = 321;
 		FORMAT = E;
 		SCALE = 1;
@@ -4508,7 +4508,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[21]";
+		SIGNAL = "SourceSh[20]";
 		INDEX = 322;
 		FORMAT = E;
 		SCALE = 1;
@@ -4516,7 +4516,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[20]";
+		SIGNAL = "SourceSh[19]";
 		INDEX = 323;
 		FORMAT = E;
 		SCALE = 1;
@@ -4524,7 +4524,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[19]";
+		SIGNAL = "SourceSh[18]";
 		INDEX = 324;
 		FORMAT = E;
 		SCALE = 1;
@@ -4532,7 +4532,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[18]";
+		SIGNAL = "SourceSh[17]";
 		INDEX = 325;
 		FORMAT = E;
 		SCALE = 1;
@@ -4540,7 +4540,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[17]";
+		SIGNAL = "SourceSh[16]";
 		INDEX = 326;
 		FORMAT = E;
 		SCALE = 1;
@@ -4548,7 +4548,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[16]";
+		SIGNAL = "SourceSh[15]";
 		INDEX = 327;
 		FORMAT = E;
 		SCALE = 1;
@@ -4556,7 +4556,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[15]";
+		SIGNAL = "SourceSh[14]";
 		INDEX = 328;
 		FORMAT = E;
 		SCALE = 1;
@@ -4564,7 +4564,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[14]";
+		SIGNAL = "SourceSh[13]";
 		INDEX = 329;
 		FORMAT = E;
 		SCALE = 1;
@@ -4572,7 +4572,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[13]";
+		SIGNAL = "SourceSh[12]";
 		INDEX = 330;
 		FORMAT = E;
 		SCALE = 1;
@@ -4580,7 +4580,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[12]";
+		SIGNAL = "SourceSh[11]";
 		INDEX = 331;
 		FORMAT = E;
 		SCALE = 1;
@@ -4588,7 +4588,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[11]";
+		SIGNAL = "SourceSh[10]";
 		INDEX = 332;
 		FORMAT = E;
 		SCALE = 1;
@@ -4596,7 +4596,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[10]";
+		SIGNAL = "SourceSh[9]";
 		INDEX = 333;
 		FORMAT = E;
 		SCALE = 1;
@@ -4604,7 +4604,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[9]";
+		SIGNAL = "SourceSh[8]";
 		INDEX = 334;
 		FORMAT = E;
 		SCALE = 1;
@@ -4612,7 +4612,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[8]";
+		SIGNAL = "SourceSh[7]";
 		INDEX = 335;
 		FORMAT = E;
 		SCALE = 1;
@@ -4620,7 +4620,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[7]";
+		SIGNAL = "SourceSh[6]";
 		INDEX = 336;
 		FORMAT = E;
 		SCALE = 1;
@@ -4628,7 +4628,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[6]";
+		SIGNAL = "SourceSh[5]";
 		INDEX = 337;
 		FORMAT = E;
 		SCALE = 1;
@@ -4636,7 +4636,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[5]";
+		SIGNAL = "SourceSh[4]";
 		INDEX = 338;
 		FORMAT = E;
 		SCALE = 1;
@@ -4644,7 +4644,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[4]";
+		SIGNAL = "SourceSh[3]";
 		INDEX = 339;
 		FORMAT = E;
 		SCALE = 1;
@@ -4652,7 +4652,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[3]";
+		SIGNAL = "SourceSh[2]";
 		INDEX = 340;
 		FORMAT = E;
 		SCALE = 1;
@@ -4660,7 +4660,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[2]";
+		SIGNAL = "SourceSh[1]";
 		INDEX = 341;
 		FORMAT = E;
 		SCALE = 1;
@@ -4668,7 +4668,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[1]";
+		SIGNAL = "SourceSh[0]";
 		INDEX = 342;
 		FORMAT = E;
 		SCALE = 1;
@@ -4676,23 +4676,23 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrData[0]";
+		SIGNAL = "stateOut";
 		INDEX = 343;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "wrReg";
-		INDEX = 344;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrReg[4]";
+		SIGNAL = "stateOut[6]";
+		INDEX = 344;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "stateOut[5]";
 		INDEX = 345;
 		FORMAT = E;
 		SCALE = 1;
@@ -4700,7 +4700,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrReg[3]";
+		SIGNAL = "stateOut[4]";
 		INDEX = 346;
 		FORMAT = E;
 		SCALE = 1;
@@ -4708,7 +4708,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrReg[2]";
+		SIGNAL = "stateOut[3]";
 		INDEX = 347;
 		FORMAT = E;
 		SCALE = 1;
@@ -4716,7 +4716,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrReg[1]";
+		SIGNAL = "stateOut[2]";
 		INDEX = 348;
 		FORMAT = E;
 		SCALE = 1;
@@ -4724,7 +4724,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "wrReg[0]";
+		SIGNAL = "stateOut[1]";
 		INDEX = 349;
 		FORMAT = E;
 		SCALE = 1;
@@ -4732,23 +4732,23 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG";
+		SIGNAL = "stateOut[0]";
 		INDEX = 350;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "xCHG[31]";
-		INDEX = 351;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[30]";
+		SIGNAL = "ulaOut_t";
+		INDEX = 351;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "ulaOut_t[31]";
 		INDEX = 352;
 		FORMAT = E;
 		SCALE = 1;
@@ -4756,7 +4756,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[29]";
+		SIGNAL = "ulaOut_t[30]";
 		INDEX = 353;
 		FORMAT = E;
 		SCALE = 1;
@@ -4764,7 +4764,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[28]";
+		SIGNAL = "ulaOut_t[29]";
 		INDEX = 354;
 		FORMAT = E;
 		SCALE = 1;
@@ -4772,7 +4772,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[27]";
+		SIGNAL = "ulaOut_t[28]";
 		INDEX = 355;
 		FORMAT = E;
 		SCALE = 1;
@@ -4780,7 +4780,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[26]";
+		SIGNAL = "ulaOut_t[27]";
 		INDEX = 356;
 		FORMAT = E;
 		SCALE = 1;
@@ -4788,7 +4788,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[25]";
+		SIGNAL = "ulaOut_t[26]";
 		INDEX = 357;
 		FORMAT = E;
 		SCALE = 1;
@@ -4796,7 +4796,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[24]";
+		SIGNAL = "ulaOut_t[25]";
 		INDEX = 358;
 		FORMAT = E;
 		SCALE = 1;
@@ -4804,7 +4804,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[23]";
+		SIGNAL = "ulaOut_t[24]";
 		INDEX = 359;
 		FORMAT = E;
 		SCALE = 1;
@@ -4812,7 +4812,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[22]";
+		SIGNAL = "ulaOut_t[23]";
 		INDEX = 360;
 		FORMAT = E;
 		SCALE = 1;
@@ -4820,7 +4820,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[21]";
+		SIGNAL = "ulaOut_t[22]";
 		INDEX = 361;
 		FORMAT = E;
 		SCALE = 1;
@@ -4828,7 +4828,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[20]";
+		SIGNAL = "ulaOut_t[21]";
 		INDEX = 362;
 		FORMAT = E;
 		SCALE = 1;
@@ -4836,7 +4836,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[19]";
+		SIGNAL = "ulaOut_t[20]";
 		INDEX = 363;
 		FORMAT = E;
 		SCALE = 1;
@@ -4844,7 +4844,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[18]";
+		SIGNAL = "ulaOut_t[19]";
 		INDEX = 364;
 		FORMAT = E;
 		SCALE = 1;
@@ -4852,7 +4852,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[17]";
+		SIGNAL = "ulaOut_t[18]";
 		INDEX = 365;
 		FORMAT = E;
 		SCALE = 1;
@@ -4860,7 +4860,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[16]";
+		SIGNAL = "ulaOut_t[17]";
 		INDEX = 366;
 		FORMAT = E;
 		SCALE = 1;
@@ -4868,7 +4868,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[15]";
+		SIGNAL = "ulaOut_t[16]";
 		INDEX = 367;
 		FORMAT = E;
 		SCALE = 1;
@@ -4876,7 +4876,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[14]";
+		SIGNAL = "ulaOut_t[15]";
 		INDEX = 368;
 		FORMAT = E;
 		SCALE = 1;
@@ -4884,7 +4884,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[13]";
+		SIGNAL = "ulaOut_t[14]";
 		INDEX = 369;
 		FORMAT = E;
 		SCALE = 1;
@@ -4892,7 +4892,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[12]";
+		SIGNAL = "ulaOut_t[13]";
 		INDEX = 370;
 		FORMAT = E;
 		SCALE = 1;
@@ -4900,7 +4900,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[11]";
+		SIGNAL = "ulaOut_t[12]";
 		INDEX = 371;
 		FORMAT = E;
 		SCALE = 1;
@@ -4908,7 +4908,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[10]";
+		SIGNAL = "ulaOut_t[11]";
 		INDEX = 372;
 		FORMAT = E;
 		SCALE = 1;
@@ -4916,7 +4916,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[9]";
+		SIGNAL = "ulaOut_t[10]";
 		INDEX = 373;
 		FORMAT = E;
 		SCALE = 1;
@@ -4924,7 +4924,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[8]";
+		SIGNAL = "ulaOut_t[9]";
 		INDEX = 374;
 		FORMAT = E;
 		SCALE = 1;
@@ -4932,7 +4932,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[7]";
+		SIGNAL = "ulaOut_t[8]";
 		INDEX = 375;
 		FORMAT = E;
 		SCALE = 1;
@@ -4940,7 +4940,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[6]";
+		SIGNAL = "ulaOut_t[7]";
 		INDEX = 376;
 		FORMAT = E;
 		SCALE = 1;
@@ -4948,7 +4948,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[5]";
+		SIGNAL = "ulaOut_t[6]";
 		INDEX = 377;
 		FORMAT = E;
 		SCALE = 1;
@@ -4956,7 +4956,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[4]";
+		SIGNAL = "ulaOut_t[5]";
 		INDEX = 378;
 		FORMAT = E;
 		SCALE = 1;
@@ -4964,7 +4964,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[3]";
+		SIGNAL = "ulaOut_t[4]";
 		INDEX = 379;
 		FORMAT = E;
 		SCALE = 1;
@@ -4972,7 +4972,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[2]";
+		SIGNAL = "ulaOut_t[3]";
 		INDEX = 380;
 		FORMAT = E;
 		SCALE = 1;
@@ -4980,7 +4980,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[1]";
+		SIGNAL = "ulaOut_t[2]";
 		INDEX = 381;
 		FORMAT = E;
 		SCALE = 1;
@@ -4988,7 +4988,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xCHG[0]";
+		SIGNAL = "ulaOut_t[1]";
 		INDEX = 382;
 		FORMAT = E;
 		SCALE = 1;
@@ -4996,23 +4996,23 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT";
+		SIGNAL = "ulaOut_t[0]";
 		INDEX = 383;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "xchgOUT[31]";
-		INDEX = 384;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[30]";
+		SIGNAL = "wrData";
+		INDEX = 384;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "wrData[31]";
 		INDEX = 385;
 		FORMAT = E;
 		SCALE = 1;
@@ -5020,7 +5020,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[29]";
+		SIGNAL = "wrData[30]";
 		INDEX = 386;
 		FORMAT = E;
 		SCALE = 1;
@@ -5028,7 +5028,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[28]";
+		SIGNAL = "wrData[29]";
 		INDEX = 387;
 		FORMAT = E;
 		SCALE = 1;
@@ -5036,7 +5036,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[27]";
+		SIGNAL = "wrData[28]";
 		INDEX = 388;
 		FORMAT = E;
 		SCALE = 1;
@@ -5044,7 +5044,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[26]";
+		SIGNAL = "wrData[27]";
 		INDEX = 389;
 		FORMAT = E;
 		SCALE = 1;
@@ -5052,7 +5052,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[25]";
+		SIGNAL = "wrData[26]";
 		INDEX = 390;
 		FORMAT = E;
 		SCALE = 1;
@@ -5060,7 +5060,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[24]";
+		SIGNAL = "wrData[25]";
 		INDEX = 391;
 		FORMAT = E;
 		SCALE = 1;
@@ -5068,7 +5068,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[23]";
+		SIGNAL = "wrData[24]";
 		INDEX = 392;
 		FORMAT = E;
 		SCALE = 1;
@@ -5076,7 +5076,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[22]";
+		SIGNAL = "wrData[23]";
 		INDEX = 393;
 		FORMAT = E;
 		SCALE = 1;
@@ -5084,7 +5084,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[21]";
+		SIGNAL = "wrData[22]";
 		INDEX = 394;
 		FORMAT = E;
 		SCALE = 1;
@@ -5092,7 +5092,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[20]";
+		SIGNAL = "wrData[21]";
 		INDEX = 395;
 		FORMAT = E;
 		SCALE = 1;
@@ -5100,7 +5100,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[19]";
+		SIGNAL = "wrData[20]";
 		INDEX = 396;
 		FORMAT = E;
 		SCALE = 1;
@@ -5108,7 +5108,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[18]";
+		SIGNAL = "wrData[19]";
 		INDEX = 397;
 		FORMAT = E;
 		SCALE = 1;
@@ -5116,7 +5116,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[17]";
+		SIGNAL = "wrData[18]";
 		INDEX = 398;
 		FORMAT = E;
 		SCALE = 1;
@@ -5124,7 +5124,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[16]";
+		SIGNAL = "wrData[17]";
 		INDEX = 399;
 		FORMAT = E;
 		SCALE = 1;
@@ -5132,7 +5132,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[15]";
+		SIGNAL = "wrData[16]";
 		INDEX = 400;
 		FORMAT = E;
 		SCALE = 1;
@@ -5140,7 +5140,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[14]";
+		SIGNAL = "wrData[15]";
 		INDEX = 401;
 		FORMAT = E;
 		SCALE = 1;
@@ -5148,7 +5148,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[13]";
+		SIGNAL = "wrData[14]";
 		INDEX = 402;
 		FORMAT = E;
 		SCALE = 1;
@@ -5156,7 +5156,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[12]";
+		SIGNAL = "wrData[13]";
 		INDEX = 403;
 		FORMAT = E;
 		SCALE = 1;
@@ -5164,7 +5164,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[11]";
+		SIGNAL = "wrData[12]";
 		INDEX = 404;
 		FORMAT = E;
 		SCALE = 1;
@@ -5172,7 +5172,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[10]";
+		SIGNAL = "wrData[11]";
 		INDEX = 405;
 		FORMAT = E;
 		SCALE = 1;
@@ -5180,7 +5180,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[9]";
+		SIGNAL = "wrData[10]";
 		INDEX = 406;
 		FORMAT = E;
 		SCALE = 1;
@@ -5188,7 +5188,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[8]";
+		SIGNAL = "wrData[9]";
 		INDEX = 407;
 		FORMAT = E;
 		SCALE = 1;
@@ -5196,7 +5196,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[7]";
+		SIGNAL = "wrData[8]";
 		INDEX = 408;
 		FORMAT = E;
 		SCALE = 1;
@@ -5204,7 +5204,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[6]";
+		SIGNAL = "wrData[7]";
 		INDEX = 409;
 		FORMAT = E;
 		SCALE = 1;
@@ -5212,7 +5212,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[5]";
+		SIGNAL = "wrData[6]";
 		INDEX = 410;
 		FORMAT = E;
 		SCALE = 1;
@@ -5220,7 +5220,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[4]";
+		SIGNAL = "wrData[5]";
 		INDEX = 411;
 		FORMAT = E;
 		SCALE = 1;
@@ -5228,7 +5228,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[3]";
+		SIGNAL = "wrData[4]";
 		INDEX = 412;
 		FORMAT = E;
 		SCALE = 1;
@@ -5236,7 +5236,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[2]";
+		SIGNAL = "wrData[3]";
 		INDEX = 413;
 		FORMAT = E;
 		SCALE = 1;
@@ -5244,7 +5244,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[1]";
+		SIGNAL = "wrData[2]";
 		INDEX = 414;
 		FORMAT = E;
 		SCALE = 1;
@@ -5252,7 +5252,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "xchgOUT[0]";
+		SIGNAL = "wrData[1]";
 		INDEX = 415;
 		FORMAT = E;
 		SCALE = 1;
@@ -5260,23 +5260,23 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10";
+		SIGNAL = "wrData[0]";
 		INDEX = 416;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[31]";
-		INDEX = 417;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[30]";
+		SIGNAL = "wrReg";
+		INDEX = 417;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "wrReg[4]";
 		INDEX = 418;
 		FORMAT = E;
 		SCALE = 1;
@@ -5284,7 +5284,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[29]";
+		SIGNAL = "wrReg[3]";
 		INDEX = 419;
 		FORMAT = E;
 		SCALE = 1;
@@ -5292,7 +5292,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[28]";
+		SIGNAL = "wrReg[2]";
 		INDEX = 420;
 		FORMAT = E;
 		SCALE = 1;
@@ -5300,7 +5300,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[27]";
+		SIGNAL = "wrReg[1]";
 		INDEX = 421;
 		FORMAT = E;
 		SCALE = 1;
@@ -5308,7 +5308,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[26]";
+		SIGNAL = "wrReg[0]";
 		INDEX = 422;
 		FORMAT = E;
 		SCALE = 1;
@@ -5316,15 +5316,15 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[25]";
+		SIGNAL = "xCHG";
 		INDEX = 423;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[24]";
+		SIGNAL = "xCHG[31]";
 		INDEX = 424;
 		FORMAT = E;
 		SCALE = 1;
@@ -5332,7 +5332,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[23]";
+		SIGNAL = "xCHG[30]";
 		INDEX = 425;
 		FORMAT = E;
 		SCALE = 1;
@@ -5340,7 +5340,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[22]";
+		SIGNAL = "xCHG[29]";
 		INDEX = 426;
 		FORMAT = E;
 		SCALE = 1;
@@ -5348,7 +5348,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[21]";
+		SIGNAL = "xCHG[28]";
 		INDEX = 427;
 		FORMAT = E;
 		SCALE = 1;
@@ -5356,7 +5356,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[20]";
+		SIGNAL = "xCHG[27]";
 		INDEX = 428;
 		FORMAT = E;
 		SCALE = 1;
@@ -5364,7 +5364,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[19]";
+		SIGNAL = "xCHG[26]";
 		INDEX = 429;
 		FORMAT = E;
 		SCALE = 1;
@@ -5372,7 +5372,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[18]";
+		SIGNAL = "xCHG[25]";
 		INDEX = 430;
 		FORMAT = E;
 		SCALE = 1;
@@ -5380,7 +5380,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[17]";
+		SIGNAL = "xCHG[24]";
 		INDEX = 431;
 		FORMAT = E;
 		SCALE = 1;
@@ -5388,7 +5388,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[16]";
+		SIGNAL = "xCHG[23]";
 		INDEX = 432;
 		FORMAT = E;
 		SCALE = 1;
@@ -5396,7 +5396,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[15]";
+		SIGNAL = "xCHG[22]";
 		INDEX = 433;
 		FORMAT = E;
 		SCALE = 1;
@@ -5404,7 +5404,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[14]";
+		SIGNAL = "xCHG[21]";
 		INDEX = 434;
 		FORMAT = E;
 		SCALE = 1;
@@ -5412,7 +5412,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[13]";
+		SIGNAL = "xCHG[20]";
 		INDEX = 435;
 		FORMAT = E;
 		SCALE = 1;
@@ -5420,7 +5420,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[12]";
+		SIGNAL = "xCHG[19]";
 		INDEX = 436;
 		FORMAT = E;
 		SCALE = 1;
@@ -5428,7 +5428,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[11]";
+		SIGNAL = "xCHG[18]";
 		INDEX = 437;
 		FORMAT = E;
 		SCALE = 1;
@@ -5436,7 +5436,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[10]";
+		SIGNAL = "xCHG[17]";
 		INDEX = 438;
 		FORMAT = E;
 		SCALE = 1;
@@ -5444,7 +5444,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[9]";
+		SIGNAL = "xCHG[16]";
 		INDEX = 439;
 		FORMAT = E;
 		SCALE = 1;
@@ -5452,7 +5452,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[8]";
+		SIGNAL = "xCHG[15]";
 		INDEX = 440;
 		FORMAT = E;
 		SCALE = 1;
@@ -5460,7 +5460,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[7]";
+		SIGNAL = "xCHG[14]";
 		INDEX = 441;
 		FORMAT = E;
 		SCALE = 1;
@@ -5468,7 +5468,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[6]";
+		SIGNAL = "xCHG[13]";
 		INDEX = 442;
 		FORMAT = E;
 		SCALE = 1;
@@ -5476,7 +5476,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[5]";
+		SIGNAL = "xCHG[12]";
 		INDEX = 443;
 		FORMAT = E;
 		SCALE = 1;
@@ -5484,7 +5484,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[4]";
+		SIGNAL = "xCHG[11]";
 		INDEX = 444;
 		FORMAT = E;
 		SCALE = 1;
@@ -5492,7 +5492,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[3]";
+		SIGNAL = "xCHG[10]";
 		INDEX = 445;
 		FORMAT = E;
 		SCALE = 1;
@@ -5500,7 +5500,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[2]";
+		SIGNAL = "xCHG[9]";
 		INDEX = 446;
 		FORMAT = E;
 		SCALE = 1;
@@ -5508,7 +5508,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[1]";
+		SIGNAL = "xCHG[8]";
 		INDEX = 447;
 		FORMAT = E;
 		SCALE = 1;
@@ -5516,7 +5516,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg10[0]";
+		SIGNAL = "xCHG[7]";
 		INDEX = 448;
 		FORMAT = E;
 		SCALE = 1;
@@ -5524,15 +5524,15 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20";
+		SIGNAL = "xCHG[6]";
 		INDEX = 449;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[31]";
+		SIGNAL = "xCHG[5]";
 		INDEX = 450;
 		FORMAT = E;
 		SCALE = 1;
@@ -5540,7 +5540,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[30]";
+		SIGNAL = "xCHG[4]";
 		INDEX = 451;
 		FORMAT = E;
 		SCALE = 1;
@@ -5548,7 +5548,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[29]";
+		SIGNAL = "xCHG[3]";
 		INDEX = 452;
 		FORMAT = E;
 		SCALE = 1;
@@ -5556,7 +5556,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[28]";
+		SIGNAL = "xCHG[2]";
 		INDEX = 453;
 		FORMAT = E;
 		SCALE = 1;
@@ -5564,7 +5564,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[27]";
+		SIGNAL = "xCHG[1]";
 		INDEX = 454;
 		FORMAT = E;
 		SCALE = 1;
@@ -5572,7 +5572,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[26]";
+		SIGNAL = "xCHG[0]";
 		INDEX = 455;
 		FORMAT = E;
 		SCALE = 1;
@@ -5580,15 +5580,15 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[25]";
+		SIGNAL = "xchgOUT";
 		INDEX = 456;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[24]";
+		SIGNAL = "xchgOUT[31]";
 		INDEX = 457;
 		FORMAT = E;
 		SCALE = 1;
@@ -5596,7 +5596,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[23]";
+		SIGNAL = "xchgOUT[30]";
 		INDEX = 458;
 		FORMAT = E;
 		SCALE = 1;
@@ -5604,7 +5604,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[22]";
+		SIGNAL = "xchgOUT[29]";
 		INDEX = 459;
 		FORMAT = E;
 		SCALE = 1;
@@ -5612,7 +5612,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[21]";
+		SIGNAL = "xchgOUT[28]";
 		INDEX = 460;
 		FORMAT = E;
 		SCALE = 1;
@@ -5620,7 +5620,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[20]";
+		SIGNAL = "xchgOUT[27]";
 		INDEX = 461;
 		FORMAT = E;
 		SCALE = 1;
@@ -5628,7 +5628,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[19]";
+		SIGNAL = "xchgOUT[26]";
 		INDEX = 462;
 		FORMAT = E;
 		SCALE = 1;
@@ -5636,7 +5636,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[18]";
+		SIGNAL = "xchgOUT[25]";
 		INDEX = 463;
 		FORMAT = E;
 		SCALE = 1;
@@ -5644,7 +5644,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[17]";
+		SIGNAL = "xchgOUT[24]";
 		INDEX = 464;
 		FORMAT = E;
 		SCALE = 1;
@@ -5652,7 +5652,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[16]";
+		SIGNAL = "xchgOUT[23]";
 		INDEX = 465;
 		FORMAT = E;
 		SCALE = 1;
@@ -5660,7 +5660,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[15]";
+		SIGNAL = "xchgOUT[22]";
 		INDEX = 466;
 		FORMAT = E;
 		SCALE = 1;
@@ -5668,7 +5668,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[14]";
+		SIGNAL = "xchgOUT[21]";
 		INDEX = 467;
 		FORMAT = E;
 		SCALE = 1;
@@ -5676,7 +5676,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[13]";
+		SIGNAL = "xchgOUT[20]";
 		INDEX = 468;
 		FORMAT = E;
 		SCALE = 1;
@@ -5684,7 +5684,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[12]";
+		SIGNAL = "xchgOUT[19]";
 		INDEX = 469;
 		FORMAT = E;
 		SCALE = 1;
@@ -5692,7 +5692,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[11]";
+		SIGNAL = "xchgOUT[18]";
 		INDEX = 470;
 		FORMAT = E;
 		SCALE = 1;
@@ -5700,7 +5700,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[10]";
+		SIGNAL = "xchgOUT[17]";
 		INDEX = 471;
 		FORMAT = E;
 		SCALE = 1;
@@ -5708,7 +5708,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[9]";
+		SIGNAL = "xchgOUT[16]";
 		INDEX = 472;
 		FORMAT = E;
 		SCALE = 1;
@@ -5716,7 +5716,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[8]";
+		SIGNAL = "xchgOUT[15]";
 		INDEX = 473;
 		FORMAT = E;
 		SCALE = 1;
@@ -5724,7 +5724,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[7]";
+		SIGNAL = "xchgOUT[14]";
 		INDEX = 474;
 		FORMAT = E;
 		SCALE = 1;
@@ -5732,7 +5732,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[6]";
+		SIGNAL = "xchgOUT[13]";
 		INDEX = 475;
 		FORMAT = E;
 		SCALE = 1;
@@ -5740,7 +5740,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[5]";
+		SIGNAL = "xchgOUT[12]";
 		INDEX = 476;
 		FORMAT = E;
 		SCALE = 1;
@@ -5748,7 +5748,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[4]";
+		SIGNAL = "xchgOUT[11]";
 		INDEX = 477;
 		FORMAT = E;
 		SCALE = 1;
@@ -5756,7 +5756,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[3]";
+		SIGNAL = "xchgOUT[10]";
 		INDEX = 478;
 		FORMAT = E;
 		SCALE = 1;
@@ -5764,7 +5764,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[2]";
+		SIGNAL = "xchgOUT[9]";
 		INDEX = 479;
 		FORMAT = E;
 		SCALE = 1;
@@ -5772,7 +5772,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[1]";
+		SIGNAL = "xchgOUT[8]";
 		INDEX = 480;
 		FORMAT = E;
 		SCALE = 1;
@@ -5780,8 +5780,592 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg20[0]";
+		SIGNAL = "xchgOUT[7]";
 		INDEX = 481;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[6]";
+		INDEX = 482;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[5]";
+		INDEX = 483;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[4]";
+		INDEX = 484;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[3]";
+		INDEX = 485;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[2]";
+		INDEX = 486;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[1]";
+		INDEX = 487;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "xchgOUT[0]";
+		INDEX = 488;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10";
+		INDEX = 489;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[31]";
+		INDEX = 490;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[30]";
+		INDEX = 491;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[29]";
+		INDEX = 492;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[28]";
+		INDEX = 493;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[27]";
+		INDEX = 494;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[26]";
+		INDEX = 495;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[25]";
+		INDEX = 496;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[24]";
+		INDEX = 497;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[23]";
+		INDEX = 498;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[22]";
+		INDEX = 499;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[21]";
+		INDEX = 500;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[20]";
+		INDEX = 501;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[19]";
+		INDEX = 502;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[18]";
+		INDEX = 503;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[17]";
+		INDEX = 504;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[16]";
+		INDEX = 505;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[15]";
+		INDEX = 506;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[14]";
+		INDEX = 507;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[13]";
+		INDEX = 508;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[12]";
+		INDEX = 509;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[11]";
+		INDEX = 510;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[10]";
+		INDEX = 511;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[9]";
+		INDEX = 512;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[8]";
+		INDEX = 513;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[7]";
+		INDEX = 514;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[6]";
+		INDEX = 515;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[5]";
+		INDEX = 516;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[4]";
+		INDEX = 517;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[3]";
+		INDEX = 518;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[2]";
+		INDEX = 519;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[1]";
+		INDEX = 520;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg10[0]";
+		INDEX = 521;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20";
+		INDEX = 522;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[31]";
+		INDEX = 523;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[30]";
+		INDEX = 524;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[29]";
+		INDEX = 525;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[28]";
+		INDEX = 526;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[27]";
+		INDEX = 527;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[26]";
+		INDEX = 528;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[25]";
+		INDEX = 529;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[24]";
+		INDEX = 530;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[23]";
+		INDEX = 531;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[22]";
+		INDEX = 532;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[21]";
+		INDEX = 533;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[20]";
+		INDEX = 534;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[19]";
+		INDEX = 535;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[18]";
+		INDEX = 536;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[17]";
+		INDEX = 537;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[16]";
+		INDEX = 538;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[15]";
+		INDEX = 539;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[14]";
+		INDEX = 540;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[13]";
+		INDEX = 541;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[12]";
+		INDEX = 542;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[11]";
+		INDEX = 543;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[10]";
+		INDEX = 544;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[9]";
+		INDEX = 545;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[8]";
+		INDEX = 546;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[7]";
+		INDEX = 547;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[6]";
+		INDEX = 548;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[5]";
+		INDEX = 549;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[4]";
+		INDEX = 550;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[3]";
+		INDEX = 551;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[2]";
+		INDEX = 552;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[1]";
+		INDEX = 553;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg20[0]";
+		INDEX = 554;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

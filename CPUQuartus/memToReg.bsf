@@ -89,16 +89,9 @@ applicable agreement for further details.
 	(port
 		(pt 0 176)
 		(input)
-		(text "e9[31..0]" (rect 0 0 43 12)(font "Arial" ))
-		(text "e9[31..0]" (rect 21 171 64 183)(font "Arial" ))
-		(line (pt 0 176)(pt 16 176)(line_width 3))
-	)
-	(port
-		(pt 0 192)
-		(input)
 		(text "memToRegmux[3..0]" (rect 0 0 103 12)(font "Arial" ))
-		(text "memToRegmux[3..0]" (rect 21 187 124 199)(font "Arial" ))
-		(line (pt 0 192)(pt 16 192)(line_width 3))
+		(text "memToRegmux[3..0]" (rect 21 171 124 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
 	)
 	(port
 		(pt 264 32)
@@ -108,7 +101,7 @@ applicable agreement for further details.
 		(line (pt 264 32)(pt 248 32)(line_width 3))
 	)
 	(parameter
-		"e10"
+		"e9"
 		"00000000000000000000000011100011"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
