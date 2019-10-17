@@ -1,0 +1,36 @@
+
+// = falta terminar
+
+
+----r----
+add
+sub
+and
+sll
+sra
+srl
+sllv
+srav
+jr
+slt
+break
+rte
+xcgh
+//div e mult
+
+----i----
+addi
+addiu
+beq
+bne
+bgt
+ble
+slti
+lui
+// load (x3) & st(x3)
+
+----j-----
+j
+jal
+
+// tratamento de exceção

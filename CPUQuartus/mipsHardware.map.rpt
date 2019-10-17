@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mipsHardware
-Thu Oct 17 13:47:48 2019
+Thu Oct 17 16:49:23 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -59,16 +59,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Thu Oct 17 13:47:48 2019         ;
+; Analysis & Synthesis Status   ; Successful - Thu Oct 17 16:49:23 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; mipsHardware                                  ;
 ; Top-level Entity Name         ; schemeHard                                    ;
 ; Family                        ; Stratix II                                    ;
 ; Logic utilization             ; N/A                                           ;
-;     Combinational ALUTs       ; 1,648                                         ;
-;     Dedicated logic registers ; 1,305                                         ;
-; Total registers               ; 1305                                          ;
-; Total pins                    ; 545                                           ;
+;     Combinational ALUTs       ; 1,752                                         ;
+;     Dedicated logic registers ; 1,310                                         ;
+; Total registers               ; 1310                                          ;
+; Total pins                    ; 578                                           ;
 ; Total virtual pins            ; 0                                             ;
 ; Total block memory bits       ; 8,192                                         ;
 ; DSP block 9-bit elements      ; 0                                             ;
@@ -174,39 +174,40 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                        ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                        ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+
-; concat.sv                        ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/concat.sv                            ;
-; instrucoes.mif                   ; yes             ; User Memory Initialization File    ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/instrucoes.mif                       ;
-; memToReg.sv                      ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/memToReg.sv                          ;
-; signExtend16to32.sv              ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/signExtend16to32.sv                  ;
-; schemeHard.bdf                   ; yes             ; User Block Diagram/Schematic File  ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.bdf                       ;
-; regDST.sv                        ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/regDST.sv                            ;
-; Banco_reg.vhd                    ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Banco_reg.vhd                        ;
-; iord.sv                          ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/iord.sv                              ;
-; Registrador.vhd                  ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Registrador.vhd                      ;
-; Instr_Reg.vhd                    ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Instr_Reg.vhd                        ;
-; Memoria.vhd                      ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Memoria.vhd                          ;
-; RegDesloc.vhd                    ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/RegDesloc.vhd                        ;
-; ula32.vhd                        ; yes             ; User VHDL File                     ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/ula32.vhd                            ;
-; unidadeControle.sv               ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/unidadeControle.sv                   ;
-; aluSrcA.sv                       ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/aluSrcA.sv                           ;
-; aluSrcB.sv                       ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/aluSrcB.sv                           ;
-; pcSource.sv                      ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/pcSource.sv                          ;
-; shiftLeft2_2.sv                  ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftLeft2_2.sv                      ;
-; xchgMux.sv                       ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/xchgMux.sv                           ;
-; signExtend1to32.sv               ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/signExtend1to32.sv                   ;
-; shiftSrcA.sv                     ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftSrcA.sv                         ;
-; shiftSrcB.sv                     ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftSrcB.sv                         ;
-; shiftLeft16.sv                   ; yes             ; User SystemVerilog HDL File        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftLeft16.sv                       ;
-; lpm_ram_dq.tdf                   ; yes             ; Megafunction                       ; e:/programfiles/quartus/altera/91sp2/quartus/libraries/megafunctions/lpm_ram_dq.tdf ;
-; altram.tdf                       ; yes             ; Megafunction                       ; e:/programfiles/quartus/altera/91sp2/quartus/libraries/megafunctions/altram.tdf     ;
-; altsyncram.tdf                   ; yes             ; Megafunction                       ; e:/programfiles/quartus/altera/91sp2/quartus/libraries/megafunctions/altsyncram.tdf ;
-; db/altsyncram_g2a1.tdf           ; yes             ; Auto-Generated Megafunction        ; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/db/altsyncram_g2a1.tdf               ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
+; concat.sv                        ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/concat.sv              ;
+; instrucoes.mif                   ; yes             ; User Memory Initialization File    ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/instrucoes.mif         ;
+; memToReg.sv                      ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/memToReg.sv            ;
+; signExtend16to32.sv              ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/signExtend16to32.sv    ;
+; schemeHard.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.bdf         ;
+; regDST.sv                        ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/regDST.sv              ;
+; Banco_reg.vhd                    ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Banco_reg.vhd          ;
+; iord.sv                          ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/iord.sv                ;
+; Registrador.vhd                  ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Registrador.vhd        ;
+; Instr_Reg.vhd                    ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Instr_Reg.vhd          ;
+; Memoria.vhd                      ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/Memoria.vhd            ;
+; RegDesloc.vhd                    ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/RegDesloc.vhd          ;
+; ula32.vhd                        ; yes             ; User VHDL File                     ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/ula32.vhd              ;
+; unidadeControle.sv               ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/unidadeControle.sv     ;
+; aluSrcA.sv                       ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/aluSrcA.sv             ;
+; aluSrcB.sv                       ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/aluSrcB.sv             ;
+; pcSource.sv                      ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/pcSource.sv            ;
+; shiftLeft2_2.sv                  ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftLeft2_2.sv        ;
+; xchgMux.sv                       ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/xchgMux.sv             ;
+; signExtend1to32.sv               ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/signExtend1to32.sv     ;
+; shiftSrcA.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftSrcA.sv           ;
+; shiftSrcB.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftSrcB.sv           ;
+; shiftLeft16.sv                   ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/shiftLeft16.sv         ;
+; branchMux.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/branchMux.sv           ;
+; lpm_ram_dq.tdf                   ; yes             ; Megafunction                       ; c:/altera/91sp2/quartus/libraries/megafunctions/lpm_ram_dq.tdf        ;
+; altram.tdf                       ; yes             ; Megafunction                       ; c:/altera/91sp2/quartus/libraries/megafunctions/altram.tdf            ;
+; altsyncram.tdf                   ; yes             ; Megafunction                       ; c:/altera/91sp2/quartus/libraries/megafunctions/altsyncram.tdf        ;
+; db/altsyncram_g2a1.tdf           ; yes             ; Auto-Generated Megafunction        ; C:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/db/altsyncram_g2a1.tdf ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+
 
 
 +-------------------------------------------------------+
@@ -214,39 +215,39 @@ applicable agreement for further details.
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 1648  ;
-; Dedicated logic registers                     ; 1305  ;
+; Estimated ALUTs Used                          ; 1752  ;
+; Dedicated logic registers                     ; 1310  ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 228   ;
+; Estimated ALUTs Unavailable                   ; 247   ;
 ;                                               ;       ;
-; Total combinational functions                 ; 1648  ;
+; Total combinational functions                 ; 1752  ;
 ; Combinational ALUT usage by number of inputs  ;       ;
-;     -- 7 input functions                      ; 24    ;
-;     -- 6 input functions                      ; 908   ;
-;     -- 5 input functions                      ; 253   ;
-;     -- 4 input functions                      ; 104   ;
-;     -- <=3 input functions                    ; 359   ;
+;     -- 7 input functions                      ; 12    ;
+;     -- 6 input functions                      ; 939   ;
+;     -- 5 input functions                      ; 297   ;
+;     -- 4 input functions                      ; 105   ;
+;     -- <=3 input functions                    ; 399   ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 1601  ;
-;     -- extended LUT mode                      ; 24    ;
+;     -- normal mode                            ; 1717  ;
+;     -- extended LUT mode                      ; 12    ;
 ;     -- arithmetic mode                        ; 23    ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 2710  ;
+; Estimated ALUT/register pairs used            ; 2821  ;
 ;                                               ;       ;
-; Total registers                               ; 1305  ;
-;     -- Dedicated logic registers              ; 1305  ;
+; Total registers                               ; 1310  ;
+;     -- Dedicated logic registers              ; 1310  ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 1,355 ;
+; Estimated ALMs:  partially or completely used ; 1,411 ;
 ;                                               ;       ;
-; I/O pins                                      ; 545   ;
+; I/O pins                                      ; 578   ;
 ; Total block memory bits                       ; 8192  ;
 ; Maximum fan-out node                          ; clk   ;
-; Maximum fan-out                               ; 1338  ;
-; Total fan-out                                 ; 14282 ;
-; Average fan-out                               ; 4.05  ;
+; Maximum fan-out                               ; 1343  ;
+; Total fan-out                                 ; 14769 ;
+; Average fan-out                               ; 4.02  ;
 +-----------------------------------------------+-------+
 
 
@@ -255,7 +256,7 @@ applicable agreement for further details.
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |schemeHard                                     ; 1648 (1)          ; 1305 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 545  ; 0            ; |schemeHard                                                                                                         ; work         ;
+; |schemeHard                                     ; 1752 (4)          ; 1310 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 578  ; 0            ; |schemeHard                                                                                                         ; work         ;
 ;    |Banco_reg:inst6|                            ; 736 (736)         ; 1024 (1024)  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Banco_reg:inst6                                                                                         ; work         ;
 ;    |Instr_Reg:inst4|                            ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Instr_Reg:inst4                                                                                         ; work         ;
 ;    |Memoria:inst2|                              ; 23 (23)           ; 0 (0)        ; 8192              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2                                                                                           ; work         ;
@@ -275,13 +276,13 @@ applicable agreement for further details.
 ;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM|altram:sram                                                                ; work         ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block                                           ; work         ;
 ;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated            ; work         ;
-;    |RegDesloc:inst13|                           ; 317 (317)         ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|RegDesloc:inst13                                                                                        ; work         ;
+;    |RegDesloc:inst13|                           ; 368 (368)         ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|RegDesloc:inst13                                                                                        ; work         ;
 ;    |Registrador:AluOut|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:AluOut                                                                                      ; work         ;
 ;    |Registrador:A|                              ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:A                                                                                           ; work         ;
 ;    |Registrador:B|                              ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:B                                                                                           ; work         ;
-;    |Registrador:PC|                             ; 1 (1)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:PC                                                                                          ; work         ;
+;    |Registrador:PC|                             ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:PC                                                                                          ; work         ;
 ;    |Registrador:xchgUnit|                       ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:xchgUnit                                                                                    ; work         ;
-;    |Ula32:inst3|                                ; 127 (127)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
+;    |Ula32:inst3|                                ; 150 (150)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
 ;    |aluSrcA:inst|                               ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcA:inst                                                                                            ; work         ;
 ;    |aluSrcB:inst1|                              ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
 ;    |memToReg:inst7|                             ; 109 (109)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|memToReg:inst7                                                                                          ; work         ;
@@ -289,7 +290,7 @@ applicable agreement for further details.
 ;    |regDST:inst15|                              ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|regDST:inst15                                                                                           ; work         ;
 ;    |shiftSrcA:inst18|                           ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcA:inst18                                                                                        ; work         ;
 ;    |shiftSrcB:inst19|                           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcB:inst19                                                                                        ; work         ;
-;    |unidadeControle:inst17|                     ; 158 (158)         ; 57 (57)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst17                                                                                  ;              ;
+;    |unidadeControle:inst17|                     ; 186 (186)         ; 62 (62)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst17                                                                                  ;              ;
 ;    |xchgMux:inst10|                             ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|xchgMux:inst10                                                                                          ; work         ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -308,33 +309,37 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 Encoding Type:  One-Hot
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |schemeHard|unidadeControle:inst17|state                                                                                                                                                                                                                                                                                                                ;
-+-----------------------------+------------------+---------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
-; Name                        ; state.wait_Final ; state.closeWR ; state.jal3 ; state.jal2 ; state.srav2 ; state.sllv2 ; state.srl2 ; state.sll_sra_srl_sllv_srav ; state.sra2 ; state.sll2 ; state.xchg3 ; state.xchg2 ; state.break2 ; state.addi_addiu ; state.add_sub_and ; state.execute ; state.decode2 ; state.decode ; state.fetch3 ; state.fetch2 ; state.fetch1 ;
-+-----------------------------+------------------+---------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
-; state.fetch1                ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 0            ;
-; state.fetch2                ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 1            ; 1            ;
-; state.fetch3                ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 1            ; 0            ; 1            ;
-; state.decode                ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 1            ; 0            ; 0            ; 1            ;
-; state.decode2               ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 1             ; 0            ; 0            ; 0            ; 1            ;
-; state.execute               ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 1             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.add_sub_and           ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 1                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.addi_addiu            ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 1                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.break2                ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 1            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.xchg2                 ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 1           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.xchg3                 ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 1           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.sll2                  ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 1          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.sra2                  ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 1          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.sll_sra_srl_sllv_srav ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 1                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.srl2                  ; 0                ; 0             ; 0          ; 0          ; 0           ; 0           ; 1          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.sllv2                 ; 0                ; 0             ; 0          ; 0          ; 0           ; 1           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.srav2                 ; 0                ; 0             ; 0          ; 0          ; 1           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.jal2                  ; 0                ; 0             ; 0          ; 1          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.jal3                  ; 0                ; 0             ; 1          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.closeWR               ; 0                ; 1             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-; state.wait_Final            ; 1                ; 0             ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
-+-----------------------------+------------------+---------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |schemeHard|unidadeControle:inst17|state                                                                                                                                                                                                                                                                                                                                                                    ;
++-----------------------------+------------------+---------------+------------+------------+------------+------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
+; Name                        ; state.wait_Final ; state.closeWR ; state.ble2 ; state.bgt2 ; state.bne2 ; state.beq2 ; state.jal3 ; state.jal2 ; state.srav2 ; state.sllv2 ; state.srl2 ; state.sll_sra_srl_sllv_srav ; state.sra2 ; state.sll2 ; state.xchg3 ; state.xchg2 ; state.break2 ; state.addi_addiu ; state.add_sub_and ; state.execute ; state.decode2 ; state.decode ; state.fetch3 ; state.fetch2 ; state.fetch1 ;
++-----------------------------+------------------+---------------+------------+------------+------------+------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
+; state.fetch1                ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 0            ;
+; state.fetch2                ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 1            ; 1            ;
+; state.fetch3                ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 1            ; 0            ; 1            ;
+; state.decode                ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 1            ; 0            ; 0            ; 1            ;
+; state.decode2               ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 1             ; 0            ; 0            ; 0            ; 1            ;
+; state.execute               ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 1             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.add_sub_and           ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 1                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.addi_addiu            ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 1                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.break2                ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 1            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.xchg2                 ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 1           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.xchg3                 ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 1           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.sll2                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 1          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.sra2                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 1          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.sll_sra_srl_sllv_srav ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 1                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.srl2                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 1          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.sllv2                 ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 1           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.srav2                 ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 1           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.jal2                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 1          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.jal3                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 0          ; 1          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.beq2                  ; 0                ; 0             ; 0          ; 0          ; 0          ; 1          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.bne2                  ; 0                ; 0             ; 0          ; 0          ; 1          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.bgt2                  ; 0                ; 0             ; 0          ; 1          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.ble2                  ; 0                ; 0             ; 1          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.closeWR               ; 0                ; 1             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
+; state.wait_Final            ; 1                ; 0             ; 0          ; 0          ; 0          ; 0          ; 0          ; 0          ; 0           ; 0           ; 0          ; 0                           ; 0          ; 0          ; 0           ; 0           ; 0            ; 0                ; 0                 ; 0             ; 0             ; 0            ; 0            ; 0            ; 1            ;
++-----------------------------+------------------+---------------+------------+------------+------------+------------+------------+------------+-------------+-------------+------------+-----------------------------+------------+------------+-------------+-------------+--------------+------------------+-------------------+---------------+---------------+--------------+--------------+--------------+--------------+
 
 
 +-----------------------------------------------------------------------------------------------------+
@@ -397,13 +402,13 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; unidadeControle:inst17|stateOut[5]     ; Stuck at GND due to stuck port data_in           ;
 ; unidadeControle:inst17|muxalusrca[1]   ; Stuck at GND due to stuck port data_in           ;
 ; Registrador:EPC|Saida[0..31]           ; Stuck at GND due to stuck port clock_enable      ;
-; unidadeControle:inst17|state~14        ; Lost fanout                                      ;
-; unidadeControle:inst17|state~15        ; Lost fanout                                      ;
-; unidadeControle:inst17|state~16        ; Lost fanout                                      ;
-; unidadeControle:inst17|state~17        ; Lost fanout                                      ;
 ; unidadeControle:inst17|state~18        ; Lost fanout                                      ;
 ; unidadeControle:inst17|state~19        ; Lost fanout                                      ;
 ; unidadeControle:inst17|state~20        ; Lost fanout                                      ;
+; unidadeControle:inst17|state~21        ; Lost fanout                                      ;
+; unidadeControle:inst17|state~22        ; Lost fanout                                      ;
+; unidadeControle:inst17|state~23        ; Lost fanout                                      ;
+; unidadeControle:inst17|state~24        ; Lost fanout                                      ;
 ; Total Number of Removed Registers = 48 ;                                                  ;
 +----------------------------------------+--------------------------------------------------+
 
@@ -432,44 +437,42 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1305  ;
-; Number of registers using Synchronous Clear  ; 51    ;
-; Number of registers using Synchronous Load   ; 20    ;
+; Total registers                              ; 1310  ;
+; Number of registers using Synchronous Clear  ; 50    ;
+; Number of registers using Synchronous Load   ; 18    ;
 ; Number of registers using Asynchronous Clear ; 1248  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1187  ;
+; Number of registers using Clock Enable       ; 1184  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                 ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                       ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
-; 4:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:PC|Saida[0]              ;
-; 4:1                ; 4 bits    ; 8 ALUTs       ; 8 ALUTs              ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:PC|Saida[29]             ;
-; 4:1                ; 26 bits   ; 52 ALUTs      ; 52 ALUTs             ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:PC|Saida[8]              ;
-; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:A|Saida[2]               ;
-; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:B|Saida[9]               ;
-; 13:1               ; 13 bits   ; 104 ALUTs     ; 52 ALUTs             ; 52 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[13]            ;
-; 13:1               ; 13 bits   ; 104 ALUTs     ; 78 ALUTs             ; 26 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[17]            ;
-; 129:1              ; 3 bits    ; 258 ALUTs     ; 33 ALUTs             ; 225 ALUTs              ; Yes        ; |schemeHard|unidadeControle:inst17|alucontrol[2] ;
-; 1:1                ; 32 bits   ; 0 ALUTs       ; 0 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|iord:inst5|Mux9                      ;
-; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux30                  ;
-; 3:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux0                   ;
-; 3:1                ; 32 bits   ; 64 ALUTs      ; 64 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcA:inst|Mux25                   ;
-; 4:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux26                  ;
-; 8:1                ; 32 bits   ; 160 ALUTs     ; 64 ALUTs             ; 96 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux36                    ;
-; 8:1                ; 32 bits   ; 160 ALUTs     ; 128 ALUTs            ; 32 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux12                    ;
-; 5:1                ; 5 bits    ; 15 ALUTs      ; 15 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|regDST:inst15|Mux1                   ;
-; 65:1               ; 15 bits   ; 645 ALUTs     ; 60 ALUTs             ; 585 ALUTs              ; No         ; |schemeHard|unidadeControle:inst17|Selector83    ;
-; 8:1                ; 16 bits   ; 80 ALUTs      ; 80 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux27                 ;
-; 67:1               ; 2 bits    ; 88 ALUTs      ; 12 ALUTs             ; 76 ALUTs               ; No         ; |schemeHard|unidadeControle:inst17|state         ;
-; 9:1                ; 14 bits   ; 84 ALUTs      ; 84 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux13                 ;
-; 127:1              ; 23 bits   ; 1932 ALUTs    ; 299 ALUTs            ; 1633 ALUTs             ; No         ; |schemeHard|unidadeControle:inst17|Selector103   ;
-; 129:1              ; 8 bits    ; 688 ALUTs     ; 104 ALUTs            ; 584 ALUTs              ; No         ; |schemeHard|unidadeControle:inst17|state         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:A|Saida[4]             ;
+; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:B|Saida[7]             ;
+; 13:1               ; 13 bits   ; 104 ALUTs     ; 52 ALUTs             ; 52 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[7]           ;
+; 13:1               ; 13 bits   ; 104 ALUTs     ; 78 ALUTs             ; 26 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[21]          ;
+; 1:1                ; 32 bits   ; 0 ALUTs       ; 0 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|iord:inst5|Mux17                   ;
+; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux31                ;
+; 3:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux8                 ;
+; 4:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux30              ;
+; 4:1                ; 30 bits   ; 60 ALUTs      ; 60 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux25              ;
+; 3:1                ; 32 bits   ; 64 ALUTs      ; 64 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcA:inst|Mux27                 ;
+; 4:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux21                ;
+; 8:1                ; 32 bits   ; 160 ALUTs     ; 64 ALUTs             ; 96 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux63                  ;
+; 8:1                ; 32 bits   ; 160 ALUTs     ; 128 ALUTs            ; 32 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux18                  ;
+; 5:1                ; 5 bits    ; 15 ALUTs      ; 15 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|regDST:inst15|Mux1                 ;
+; 65:1               ; 16 bits   ; 688 ALUTs     ; 80 ALUTs             ; 608 ALUTs              ; No         ; |schemeHard|unidadeControle:inst17|Selector106 ;
+; 8:1                ; 16 bits   ; 80 ALUTs      ; 80 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux27               ;
+; 67:1               ; 6 bits    ; 264 ALUTs     ; 48 ALUTs             ; 216 ALUTs              ; No         ; |schemeHard|unidadeControle:inst17|state       ;
+; 9:1                ; 14 bits   ; 84 ALUTs      ; 84 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux7                ;
+; 127:1              ; 25 bits   ; 2100 ALUTs    ; 375 ALUTs            ; 1725 ALUTs             ; No         ; |schemeHard|unidadeControle:inst17|Selector76  ;
+; 129:1              ; 8 bits    ; 688 ALUTs     ; 120 ALUTs            ; 568 ALUTs              ; No         ; |schemeHard|unidadeControle:inst17|state       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------+
@@ -533,6 +536,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; srav2                 ; 0010010 ; Unsigned Binary                   ;
 ; jal2                  ; 0010011 ; Unsigned Binary                   ;
 ; jal3                  ; 0010100 ; Unsigned Binary                   ;
+; beq2                  ; 0010101 ; Unsigned Binary                   ;
+; bne2                  ; 0010110 ; Unsigned Binary                   ;
+; bgt2                  ; 0010111 ; Unsigned Binary                   ;
+; ble2                  ; 0011000 ; Unsigned Binary                   ;
 ; closeWR               ; 1000100 ; Unsigned Binary                   ;
 ; wait_Final            ; 1000101 ; Unsigned Binary                   ;
 ; formatR               ; 000000  ; Unsigned Binary                   ;
@@ -551,6 +558,10 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; slt                   ; 101010  ; Unsigned Binary                   ;
 ; addi                  ; 001000  ; Unsigned Binary                   ;
 ; addiu                 ; 001001  ; Unsigned Binary                   ;
+; beq                   ; 000100  ; Unsigned Binary                   ;
+; bne                   ; 000101  ; Unsigned Binary                   ;
+; ble                   ; 000110  ; Unsigned Binary                   ;
+; bgt                   ; 000111  ; Unsigned Binary                   ;
 ; slti                  ; 001010  ; Unsigned Binary                   ;
 ; lui                   ; 001111  ; Unsigned Binary                   ;
 ; j                     ; 000010  ; Unsigned Binary                   ;
@@ -700,7 +711,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Thu Oct 17 13:47:36 2019
+    Info: Processing started: Thu Oct 17 16:48:57 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mipsHardware -c mipsHardware
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file concat.sv
@@ -754,9 +765,11 @@ Info: Found 1 design units, including 1 entities, in source file shiftsrcb.sv
     Info: Found entity 1: shiftSrcB
 Info: Found 1 design units, including 1 entities, in source file shiftleft16.sv
     Info: Found entity 1: shiftLeft16
+Info: Found 1 design units, including 1 entities, in source file branchmux.sv
+    Info: Found entity 1: branchMux
 Info: Elaborating entity "schemeHard" for the top level hierarchy
 Info: Elaborating entity "unidadeControle" for hierarchy "unidadeControle:inst17"
-Warning (10036): Verilog HDL or VHDL warning at unidadeControle.sv(117): object "count" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at unidadeControle.sv(125): object "count" assigned a value but never read
 Info: Elaborating entity "Ula32" for hierarchy "Ula32:inst3"
 Info: Elaborating entity "aluSrcA" for hierarchy "aluSrcA:inst"
 Warning (10270): Verilog HDL Case Statement warning at aluSrcA.sv(9): incomplete case statement has no default case item
@@ -794,8 +807,7 @@ Info (10041): Inferred latch for "aluSrcAOut[29]" at aluSrcA.sv(9)
 Info (10041): Inferred latch for "aluSrcAOut[30]" at aluSrcA.sv(9)
 Info (10041): Inferred latch for "aluSrcAOut[31]" at aluSrcA.sv(9)
 Info: Elaborating entity "Registrador" for hierarchy "Registrador:PC"
-Info: Elaborating entity "pcSource" for hierarchy "pcSource:inst16"
-Info: Elaborating entity "concat" for hierarchy "concat:inst22"
+Info: Elaborating entity "branchMux" for hierarchy "branchMux:inst20"
 Info: Elaborating entity "Instr_Reg" for hierarchy "Instr_Reg:inst4"
 Info: Elaborating entity "Memoria" for hierarchy "Memoria:inst2"
 Info: Elaborating entity "LPM_RAM_DQ" for hierarchy "Memoria:inst2|LPM_RAM_DQ:MEM"
@@ -855,6 +867,8 @@ Info (10041): Inferred latch for "iordOut[28]" at iord.sv(15)
 Info (10041): Inferred latch for "iordOut[29]" at iord.sv(15)
 Info (10041): Inferred latch for "iordOut[30]" at iord.sv(15)
 Info (10041): Inferred latch for "iordOut[31]" at iord.sv(15)
+Info: Elaborating entity "pcSource" for hierarchy "pcSource:inst16"
+Info: Elaborating entity "concat" for hierarchy "concat:inst22"
 Info: Elaborating entity "Banco_reg" for hierarchy "Banco_reg:inst6"
 Info: Elaborating entity "memToReg" for hierarchy "memToReg:inst7"
 Warning (10270): Verilog HDL Case Statement warning at memToReg.sv(20): incomplete case statement has no default case item
@@ -1068,25 +1082,25 @@ Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "LuiOut[0]" is stuck at GND
     Warning (13410): Pin "stateOut[5]" is stuck at GND
 Info: 7 registers lost all their fanouts during netlist optimizations. The first 7 are displayed below.
-    Info: Register "unidadeControle:inst17|state~14" lost all its fanouts during netlist optimizations.
-    Info: Register "unidadeControle:inst17|state~15" lost all its fanouts during netlist optimizations.
-    Info: Register "unidadeControle:inst17|state~16" lost all its fanouts during netlist optimizations.
-    Info: Register "unidadeControle:inst17|state~17" lost all its fanouts during netlist optimizations.
     Info: Register "unidadeControle:inst17|state~18" lost all its fanouts during netlist optimizations.
     Info: Register "unidadeControle:inst17|state~19" lost all its fanouts during netlist optimizations.
     Info: Register "unidadeControle:inst17|state~20" lost all its fanouts during netlist optimizations.
+    Info: Register "unidadeControle:inst17|state~21" lost all its fanouts during netlist optimizations.
+    Info: Register "unidadeControle:inst17|state~22" lost all its fanouts during netlist optimizations.
+    Info: Register "unidadeControle:inst17|state~23" lost all its fanouts during netlist optimizations.
+    Info: Register "unidadeControle:inst17|state~24" lost all its fanouts during netlist optimizations.
 Warning: Ignored assignments for entity "mipsHardware" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity mipsHardware -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity mipsHardware -section_id "Root Region" was ignored
-Info: Implemented 3346 device resources after synthesis - the final resource count might be different
+Info: Implemented 3514 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
-    Info: Implemented 543 output pins
-    Info: Implemented 2769 logic cells
+    Info: Implemented 576 output pins
+    Info: Implemented 2904 logic cells
     Info: Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 172 warnings
-    Info: Peak virtual memory: 4528 megabytes
-    Info: Processing ended: Thu Oct 17 13:47:48 2019
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 4531 megabytes
+    Info: Processing ended: Thu Oct 17 16:49:23 2019
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:46
 
 

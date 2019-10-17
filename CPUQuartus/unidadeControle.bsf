@@ -390,6 +390,26 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"beq2"
+		"0010101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"bne2"
+		"0010110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"bgt2"
+		"0010111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ble2"
+		"0011000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -477,6 +497,26 @@ applicable agreement for further details.
 	(parameter
 		"addiu"
 		"001001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"beq"
+		"000100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"bne"
+		"000101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"ble"
+		"000110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"bgt"
+		"000111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
