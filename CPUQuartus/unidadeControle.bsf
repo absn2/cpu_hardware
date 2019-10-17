@@ -479,6 +479,11 @@ applicable agreement for further details.
 		"001111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"j"
+		"000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
 		(rectangle (rect 16 16 192 496)(line_width 1))
 	)
