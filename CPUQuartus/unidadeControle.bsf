@@ -350,11 +350,6 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"slt2"
-		"0001100"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
 		"sll2"
 		"0001101"
 		""
@@ -460,7 +455,7 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"slt1"
+		"slt"
 		"101010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
@@ -472,6 +467,16 @@ applicable agreement for further details.
 	(parameter
 		"addiu"
 		"001001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"slti"
+		"001010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"lui"
+		"001111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing

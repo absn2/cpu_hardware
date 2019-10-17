@@ -540,6 +540,23 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
 )
+(pin
+	(output)
+	(rect 1800 1376 1816 1552)
+	(text "OUTPUT" (rect 6 1 16 39)(font "Arial" (font_size 6))(vertical))
+	(text "LuiOut[31..0]" (rect 4 90 16 153)(font "Arial" )(vertical))
+	(pt 8 0)
+	(drawing
+		(line (pt 8 0)(pt 8 52)(line_width 1))
+		(line (pt 12 52)(pt 12 78)(line_width 1))
+		(line (pt 4 52)(pt 4 78)(line_width 1))
+		(line (pt 4 52)(pt 12 52)(line_width 1))
+		(line (pt 12 78)(pt 8 82)(line_width 1))
+		(line (pt 8 82)(pt 4 78)(line_width 1))
+		(line (pt 4 78)(pt 8 82)(line_width 1))
+	)
+	(rotate270)
+)
 (symbol
 	(rect 2352 96 2536 224)
 	(text "Registrador" (rect 5 0 61 12)(font "Arial" ))
@@ -1632,6 +1649,66 @@ applicable agreement for further details.
 	(rotate180)
 )
 (symbol
+	(rect 1712 1112 1872 1208)
+	(text "shiftSrcB" (rect 109 84 155 96)(font "Arial" ))
+	(text "inst19" (rect 123 4 152 16)(font "Arial" ))
+	(port
+		(pt 160 64)
+		(input)
+		(text "B[4..0]" (rect 0 0 33 12)(font "Arial" ))
+		(text "B[4..0]" (rect 106 57 139 69)(font "Arial" ))
+		(line (pt 160 64)(pt 144 64)(line_width 3))
+	)
+	(port
+		(pt 160 48)
+		(input)
+		(text "Shamt[4..0]" (rect 0 0 57 12)(font "Arial" ))
+		(text "Shamt[4..0]" (rect 82 41 139 53)(font "Arial" ))
+		(line (pt 160 48)(pt 144 48)(line_width 3))
+	)
+	(port
+		(pt 160 32)
+		(input)
+		(text "ShiftSrcB" (rect 0 0 47 12)(font "Arial" ))
+		(text "ShiftSrcB" (rect 92 25 139 37)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(output)
+		(text "Shift[4..0]" (rect 0 0 49 12)(font "Arial" ))
+		(text "Shift[4..0]" (rect 21 57 70 69)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80)(line_width 1))
+	)
+	(rotate180)
+)
+(symbol
+	(rect 1976 1352 2216 1448)
+	(text "shiftLeft16" (rect 181 84 235 96)(font "Arial" ))
+	(text "inst21" (rect 203 4 232 16)(font "Arial" ))
+	(port
+		(pt 240 64)
+		(input)
+		(text "immediate[31..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "immediate[31..0]" (rect 137 57 219 69)(font "Arial" ))
+		(line (pt 240 64)(pt 224 64)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(output)
+		(text "shiftLeft16Out[31..0]" (rect 0 0 103 12)(font "Arial" ))
+		(text "shiftLeft16Out[31..0]" (rect 21 57 124 69)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 80)(line_width 1))
+	)
+	(rotate180)
+)
+(symbol
 	(rect 2216 -752 2728 -544)
 	(text "unidadeControle" (rect 0 5 12 84)(font "Arial" )(vertical))
 	(text "inst17" (rect 496 8 508 37)(font "Arial" )(vertical))
@@ -1962,11 +2039,6 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"slt2"
-		"0001100"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
 		"sll2"
 		"0001101"
 		""
@@ -2072,7 +2144,7 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"slt1"
+		"slt"
 		"101010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
@@ -2087,52 +2159,20 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"sll_sra_srl"
-		"0001111"
+		"slti"
+		"001010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"lui"
+		"001111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
 		(rectangle (rect 16 16 496 192)(line_width 1))
 	)
 	(flipy_rotate90)
-	(annotation_block (parameter)(rect 2576 -1536 2776 -896))
-)
-(symbol
-	(rect 1712 1112 1872 1208)
-	(text "shiftSrcB" (rect 109 84 155 96)(font "Arial" ))
-	(text "inst19" (rect 123 4 152 16)(font "Arial" ))
-	(port
-		(pt 160 64)
-		(input)
-		(text "B[4..0]" (rect 0 0 33 12)(font "Arial" ))
-		(text "B[4..0]" (rect 106 57 139 69)(font "Arial" ))
-		(line (pt 160 64)(pt 144 64)(line_width 3))
-	)
-	(port
-		(pt 160 48)
-		(input)
-		(text "Shamt[4..0]" (rect 0 0 57 12)(font "Arial" ))
-		(text "Shamt[4..0]" (rect 82 41 139 53)(font "Arial" ))
-		(line (pt 160 48)(pt 144 48)(line_width 3))
-	)
-	(port
-		(pt 160 32)
-		(input)
-		(text "ShiftSrcB" (rect 0 0 47 12)(font "Arial" ))
-		(text "ShiftSrcB" (rect 92 25 139 37)(font "Arial" ))
-		(line (pt 160 32)(pt 144 32)(line_width 1))
-	)
-	(port
-		(pt 0 64)
-		(output)
-		(text "Shift[4..0]" (rect 0 0 49 12)(font "Arial" ))
-		(text "Shift[4..0]" (rect 21 57 70 69)(font "Arial" ))
-		(line (pt 0 64)(pt 16 64)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 144 80)(line_width 1))
-	)
-	(rotate180)
+	(annotation_block (parameter)(rect 2576 -1480 2816 -904))
 )
 (connector
 	(pt 2320 176)
@@ -3308,11 +3348,6 @@ applicable agreement for further details.
 	(pt 1552 144)
 )
 (connector
-	(pt 2360 624)
-	(pt 2360 696)
-	(bus)
-)
-(connector
 	(pt 2360 696)
 	(pt 2384 696)
 	(bus)
@@ -3900,14 +3935,6 @@ applicable agreement for further details.
 	(pt 1952 1216)
 )
 (connector
-	(pt 1952 544)
-	(pt 1952 1216)
-)
-(connector
-	(pt 1952 1216)
-	(pt 1952 1688)
-)
-(connector
 	(pt 1664 1088)
 	(pt 2304 1088)
 )
@@ -4034,6 +4061,84 @@ applicable agreement for further details.
 	(pt 1744 704)
 	(pt 1744 720)
 )
+(connector
+	(pt 2360 624)
+	(pt 2360 696)
+	(bus)
+)
+(connector
+	(pt 2360 696)
+	(pt 2360 1312)
+	(bus)
+)
+(connector
+	(pt 1216 528)
+	(pt 1440 528)
+	(bus)
+)
+(connector
+	(pt 1216 528)
+	(pt 1216 1312)
+	(bus)
+)
+(connector
+	(pt 1952 544)
+	(pt 1952 1216)
+)
+(connector
+	(pt 1952 1216)
+	(pt 1952 1688)
+)
+(connector
+	(pt 2240 1312)
+	(pt 2240 1376)
+	(bus)
+)
+(connector
+	(pt 2240 1376)
+	(pt 2216 1376)
+	(bus)
+)
+(connector
+	(pt 1216 1312)
+	(pt 2240 1312)
+	(bus)
+)
+(connector
+	(pt 2240 1312)
+	(pt 2360 1312)
+	(bus)
+)
+(connector
+	(pt 1200 544)
+	(pt 1440 544)
+	(bus)
+)
+(connector
+	(pt 1200 544)
+	(pt 1200 1376)
+	(bus)
+)
+(connector
+	(pt 1976 1376)
+	(pt 1808 1376)
+	(bus)
+)
+(connector
+	(pt 1808 1376)
+	(pt 1200 1376)
+	(bus)
+)
+(connector
+	(pt 1976 1376)
+	(pt 1976 1416)
+	(bus)
+)
+(connector
+	(pt 2216 1376)
+	(pt 2216 1416)
+	(bus)
+)
 (junction (pt 3320 248))
 (junction (pt 1832 144))
 (junction (pt 1816 128))
@@ -4098,3 +4203,6 @@ applicable agreement for further details.
 (junction (pt 1680 1040))
 (junction (pt 2536 448))
 (junction (pt 2552 448))
+(junction (pt 2360 696))
+(junction (pt 2240 1312))
+(junction (pt 1808 1376))

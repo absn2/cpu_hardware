@@ -76,7 +76,6 @@ parameter addi_addiu = 7'd8;
 parameter break2 = 7'd9;
 parameter xchg2 = 7'd10;
 parameter xchg3 = 7'd11;
-parameter slt2 = 7'd12;
 parameter sll2 = 7'd13;
 parameter sra2 = 7'd14;
 parameter sll_sra_srl_sllv_srav = 7'd15;
@@ -100,11 +99,14 @@ parameter rte = 6'd19;
 parameter andR = 6'd36;
 parameter addR = 6'd32;
 parameter subR = 6'd34;
-parameter slt1 = 6'd42;
+parameter slt = 6'd42;
 
 //inst I
 parameter addi = 6'd8;
 parameter addiu = 6'd9;
+parameter slti = 6'd10;
+parameter lui = 6'd15;
+
 
 reg[6:0] state;
 integer count;
@@ -580,7 +582,7 @@ always @(posedge clk) begin
 									 functOut = funct;
 									 xchgctrl = 1'd0;
 								end
-								slt1: begin
+								slt: begin
 									 alucontrol = 3'd7; // <---
 									 aluoutwrite = 1'd0;
 									 divby0 = 1'd0;
@@ -595,19 +597,19 @@ always @(posedge clk) begin
 									 muxalusrcb = 2'd0; // <---
 									 muxhi = 1'd0;
 									 muxlo = 1'd0;
-									 muxmemtoreg = 4'd4; 
+									 muxmemtoreg = 4'd4; // <---
 									 muxpcsource = 2'd0; 
-									 muxregdst = 3'd2;  
+									 muxregdst = 3'd1;  // <---
 									 muxshiftsrca = 1'd0;
 									 muxshiftsrcb = 1'd0;
 									 muxxxchgctrl = 1'd0;
 									 pcwrite = 1'd0; 
 									 pcwritecond = 1'd0;
-									 regwrite = 1'd0; 
+									 regwrite = 1'd1; // <---
 									 shiftcontrol = 3'd0;
 									 sscontrol = 2'd0;
-									 state = slt2;
-									 stateOut = slt2;
+									 state = closeWR;
+									 stateOut = closeWR;
 									 functOut = funct;
 									 xchgctrl = 1'd0;
 								end
@@ -765,6 +767,68 @@ always @(posedge clk) begin
 							 sscontrol = 2'd0;
 							 state = addi_addiu;
 							 stateOut = addi_addiu;
+							 functOut = funct;
+							 xchgctrl = 1'd0;
+						end
+						slti: begin
+							 alucontrol = 3'd7;
+							 aluoutwrite = 1'd0;
+							 divby0 = 1'd0;
+							 epcwrite = 1'd0;
+							 hiwrite = 1'd0;
+							 iordmux = 2'd0;
+							 irwrite = 1'd0;
+							 lowrite = 1'd0;
+							 lscontrol = 2'd0;
+							 memwrite  = 1'd0; 
+							 muxalusrca = 2'd1; // <---
+							 muxalusrcb = 2'd2; // <---
+							 muxhi = 1'd0;
+							 muxlo = 1'd0;
+							 muxmemtoreg = 4'd4; // <---
+							 muxpcsource = 2'd0;
+							 muxregdst = 3'd0; // <--- 
+							 muxshiftsrca = 1'd0;
+							 muxshiftsrcb = 1'd0;
+							 muxxxchgctrl = 1'd0;
+							 pcwrite = 1'd0;
+							 pcwritecond = 1'd0;
+							 regwrite = 1'd1; // <--- 
+							 shiftcontrol = 3'd0;
+							 sscontrol = 2'd0;
+							 state = closeWR;
+							 stateOut = closeWR;
+							 functOut = funct;
+							 xchgctrl = 1'd0;
+						end
+						lui: begin
+							 alucontrol = 3'd0;
+							 aluoutwrite = 1'd0;
+							 divby0 = 1'd0;
+							 epcwrite = 1'd0;
+							 hiwrite = 1'd0;
+							 iordmux = 2'd0;
+							 irwrite = 1'd0;
+							 lowrite = 1'd0;
+							 lscontrol = 2'd0;
+							 memwrite  = 1'd0; 
+							 muxalusrca = 2'd1;
+							 muxalusrcb = 2'd2;
+							 muxhi = 1'd0;
+							 muxlo = 1'd0;
+							 muxmemtoreg = 4'd6; // <---
+							 muxpcsource = 2'd0;
+							 muxregdst = 3'd0; // <---
+							 muxshiftsrca = 1'd0;
+							 muxshiftsrcb = 1'd0;
+							 muxxxchgctrl = 1'd0;
+							 pcwrite = 1'd0;
+							 pcwritecond = 1'd0;
+							 regwrite = 1'd1; // <---
+							 shiftcontrol = 3'd0;
+							 sscontrol = 2'd0;
+							 state = closeWR;
+							 stateOut = closeWR;
 							 functOut = funct;
 							 xchgctrl = 1'd0;
 						end
@@ -1100,37 +1164,6 @@ always @(posedge clk) begin
 					sscontrol = 2'd0;
 					state = closeWR;
 					stateOut = closeWR;								
-					xchgctrl = 1'd0;
-				end
-				slt2: begin
-					alucontrol = 3'd7; 
-				    aluoutwrite = 1'd0;
-	   			    divby0 = 1'd0;
-					epcwrite = 1'd0;
-				    hiwrite = 1'd0;
-					iordmux = 2'd0;
-					irwrite = 1'd0;
-					lowrite = 1'd0;
-					lscontrol = 2'd0;
-					memwrite  = 1'd0; 
-					muxalusrca = 2'd1; 
-					muxalusrcb = 2'd0; 
-					muxhi = 1'd0;
-					muxlo = 1'd0;
-					muxmemtoreg = 4'd4; // <---
-					muxpcsource = 2'd0; 
-					muxregdst = 3'd1;  // <---
-					muxshiftsrca = 1'd0;
-					muxshiftsrcb = 1'd0;
-				    muxxxchgctrl = 1'd0;
-					pcwrite = 1'd0; 
-					pcwritecond = 1'd0;
-					regwrite = 1'd1; // <---
-					shiftcontrol = 3'd0;
-					sscontrol = 2'd0;
-					state = closeWR;
-					stateOut = closeWR;
-					functOut = funct;
 					xchgctrl = 1'd0;
 				end
 				closeWR: begin

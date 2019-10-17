@@ -1334,10 +1334,292 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
-altsyncram_g2a1
+shiftSrcB
+# storage
+db|mipsHardware.(19).cnf
+db|mipsHardware.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+shiftsrcb.sv
+c4c37cc759dc6fe875bdb81733b3312
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+shiftSrcB:inst19
+}
+# macro_sequence
+
+# end
+# entity
+shiftLeft16
+# storage
+db|mipsHardware.(20).cnf
+db|mipsHardware.(20).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+shiftleft16.sv
+54b143678be66631735b14577ec6e99
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+shiftLeft16:inst21
+}
+# macro_sequence
+
+# end
+# entity
+unidadeControle
+# storage
+db|mipsHardware.(2).cnf
+db|mipsHardware.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+unidadecontrole.sv
+8e6f185ba64c0371285bda52b5cf81
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+fetch1
+0000000
+PARAMETER_UNSIGNED_BIN
+DEF
+fetch2
+0000001
+PARAMETER_UNSIGNED_BIN
+DEF
+fetch3
+0000010
+PARAMETER_UNSIGNED_BIN
+DEF
+decode
+0000011
+PARAMETER_UNSIGNED_BIN
+DEF
+decode2
+0000100
+PARAMETER_UNSIGNED_BIN
+DEF
+wait_
+0000101
+PARAMETER_UNSIGNED_BIN
+DEF
+execute
+0000110
+PARAMETER_UNSIGNED_BIN
+DEF
+add_sub_and
+0000111
+PARAMETER_UNSIGNED_BIN
+DEF
+addi_addiu
+0001000
+PARAMETER_UNSIGNED_BIN
+DEF
+break2
+0001001
+PARAMETER_UNSIGNED_BIN
+DEF
+xchg2
+0001010
+PARAMETER_UNSIGNED_BIN
+DEF
+xchg3
+0001011
+PARAMETER_UNSIGNED_BIN
+DEF
+sll2
+0001101
+PARAMETER_UNSIGNED_BIN
+DEF
+sra2
+0001110
+PARAMETER_UNSIGNED_BIN
+DEF
+sll_sra_srl_sllv_srav
+0001111
+PARAMETER_UNSIGNED_BIN
+DEF
+srl2
+0010000
+PARAMETER_UNSIGNED_BIN
+DEF
+sllv2
+0010001
+PARAMETER_UNSIGNED_BIN
+DEF
+srav2
+0010010
+PARAMETER_UNSIGNED_BIN
+DEF
+closeWR
+1000100
+PARAMETER_UNSIGNED_BIN
+DEF
+wait_Final
+1000101
+PARAMETER_UNSIGNED_BIN
+DEF
+formatR
+000000
+PARAMETER_UNSIGNED_BIN
+DEF
+sll
+000000
+PARAMETER_UNSIGNED_BIN
+DEF
+srl
+000010
+PARAMETER_UNSIGNED_BIN
+DEF
+sra
+000011
+PARAMETER_UNSIGNED_BIN
+DEF
+sllv
+000100
+PARAMETER_UNSIGNED_BIN
+DEF
+srav
+000111
+PARAMETER_UNSIGNED_BIN
+DEF
+xchg1
+000101
+PARAMETER_UNSIGNED_BIN
+DEF
+jr
+001000
+PARAMETER_UNSIGNED_BIN
+DEF
+break1
+001101
+PARAMETER_UNSIGNED_BIN
+DEF
+rte
+010011
+PARAMETER_UNSIGNED_BIN
+DEF
+andR
+100100
+PARAMETER_UNSIGNED_BIN
+DEF
+addR
+100000
+PARAMETER_UNSIGNED_BIN
+DEF
+subR
+100010
+PARAMETER_UNSIGNED_BIN
+DEF
+slt
+101010
+PARAMETER_UNSIGNED_BIN
+DEF
+addi
+001000
+PARAMETER_UNSIGNED_BIN
+DEF
+addiu
+001001
+PARAMETER_UNSIGNED_BIN
+DEF
+slti
+001010
+PARAMETER_UNSIGNED_BIN
+DEF
+lui
+001111
+PARAMETER_UNSIGNED_BIN
+DEF
+}
+# hierarchies {
+unidadeControle:inst17
+}
+# macro_sequence
+
+# end
+# entity
+schemeHard
 # storage
 db|mipsHardware.(22).cnf
 db|mipsHardware.(22).cnf
+# case_insensitive
+# source_file
+schemehard.bdf
+d0d5a9de7a80a3393d5cf598b9281be
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_g2a1
+# storage
+db|mipsHardware.(25).cnf
+db|mipsHardware.(25).cnf
 # case_insensitive
 # source_file
 db|altsyncram_g2a1.tdf
@@ -1428,255 +1710,13 @@ address_a0
 }
 # memory_file {
 instrucoes.mif
-7058a9af807cd1baa65666ff9876ae55
+fbc7a64f172332f222f3e0b45e38cda
 }
 # hierarchies {
 Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
-}
-# macro_sequence
-
-# end
-# entity
-shiftSrcB
-# storage
-db|mipsHardware.(19).cnf
-db|mipsHardware.(19).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-shiftsrcb.sv
-c4c37cc759dc6fe875bdb81733b3312
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-shiftSrcB:inst19
-}
-# macro_sequence
-
-# end
-# entity
-unidadeControle
-# storage
-db|mipsHardware.(2).cnf
-db|mipsHardware.(2).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-unidadecontrole.sv
-8e6d71bac398e0fa7bfd6fd661856e5
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# user_parameter {
-fetch1
-0000000
-PARAMETER_UNSIGNED_BIN
-DEF
-fetch2
-0000001
-PARAMETER_UNSIGNED_BIN
-DEF
-fetch3
-0000010
-PARAMETER_UNSIGNED_BIN
-DEF
-decode
-0000011
-PARAMETER_UNSIGNED_BIN
-DEF
-decode2
-0000100
-PARAMETER_UNSIGNED_BIN
-DEF
-wait_
-0000101
-PARAMETER_UNSIGNED_BIN
-DEF
-execute
-0000110
-PARAMETER_UNSIGNED_BIN
-DEF
-add_sub_and
-0000111
-PARAMETER_UNSIGNED_BIN
-DEF
-addi_addiu
-0001000
-PARAMETER_UNSIGNED_BIN
-DEF
-break2
-0001001
-PARAMETER_UNSIGNED_BIN
-DEF
-xchg2
-0001010
-PARAMETER_UNSIGNED_BIN
-DEF
-xchg3
-0001011
-PARAMETER_UNSIGNED_BIN
-DEF
-slt2
-0001100
-PARAMETER_UNSIGNED_BIN
-DEF
-sll2
-0001101
-PARAMETER_UNSIGNED_BIN
-DEF
-sra2
-0001110
-PARAMETER_UNSIGNED_BIN
-DEF
-sll_sra_srl_sllv_srav
-0001111
-PARAMETER_UNSIGNED_BIN
-DEF
-srl2
-0010000
-PARAMETER_UNSIGNED_BIN
-DEF
-sllv2
-0010001
-PARAMETER_UNSIGNED_BIN
-DEF
-srav2
-0010010
-PARAMETER_UNSIGNED_BIN
-DEF
-closeWR
-1000100
-PARAMETER_UNSIGNED_BIN
-DEF
-wait_Final
-1000101
-PARAMETER_UNSIGNED_BIN
-DEF
-formatR
-000000
-PARAMETER_UNSIGNED_BIN
-DEF
-sll
-000000
-PARAMETER_UNSIGNED_BIN
-DEF
-srl
-000010
-PARAMETER_UNSIGNED_BIN
-DEF
-sra
-000011
-PARAMETER_UNSIGNED_BIN
-DEF
-sllv
-000100
-PARAMETER_UNSIGNED_BIN
-DEF
-srav
-000111
-PARAMETER_UNSIGNED_BIN
-DEF
-xchg1
-000101
-PARAMETER_UNSIGNED_BIN
-DEF
-jr
-001000
-PARAMETER_UNSIGNED_BIN
-DEF
-break1
-001101
-PARAMETER_UNSIGNED_BIN
-DEF
-rte
-010011
-PARAMETER_UNSIGNED_BIN
-DEF
-andR
-100100
-PARAMETER_UNSIGNED_BIN
-DEF
-addR
-100000
-PARAMETER_UNSIGNED_BIN
-DEF
-subR
-100010
-PARAMETER_UNSIGNED_BIN
-DEF
-slt1
-101010
-PARAMETER_UNSIGNED_BIN
-DEF
-addi
-001000
-PARAMETER_UNSIGNED_BIN
-DEF
-addiu
-001001
-PARAMETER_UNSIGNED_BIN
-DEF
-}
-# hierarchies {
-unidadeControle:inst17
-}
-# macro_sequence
-
-# end
-# entity
-schemeHard
-# storage
-db|mipsHardware.(20).cnf
-db|mipsHardware.(20).cnf
-# case_insensitive
-# source_file
-schemehard.bdf
-a568aaeb86186e379d92ac6c6751e1c
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
 }
 # macro_sequence
 
