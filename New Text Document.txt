@@ -1,0 +1,30 @@
+
+// = falta terminar
+
+
+----r----
+add
+sub
+and
+sll
+sra
+srl
+sllv
+srav
+jr
+slt
+break
+rte
+xcgh
+//div e mult
+
+----i----
+addi
+addiu
+slti
+lui
+// load (x3) & st(x3) & branches (x5)
+
+----j-----
+j
+jal

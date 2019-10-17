@@ -380,6 +380,16 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"jal2"
+		"0010011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"jal3"
+		"0010100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -482,6 +492,11 @@ applicable agreement for further details.
 	(parameter
 		"j"
 		"000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"jal"
+		"000011"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing

@@ -2145,6 +2145,16 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"jal2"
+		"0010011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"jal3"
+		"0010100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -2247,6 +2257,11 @@ applicable agreement for further details.
 	(parameter
 		"j"
 		"000010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"jal"
+		"000011"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
@@ -4312,6 +4327,12 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(text "Instr15_0[5..0]" (rect 1906 168 1977 180)(font "Arial" ))
+	(pt 1896 184)
+	(pt 2232 184)
+	(bus)
+)
+(connector
 	(pt 1744 600)
 	(pt 1744 704)
 )
@@ -4327,12 +4348,6 @@ applicable agreement for further details.
 (connector
 	(pt 1808 1376)
 	(pt 1976 1376)
-	(bus)
-)
-(connector
-	(text "Instr15_0[5..0]" (rect 1906 168 1977 180)(font "Arial" ))
-	(pt 1896 184)
-	(pt 2232 184)
 	(bus)
 )
 (junction (pt 3320 248))
