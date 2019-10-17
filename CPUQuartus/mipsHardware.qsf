@@ -56,6 +56,8 @@ set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE ON
 set_global_assignment -name SIMULATOR_POWERPLAY_VCD_FILE_OUTPUT_DESTINATION mipsHardware.vcd
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE schemeHard.vwf
+set_global_assignment -name SYSTEMVERILOG_FILE setSize.sv
+set_global_assignment -name SYSTEMVERILOG_FILE loadSize.sv
 set_global_assignment -name SYSTEMVERILOG_FILE concat.sv
 set_global_assignment -name MIF_FILE instrucoes.mif
 set_global_assignment -name SYSTEMVERILOG_FILE memToReg.sv

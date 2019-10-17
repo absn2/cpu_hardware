@@ -666,10 +666,11 @@ ON
 # hierarchies {
 Registrador:PC
 Registrador:AluOut
-Registrador:EPC
-Registrador:A
 Registrador:B
+Registrador:A
 Registrador:xchgUnit
+Registrador:MDR
+Registrador:EPC
 }
 # lmf
 |altera|91sp2|quartus|lmf|maxplus2.lmf
@@ -1442,7 +1443,79 @@ a36c8ec425c8a2589af98b2d4daabc3
 
 # end
 # entity
-unidadeControle
+branchMux
+# storage
+db|mipsHardware.(2).cnf
+db|mipsHardware.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+branchmux.sv
+f3c5c04ef5152a557fc9c1b02f9d9d
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+branchMux:inst20
+}
+# macro_sequence
+
+# end
+# entity
+loadSize
+# storage
+db|mipsHardware.(22).cnf
+db|mipsHardware.(22).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+loadsize.sv
+305ec438f764a2a79d8b1b13f5f6695
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+loadSize:inst29
+}
+# macro_sequence
+
+# end
+# entity
+setSize
 # storage
 db|mipsHardware.(18).cnf
 db|mipsHardware.(18).cnf
@@ -1452,8 +1525,44 @@ ON
 }
 # case_sensitive
 # source_file
+setsize.sv
+4cbaefbc7f946644c344e7609b48f
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+setSize:inst30
+}
+# macro_sequence
+
+# end
+# entity
+unidadeControle
+# storage
+db|mipsHardware.(27).cnf
+db|mipsHardware.(27).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
 unidadecontrole.sv
-e9fb24b2c4b37374b0ebe261e11db8fc
+ad61d5b0da4910f1bb9f213976b8529
 9
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -1568,6 +1677,38 @@ ble2
 0011000
 PARAMETER_UNSIGNED_BIN
 DEF
+lw2_wait
+0011001
+PARAMETER_UNSIGNED_BIN
+DEF
+lw3
+0011010
+PARAMETER_UNSIGNED_BIN
+DEF
+lh2_wait
+0011010
+PARAMETER_UNSIGNED_BIN
+DEF
+lh3
+0011011
+PARAMETER_UNSIGNED_BIN
+DEF
+lb2_wait
+0011100
+PARAMETER_UNSIGNED_BIN
+DEF
+lb3
+0011101
+PARAMETER_UNSIGNED_BIN
+DEF
+sw2
+0011110
+PARAMETER_UNSIGNED_BIN
+DEF
+sw3
+0011111
+PARAMETER_UNSIGNED_BIN
+DEF
 closeWR
 1000100
 PARAMETER_UNSIGNED_BIN
@@ -1664,6 +1805,30 @@ lui
 001111
 PARAMETER_UNSIGNED_BIN
 DEF
+lw
+100011
+PARAMETER_UNSIGNED_BIN
+DEF
+lh
+100101
+PARAMETER_UNSIGNED_BIN
+DEF
+lb
+100110
+PARAMETER_UNSIGNED_BIN
+DEF
+sw
+101011
+PARAMETER_UNSIGNED_BIN
+DEF
+sh
+101001
+PARAMETER_UNSIGNED_BIN
+DEF
+sb
+110000
+PARAMETER_UNSIGNED_BIN
+DEF
 j
 000010
 PARAMETER_UNSIGNED_BIN
@@ -1674,43 +1839,7 @@ PARAMETER_UNSIGNED_BIN
 DEF
 }
 # hierarchies {
-unidadeControle:inst17
-}
-# macro_sequence
-
-# end
-# entity
-branchMux
-# storage
-db|mipsHardware.(2).cnf
-db|mipsHardware.(2).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-branchmux.sv
-f3c5c04ef5152a557fc9c1b02f9d9d
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-branchMux:inst20
+unidadeControle:inst31
 }
 # macro_sequence
 
@@ -1718,12 +1847,12 @@ branchMux:inst20
 # entity
 schemeHard
 # storage
-db|mipsHardware.(22).cnf
-db|mipsHardware.(22).cnf
+db|mipsHardware.(28).cnf
+db|mipsHardware.(28).cnf
 # case_insensitive
 # source_file
 schemehard.bdf
-2036be50a257b6bb6c2256c39c8f236
+b063ccec07ede6c65a6d3b7e8dd533e
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -1738,8 +1867,8 @@ AUTO
 # entity
 altsyncram_g2a1
 # storage
-db|mipsHardware.(27).cnf
-db|mipsHardware.(27).cnf
+db|mipsHardware.(29).cnf
+db|mipsHardware.(29).cnf
 # case_insensitive
 # source_file
 db|altsyncram_g2a1.tdf
@@ -1830,7 +1959,7 @@ address_a0
 }
 # memory_file {
 instrucoes.mif
-cb4f7de5adb2b23193a29570c548d
+6290161a68c9b777736eafca2caf152
 }
 # hierarchies {
 Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
