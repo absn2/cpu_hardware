@@ -60,6 +60,7 @@ always @ (posedge clk) begin
 		soma = 65'd0;
 		comp2 = 32'd0;
 		sub = 65'd0;
+		produto = 65'd0;
 	end
 end
 
