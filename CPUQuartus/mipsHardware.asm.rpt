@@ -1,5 +1,5 @@
 Assembler report for mipsHardware
-Fri Oct 18 13:29:59 2019
+Fri Oct 18 16:12:35 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Versio
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.sof
-  6. Assembler Device Options: E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.pof
+  5. Assembler Device Options: E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.sof
+  6. Assembler Device Options: E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.pof
   7. Assembler Messages
 
 
@@ -38,11 +38,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 18 13:29:59 2019 ;
+; Assembler Status      ; Successful - Fri Oct 18 16:12:35 2019 ;
 ; Revision Name         ; mipsHardware                          ;
 ; Top-level Entity Name ; schemeHard                            ;
 ; Family                ; Stratix II                            ;
-; Device                ; EP2S60F1020C3                         ;
+; Device                ; EP2S90F1508C3                         ;
 +-----------------------+---------------------------------------+
 
 
@@ -79,37 +79,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------------+
-; Assembler Generated Files                                       ;
-+-----------------------------------------------------------------+
-; File Name                                                       ;
-+-----------------------------------------------------------------+
-; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.sof ;
-; E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.pof ;
-+-----------------------------------------------------------------+
++------------------------------------------------------------------+
+; Assembler Generated Files                                        ;
++------------------------------------------------------------------+
+; File Name                                                        ;
++------------------------------------------------------------------+
+; E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.sof ;
+; E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.pof ;
++------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.sof ;
-+----------------+--------------------------------------------------------------------------+
-; Option         ; Setting                                                                  ;
-+----------------+--------------------------------------------------------------------------+
-; Device         ; EP2S60F1020C3                                                            ;
-; JTAG usercode  ; 0xFFFFFFFF                                                               ;
-; Checksum       ; 0x00D3D8B4                                                               ;
-+----------------+--------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.sof ;
++----------------+---------------------------------------------------------------------------+
+; Option         ; Setting                                                                   ;
++----------------+---------------------------------------------------------------------------+
+; Device         ; EP2S90F1508C3                                                             ;
+; JTAG usercode  ; 0xFFFFFFFF                                                                ;
+; Checksum       ; 0x0110CE38                                                                ;
++----------------+---------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------+
-; Assembler Device Options: E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/mipsHardware.pof ;
-+--------------------+----------------------------------------------------------------------+
-; Option             ; Setting                                                              ;
-+--------------------+----------------------------------------------------------------------+
-; Device             ; EPC16                                                                ;
-; JTAG usercode      ; 0xFFFFFFFF                                                           ;
-; Checksum           ; 0x1BCE043F                                                           ;
-; Compression Ratio  ; 2                                                                    ;
-+--------------------+----------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/mipsHardware.pof ;
++--------------------+-----------------------------------------------------------------------+
+; Option             ; Setting                                                               ;
++--------------------+-----------------------------------------------------------------------+
+; Device             ; EPC16                                                                 ;
+; JTAG usercode      ; 0xFFFFFFFF                                                            ;
+; Checksum           ; 0x1A0B5C1A                                                            ;
+; Compression Ratio  ; 3                                                                     ;
++--------------------+-----------------------------------------------------------------------+
 
 
 +--------------------+
@@ -118,14 +118,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Fri Oct 18 13:29:55 2019
+    Info: Processing started: Fri Oct 18 16:12:30 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off mipsHardware -c mipsHardware
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4570 megabytes
-    Info: Processing ended: Fri Oct 18 13:29:59 2019
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Peak virtual memory: 4668 megabytes
+    Info: Processing ended: Fri Oct 18 16:12:35 2019
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 

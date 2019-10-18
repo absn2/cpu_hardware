@@ -94,6 +94,13 @@ applicable agreement for further details.
 		(line (pt 0 176)(pt 16 176)(line_width 1))
 	)
 	(port
+		(pt 0 192)
+		(input)
+		(text "multStop" (rect 0 0 43 12)(font "Arial" ))
+		(text "multStop" (rect 21 187 64 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
 		(pt 208 32)
 		(output)
 		(text "functOut[5..0]" (rect 0 0 69 12)(font "Arial" ))
@@ -288,6 +295,13 @@ applicable agreement for further details.
 		(text "muxpcsource[1..0]" (rect 0 0 92 12)(font "Arial" ))
 		(text "muxpcsource[1..0]" (rect 95 459 187 471)(font "Arial" ))
 		(line (pt 208 464)(pt 192 464)(line_width 3))
+	)
+	(port
+		(pt 208 480)
+		(output)
+		(text "multBegin" (rect 0 0 48 12)(font "Arial" ))
+		(text "multBegin" (rect 139 475 187 487)(font "Arial" ))
+		(line (pt 208 480)(pt 192 480)(line_width 1))
 	)
 	(parameter
 		"fetch1"
@@ -500,6 +514,16 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"mult2"
+		"0101011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"mult3"
+		"0101100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -557,6 +581,11 @@ applicable agreement for further details.
 	(parameter
 		"rte"
 		"010011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"mult"
+		"011000"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter

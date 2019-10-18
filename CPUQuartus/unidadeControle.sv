@@ -13,6 +13,8 @@ module unidadeControle(
     input logic Igual,
     input logic Maior,
     input logic Menor,
+    input logic multStop,
+    //input logic DivStop,
     
 	// verificar o estado atual ajudar na debugação
 	output logic [5:0] functOut,
@@ -38,7 +40,7 @@ module unidadeControle(
     //sinais div e mult
     output logic hiwrite,
     output logic lowrite,
-    output logic divby0,
+    output logic divby0, // mudar depois
 
     //sinal troca
     output logic xchgctrl,
@@ -61,7 +63,8 @@ module unidadeControle(
     output logic muxxxchgctrl,
     output logic [1:0]muxalusrca,
     output logic [1:0]muxalusrcb,
-    output logic [1:0]muxpcsource
+    output logic [1:0]muxpcsource,
+    output logic multBegin
 );
 
 parameter fetch1 = 7'd0;
@@ -106,6 +109,8 @@ parameter sb3 = 7'd39;
 parameter blm2_wait = 7'd40;
 parameter blm3_wait = 7'd41;
 parameter blm4 = 7'd42;
+parameter mult2 = 7'd43;
+parameter mult3 = 7'd44;
 parameter closeWR = 7'd68;
 parameter wait_Final = 7'd69;
 
@@ -120,6 +125,7 @@ parameter xchg1 = 6'd5;
 parameter jr = 6'd8;
 parameter break1 = 6'd13;
 parameter rte = 6'd19;
+parameter mult = 6'd24;
 parameter andR = 6'd36;
 parameter addR = 6'd32;
 parameter subR = 6'd34;
@@ -743,6 +749,39 @@ always @(posedge clk) begin
 									 stateOut = xchg2;
 									 functOut = funct;
 									 xchgctrl = 1'd1; // <--
+								end
+								mult: begin
+									 alucontrol = 3'd1;
+									 aluoutwrite = 1'd0;
+									 divby0 = 1'd0;
+									 epcwrite = 1'd0;
+									 hiwrite = 1'd0;
+									 iordmux = 2'd0;
+									 irwrite = 1'd0;
+									 lowrite = 1'd0;
+									 lscontrol = 2'd0;
+									 memwrite  = 1'd0; // 0 = lendo , 1 = escrevendo
+									 muxalusrca = 2'd0;
+									 muxalusrcb = 2'd3;
+									 muxhi = 1'd0;
+									 muxlo = 1'd0;
+									 muxmemtoreg = 4'd9; // 
+									 muxpcsource = 2'd0;
+									 muxregdst = 3'd2; // 
+									 muxshiftsrca = 1'd0;
+									 muxshiftsrcb = 1'd0;
+									 muxxxchgctrl = 1'd0;
+									 pcwrite = 1'd0;
+									 pcwritecond = 1'd0;
+									 regwrite = 1'd0; //
+									 shiftcontrol = 3'd0;
+									 sscontrol = 2'd0;
+									 state = mult2;
+									 stateOut = mult2;
+									 functOut = funct;
+									 xchgctrl = 1'd0;
+									 multBegin = 1'b1;							
+								
 								end
 							endcase
 						end
@@ -1491,6 +1530,75 @@ always @(posedge clk) begin
 					state = closeWR;
 					stateOut = closeWR;								
 					xchgctrl = 1'd0; 
+				end
+				mult2: begin
+					 alucontrol = 3'd1;
+					 aluoutwrite = 1'd0;
+					 divby0 = 1'd0;
+					 epcwrite = 1'd0;
+					 hiwrite = 1'd0;
+					 iordmux = 2'd0;
+					 irwrite = 1'd0;
+					 lowrite = 1'd0;
+					 lscontrol = 2'd0;
+					 memwrite  = 1'd0; // 0 = lendo , 1 = escrevendo
+					 muxalusrca = 2'd0;
+					 muxalusrcb = 2'd3;
+					 muxhi = 1'd0;
+					 muxlo = 1'd0;
+					 muxmemtoreg = 4'd9; // 
+					 muxpcsource = 2'd0;
+					 muxregdst = 3'd2; // 
+					 muxshiftsrca = 1'd0;
+					 muxshiftsrcb = 1'd0;
+					 muxxxchgctrl = 1'd0;
+					 pcwrite = 1'd0;
+					 pcwritecond = 1'd0;
+					 regwrite = 1'd0; //
+					 shiftcontrol = 3'd0;
+					 sscontrol = 2'd0;
+					 functOut = funct;
+					 xchgctrl = 1'd0;
+					 multBegin = 1'b0;							
+					 if(multStop == 0) begin
+						state = mult2;
+						stateOut = mult2;
+					end else begin
+						state = mult3;
+						stateOut = mult3;
+					end
+				end
+				mult3: begin
+					 alucontrol = 3'd1;
+					 aluoutwrite = 1'd0;
+					 divby0 = 1'd0;
+					 epcwrite = 1'd0;
+					 hiwrite = 1'd0;
+					 iordmux = 2'd0;
+					 irwrite = 1'd0;
+					 lowrite = 1'd0;
+					 lscontrol = 2'd0;
+					 memwrite  = 1'd0; // 0 = lendo , 1 = escrevendo
+					 muxalusrca = 2'd0;
+					 muxalusrcb = 2'd3;
+					 muxhi = 1'd1;
+					 muxlo = 1'd1;
+					 muxmemtoreg = 4'd9; // 
+					 muxpcsource = 2'd0;
+					 muxregdst = 3'd2; // 
+					 muxshiftsrca = 1'd0;
+					 muxshiftsrcb = 1'd0;
+					 muxxxchgctrl = 1'd0;
+					 pcwrite = 1'd0;
+					 pcwritecond = 1'd0;
+					 regwrite = 1'd0; //
+					 shiftcontrol = 3'd0;
+					 sscontrol = 2'd0;
+					 state = closeWR;
+					 stateOut = closeWR;
+					 functOut = funct;
+					 xchgctrl = 1'd0;
+					 multBegin = 1'b0;							
 				end
 				xchg2: begin
 					alucontrol = 3'd0;
