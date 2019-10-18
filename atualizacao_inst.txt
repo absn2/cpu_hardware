@@ -27,7 +27,10 @@ bgt
 ble
 slti
 lui
-// load (x3) & st(x3)
+lw
+lh
+lb 
+//st(x3)
 
 ----j-----
 j

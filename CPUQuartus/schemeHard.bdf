@@ -2137,7 +2137,7 @@ applicable agreement for further details.
 (symbol
 	(rect 2216 -752 2728 -544)
 	(text "unidadeControle" (rect 0 5 12 84)(font "Arial" )(vertical))
-	(text "inst31" (rect 496 8 508 37)(font "Arial" )(vertical))
+	(text "inst25" (rect 496 8 508 37)(font "Arial" )(vertical))
 	(port
 		(pt 32 0)
 		(input)
@@ -2535,33 +2535,68 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"lh2_wait"
-		"0011010"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"lh3"
+		"lw4"
 		"0011011"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"lb2_wait"
+		"lh2_wait"
 		"0011100"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"lb3"
+		"lh3"
 		"0011101"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"sw2"
+		"lh4"
 		"0011110"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
-		"sw3"
+		"lb2_wait"
 		"0011111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"lb3"
+		"0100000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"lb4"
+		"0100001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sw2"
+		"0100010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sw3"
+		"0100011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sh2"
+		"0100100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sh3"
+		"0100101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sb2"
+		"0100110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"sb3"
+		"0100111"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -2691,12 +2726,12 @@ applicable agreement for further details.
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"lh"
-		"100101"
+		"100001"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"lb"
-		"100110"
+		"100000"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -2711,7 +2746,7 @@ applicable agreement for further details.
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
 		"sb"
-		"110000"
+		"101000"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -2728,7 +2763,7 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 496 192)(line_width 1))
 	)
 	(flipy_rotate90)
-	(annotation_block (parameter)(rect 2576 -1816 2816 -904))
+	(annotation_block (parameter)(rect 2576 -1912 2816 -904))
 )
 (connector
 	(pt 2320 176)
