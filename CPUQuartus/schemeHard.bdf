@@ -657,7 +657,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1376 208 1563 224)
+	(rect 1376 208 1552 224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "memoriaOut[31..0]" (rect 90 0 182 12)(font "Arial" ))
 	(pt 0 8)
@@ -675,7 +675,7 @@ applicable agreement for further details.
 	(output)
 	(rect 584 24 600 200)
 	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
-	(text "storeOUT[31..0]" (rect 0 5 12 84)(font "Arial" )(vertical))
+	(text "storeOUT[31..0]" (rect 0 7 12 86)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124)(line_width 1))
@@ -2600,6 +2600,21 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"blm2_wait"
+		"0101000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm3_wait"
+		"0101001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm4"
+		"0101010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -2677,6 +2692,11 @@ applicable agreement for further details.
 	(parameter
 		"slt"
 		"101010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm"
+		"000001"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -5061,24 +5081,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1744 600)
-	(pt 1744 704)
-)
-(connector
-	(pt 1744 704)
-	(pt 1744 720)
-)
-(connector
-	(pt 1200 1376)
-	(pt 1808 1376)
-	(bus)
-)
-(connector
-	(pt 1808 1376)
-	(pt 1976 1376)
-	(bus)
-)
-(connector
 	(pt 1376 232)
 	(pt 1376 216)
 	(bus)
@@ -5116,11 +5118,6 @@ applicable agreement for further details.
 (connector
 	(pt 1128 448)
 	(pt 1128 496)
-	(bus)
-)
-(connector
-	(pt 1128 496)
-	(pt 1128 600)
 	(bus)
 )
 (connector
@@ -5198,6 +5195,59 @@ applicable agreement for further details.
 (connector
 	(pt 1192 304)
 	(pt 1368 304)
+)
+(connector
+	(pt 2720 176)
+	(pt 2688 176)
+	(bus)
+)
+(connector
+	(pt 2688 176)
+	(pt 2688 552)
+	(bus)
+)
+(connector
+	(pt 2688 552)
+	(pt 2928 552)
+	(bus)
+)
+(connector
+	(pt 2928 552)
+	(pt 2928 1296)
+	(bus)
+)
+(connector
+	(pt 2928 1296)
+	(pt 1128 1296)
+	(bus)
+)
+(connector
+	(pt 1128 496)
+	(pt 1128 600)
+	(bus)
+)
+(connector
+	(pt 1128 600)
+	(pt 1128 1296)
+	(bus)
+)
+(connector
+	(pt 1744 600)
+	(pt 1744 704)
+)
+(connector
+	(pt 1744 704)
+	(pt 1744 720)
+)
+(connector
+	(pt 1200 1376)
+	(pt 1808 1376)
+	(bus)
+)
+(connector
+	(pt 1808 1376)
+	(pt 1976 1376)
+	(bus)
 )
 (junction (pt 3320 248))
 (junction (pt 1832 144))
@@ -5287,3 +5337,4 @@ applicable agreement for further details.
 (junction (pt 592 248))
 (junction (pt 2400 1024))
 (junction (pt 1192 304))
+(junction (pt 1128 600))

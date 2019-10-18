@@ -485,6 +485,21 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"blm2_wait"
+		"0101000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm3_wait"
+		"0101001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm4"
+		"0101010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -562,6 +577,11 @@ applicable agreement for further details.
 	(parameter
 		"slt"
 		"101010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"blm"
+		"000001"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter

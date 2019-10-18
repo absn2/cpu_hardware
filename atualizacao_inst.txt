@@ -27,10 +27,13 @@ bgt
 ble
 slti
 lui
+// blm
 lw
 lh
 lb 
-//st(x3)
+sw
+sh
+sb
 
 ----j-----
 j

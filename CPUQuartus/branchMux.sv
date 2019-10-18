@@ -30,6 +30,9 @@ always
 		6'd07: begin
 			signal = Maior;
 		end
+		6'd1: begin
+			signal = Menor;
+		end
 		default: begin
 			signal = 0;
 		end

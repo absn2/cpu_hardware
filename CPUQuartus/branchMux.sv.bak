@@ -20,7 +20,12 @@ always
 			end
 		end
 		6'd06: begin
-			signal = Menor;
+			if (Maior) begin
+				signal = 0;
+			end
+			else begin
+				signal = 1;
+			end
 		end
 		6'd07: begin
 			signal = Maior;
