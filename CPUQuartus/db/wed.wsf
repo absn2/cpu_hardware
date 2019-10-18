@@ -14620,10 +14620,10 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 1000000;
+		ZEND = 3000000;
 		NUMERATOR = 1561;
-		DENOMINATOR = 1000000;
-		TOP_INDEX = 70;
+		DENOMINATOR = 3000000;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -18770,7 +18770,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut";
+		SIGNAL = "rd";
 		INDEX = 517;
 		FORMAT = T;
 		SCALE = 1;
@@ -18778,7 +18778,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[64]";
+		SIGNAL = "rd[4]";
 		INDEX = 518;
 		FORMAT = E;
 		SCALE = 1;
@@ -18786,7 +18786,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[63]";
+		SIGNAL = "rd[3]";
 		INDEX = 519;
 		FORMAT = E;
 		SCALE = 1;
@@ -18794,7 +18794,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[62]";
+		SIGNAL = "rd[2]";
 		INDEX = 520;
 		FORMAT = E;
 		SCALE = 1;
@@ -18802,7 +18802,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[61]";
+		SIGNAL = "rd[1]";
 		INDEX = 521;
 		FORMAT = E;
 		SCALE = 1;
@@ -18810,7 +18810,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[60]";
+		SIGNAL = "rd[0]";
 		INDEX = 522;
 		FORMAT = E;
 		SCALE = 1;
@@ -18818,536 +18818,8 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "produtoOut[59]";
-		INDEX = 523;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[58]";
-		INDEX = 524;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[57]";
-		INDEX = 525;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[56]";
-		INDEX = 526;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[55]";
-		INDEX = 527;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[54]";
-		INDEX = 528;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[53]";
-		INDEX = 529;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[52]";
-		INDEX = 530;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[51]";
-		INDEX = 531;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[50]";
-		INDEX = 532;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[49]";
-		INDEX = 533;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[48]";
-		INDEX = 534;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[47]";
-		INDEX = 535;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[46]";
-		INDEX = 536;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[45]";
-		INDEX = 537;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[44]";
-		INDEX = 538;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[43]";
-		INDEX = 539;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[42]";
-		INDEX = 540;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[41]";
-		INDEX = 541;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[40]";
-		INDEX = 542;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[39]";
-		INDEX = 543;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[38]";
-		INDEX = 544;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[37]";
-		INDEX = 545;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[36]";
-		INDEX = 546;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[35]";
-		INDEX = 547;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[34]";
-		INDEX = 548;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[33]";
-		INDEX = 549;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[32]";
-		INDEX = 550;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[31]";
-		INDEX = 551;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[30]";
-		INDEX = 552;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[29]";
-		INDEX = 553;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[28]";
-		INDEX = 554;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[27]";
-		INDEX = 555;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[26]";
-		INDEX = 556;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[25]";
-		INDEX = 557;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[24]";
-		INDEX = 558;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[23]";
-		INDEX = 559;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[22]";
-		INDEX = 560;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[21]";
-		INDEX = 561;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[20]";
-		INDEX = 562;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[19]";
-		INDEX = 563;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[18]";
-		INDEX = 564;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[17]";
-		INDEX = 565;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[16]";
-		INDEX = 566;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[15]";
-		INDEX = 567;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[14]";
-		INDEX = 568;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[13]";
-		INDEX = 569;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[12]";
-		INDEX = 570;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[11]";
-		INDEX = 571;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[10]";
-		INDEX = 572;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[9]";
-		INDEX = 573;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[8]";
-		INDEX = 574;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[7]";
-		INDEX = 575;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[6]";
-		INDEX = 576;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[5]";
-		INDEX = 577;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[4]";
-		INDEX = 578;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[3]";
-		INDEX = 579;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[2]";
-		INDEX = 580;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[1]";
-		INDEX = 581;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "produtoOut[0]";
-		INDEX = 582;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd";
-		INDEX = 583;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd[4]";
-		INDEX = 584;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd[3]";
-		INDEX = 585;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd[2]";
-		INDEX = 586;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd[1]";
-		INDEX = 587;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "rd[0]";
-		INDEX = 588;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "rdshf";
-		INDEX = 589;
+		INDEX = 523;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19355,7 +18827,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[15]";
-		INDEX = 590;
+		INDEX = 524;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19363,7 +18835,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[14]";
-		INDEX = 591;
+		INDEX = 525;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19371,7 +18843,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[13]";
-		INDEX = 592;
+		INDEX = 526;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19379,7 +18851,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[12]";
-		INDEX = 593;
+		INDEX = 527;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19387,7 +18859,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[11]";
-		INDEX = 594;
+		INDEX = 528;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19395,7 +18867,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[10]";
-		INDEX = 595;
+		INDEX = 529;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19403,7 +18875,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[9]";
-		INDEX = 596;
+		INDEX = 530;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19411,7 +18883,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[8]";
-		INDEX = 597;
+		INDEX = 531;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19419,7 +18891,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[7]";
-		INDEX = 598;
+		INDEX = 532;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19427,7 +18899,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[6]";
-		INDEX = 599;
+		INDEX = 533;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19435,7 +18907,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[5]";
-		INDEX = 600;
+		INDEX = 534;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19443,7 +18915,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[4]";
-		INDEX = 601;
+		INDEX = 535;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19451,7 +18923,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[3]";
-		INDEX = 602;
+		INDEX = 536;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19459,7 +18931,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[2]";
-		INDEX = 603;
+		INDEX = 537;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19467,7 +18939,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[1]";
-		INDEX = 604;
+		INDEX = 538;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19475,7 +18947,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rdshf[0]";
-		INDEX = 605;
+		INDEX = 539;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19483,7 +18955,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "RegWriteC";
-		INDEX = 606;
+		INDEX = 540;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19491,7 +18963,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "reset";
-		INDEX = 607;
+		INDEX = 541;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19499,7 +18971,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "resetD2";
-		INDEX = 608;
+		INDEX = 542;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19507,7 +18979,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs";
-		INDEX = 609;
+		INDEX = 543;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19515,7 +18987,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs[4]";
-		INDEX = 610;
+		INDEX = 544;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19523,7 +18995,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs[3]";
-		INDEX = 611;
+		INDEX = 545;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19531,7 +19003,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs[2]";
-		INDEX = 612;
+		INDEX = 546;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19539,7 +19011,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs[1]";
-		INDEX = 613;
+		INDEX = 547;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19547,7 +19019,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rs[0]";
-		INDEX = 614;
+		INDEX = 548;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19555,7 +19027,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt";
-		INDEX = 615;
+		INDEX = 549;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19563,7 +19035,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt[4]";
-		INDEX = 616;
+		INDEX = 550;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19571,7 +19043,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt[3]";
-		INDEX = 617;
+		INDEX = 551;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19579,7 +19051,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt[2]";
-		INDEX = 618;
+		INDEX = 552;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19587,7 +19059,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt[1]";
-		INDEX = 619;
+		INDEX = 553;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19595,7 +19067,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "rt[0]";
-		INDEX = 620;
+		INDEX = 554;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19603,7 +19075,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended";
-		INDEX = 621;
+		INDEX = 555;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19611,7 +19083,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[31]";
-		INDEX = 622;
+		INDEX = 556;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19619,7 +19091,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[30]";
-		INDEX = 623;
+		INDEX = 557;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19627,7 +19099,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[29]";
-		INDEX = 624;
+		INDEX = 558;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19635,7 +19107,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[28]";
-		INDEX = 625;
+		INDEX = 559;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19643,7 +19115,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[27]";
-		INDEX = 626;
+		INDEX = 560;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19651,7 +19123,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[26]";
-		INDEX = 627;
+		INDEX = 561;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19659,7 +19131,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[25]";
-		INDEX = 628;
+		INDEX = 562;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19667,7 +19139,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[24]";
-		INDEX = 629;
+		INDEX = 563;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19675,7 +19147,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[23]";
-		INDEX = 630;
+		INDEX = 564;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19683,7 +19155,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[22]";
-		INDEX = 631;
+		INDEX = 565;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19691,7 +19163,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[21]";
-		INDEX = 632;
+		INDEX = 566;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19699,7 +19171,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[20]";
-		INDEX = 633;
+		INDEX = 567;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19707,7 +19179,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[19]";
-		INDEX = 634;
+		INDEX = 568;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19715,7 +19187,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[18]";
-		INDEX = 635;
+		INDEX = 569;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19723,7 +19195,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[17]";
-		INDEX = 636;
+		INDEX = 570;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19731,7 +19203,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[16]";
-		INDEX = 637;
+		INDEX = 571;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19739,7 +19211,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[15]";
-		INDEX = 638;
+		INDEX = 572;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19747,7 +19219,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[14]";
-		INDEX = 639;
+		INDEX = 573;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19755,7 +19227,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[13]";
-		INDEX = 640;
+		INDEX = 574;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19763,7 +19235,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[12]";
-		INDEX = 641;
+		INDEX = 575;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19771,7 +19243,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[11]";
-		INDEX = 642;
+		INDEX = 576;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19779,7 +19251,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[10]";
-		INDEX = 643;
+		INDEX = 577;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19787,7 +19259,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[9]";
-		INDEX = 644;
+		INDEX = 578;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19795,7 +19267,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[8]";
-		INDEX = 645;
+		INDEX = 579;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19803,7 +19275,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[7]";
-		INDEX = 646;
+		INDEX = 580;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19811,7 +19283,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[6]";
-		INDEX = 647;
+		INDEX = 581;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19819,7 +19291,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[5]";
-		INDEX = 648;
+		INDEX = 582;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19827,7 +19299,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[4]";
-		INDEX = 649;
+		INDEX = 583;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19835,7 +19307,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[3]";
-		INDEX = 650;
+		INDEX = 584;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19843,7 +19315,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[2]";
-		INDEX = 651;
+		INDEX = 585;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19851,7 +19323,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[1]";
-		INDEX = 652;
+		INDEX = 586;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19859,7 +19331,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sExtended[0]";
-		INDEX = 653;
+		INDEX = 587;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19867,7 +19339,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift";
-		INDEX = 654;
+		INDEX = 588;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19875,7 +19347,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift[4]";
-		INDEX = 655;
+		INDEX = 589;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19883,7 +19355,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift[3]";
-		INDEX = 656;
+		INDEX = 590;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19891,7 +19363,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift[2]";
-		INDEX = 657;
+		INDEX = 591;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19899,7 +19371,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift[1]";
-		INDEX = 658;
+		INDEX = 592;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19907,7 +19379,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shift[0]";
-		INDEX = 659;
+		INDEX = 593;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19915,7 +19387,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut";
-		INDEX = 660;
+		INDEX = 594;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19923,7 +19395,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[31]";
-		INDEX = 661;
+		INDEX = 595;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19931,7 +19403,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[30]";
-		INDEX = 662;
+		INDEX = 596;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19939,7 +19411,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[29]";
-		INDEX = 663;
+		INDEX = 597;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19947,7 +19419,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[28]";
-		INDEX = 664;
+		INDEX = 598;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19955,7 +19427,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[27]";
-		INDEX = 665;
+		INDEX = 599;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19963,7 +19435,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[26]";
-		INDEX = 666;
+		INDEX = 600;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19971,7 +19443,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[25]";
-		INDEX = 667;
+		INDEX = 601;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19979,7 +19451,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[24]";
-		INDEX = 668;
+		INDEX = 602;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19987,7 +19459,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[23]";
-		INDEX = 669;
+		INDEX = 603;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -19995,7 +19467,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[22]";
-		INDEX = 670;
+		INDEX = 604;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20003,7 +19475,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[21]";
-		INDEX = 671;
+		INDEX = 605;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20011,7 +19483,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[20]";
-		INDEX = 672;
+		INDEX = 606;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20019,7 +19491,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[19]";
-		INDEX = 673;
+		INDEX = 607;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20027,7 +19499,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[18]";
-		INDEX = 674;
+		INDEX = 608;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20035,7 +19507,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[17]";
-		INDEX = 675;
+		INDEX = 609;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20043,7 +19515,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[16]";
-		INDEX = 676;
+		INDEX = 610;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20051,7 +19523,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[15]";
-		INDEX = 677;
+		INDEX = 611;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20059,7 +19531,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[14]";
-		INDEX = 678;
+		INDEX = 612;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20067,7 +19539,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[13]";
-		INDEX = 679;
+		INDEX = 613;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20075,7 +19547,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[12]";
-		INDEX = 680;
+		INDEX = 614;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20083,7 +19555,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[11]";
-		INDEX = 681;
+		INDEX = 615;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20091,7 +19563,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[10]";
-		INDEX = 682;
+		INDEX = 616;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20099,7 +19571,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[9]";
-		INDEX = 683;
+		INDEX = 617;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20107,7 +19579,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[8]";
-		INDEX = 684;
+		INDEX = 618;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20115,7 +19587,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[7]";
-		INDEX = 685;
+		INDEX = 619;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20123,7 +19595,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[6]";
-		INDEX = 686;
+		INDEX = 620;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20131,7 +19603,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[5]";
-		INDEX = 687;
+		INDEX = 621;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20139,7 +19611,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[4]";
-		INDEX = 688;
+		INDEX = 622;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20147,7 +19619,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[3]";
-		INDEX = 689;
+		INDEX = 623;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20155,7 +19627,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[2]";
-		INDEX = 690;
+		INDEX = 624;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20163,7 +19635,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[1]";
-		INDEX = 691;
+		INDEX = 625;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20171,7 +19643,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "shiftOut[0]";
-		INDEX = 692;
+		INDEX = 626;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20179,7 +19651,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "sltOut";
-		INDEX = 693;
+		INDEX = 627;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20187,7 +19659,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh";
-		INDEX = 694;
+		INDEX = 628;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20195,7 +19667,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[31]";
-		INDEX = 695;
+		INDEX = 629;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20203,7 +19675,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[30]";
-		INDEX = 696;
+		INDEX = 630;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20211,7 +19683,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[29]";
-		INDEX = 697;
+		INDEX = 631;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20219,7 +19691,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[28]";
-		INDEX = 698;
+		INDEX = 632;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20227,7 +19699,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[27]";
-		INDEX = 699;
+		INDEX = 633;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20235,7 +19707,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[26]";
-		INDEX = 700;
+		INDEX = 634;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20243,7 +19715,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[25]";
-		INDEX = 701;
+		INDEX = 635;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20251,7 +19723,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[24]";
-		INDEX = 702;
+		INDEX = 636;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20259,7 +19731,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[23]";
-		INDEX = 703;
+		INDEX = 637;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20267,7 +19739,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[22]";
-		INDEX = 704;
+		INDEX = 638;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20275,7 +19747,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[21]";
-		INDEX = 705;
+		INDEX = 639;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20283,7 +19755,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[20]";
-		INDEX = 706;
+		INDEX = 640;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20291,7 +19763,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[19]";
-		INDEX = 707;
+		INDEX = 641;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20299,7 +19771,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[18]";
-		INDEX = 708;
+		INDEX = 642;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20307,7 +19779,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[17]";
-		INDEX = 709;
+		INDEX = 643;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20315,7 +19787,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[16]";
-		INDEX = 710;
+		INDEX = 644;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20323,7 +19795,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[15]";
-		INDEX = 711;
+		INDEX = 645;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20331,7 +19803,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[14]";
-		INDEX = 712;
+		INDEX = 646;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20339,7 +19811,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[13]";
-		INDEX = 713;
+		INDEX = 647;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20347,7 +19819,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[12]";
-		INDEX = 714;
+		INDEX = 648;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20355,7 +19827,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[11]";
-		INDEX = 715;
+		INDEX = 649;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20363,7 +19835,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[10]";
-		INDEX = 716;
+		INDEX = 650;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20371,7 +19843,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[9]";
-		INDEX = 717;
+		INDEX = 651;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20379,7 +19851,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[8]";
-		INDEX = 718;
+		INDEX = 652;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20387,7 +19859,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[7]";
-		INDEX = 719;
+		INDEX = 653;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20395,7 +19867,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[6]";
-		INDEX = 720;
+		INDEX = 654;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20403,7 +19875,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[5]";
-		INDEX = 721;
+		INDEX = 655;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20411,7 +19883,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[4]";
-		INDEX = 722;
+		INDEX = 656;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20419,7 +19891,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[3]";
-		INDEX = 723;
+		INDEX = 657;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20427,7 +19899,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[2]";
-		INDEX = 724;
+		INDEX = 658;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20435,7 +19907,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[1]";
-		INDEX = 725;
+		INDEX = 659;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20443,7 +19915,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "SourceSh[0]";
-		INDEX = 726;
+		INDEX = 660;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20451,7 +19923,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut";
-		INDEX = 727;
+		INDEX = 661;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20459,7 +19931,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[6]";
-		INDEX = 728;
+		INDEX = 662;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20467,7 +19939,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[5]";
-		INDEX = 729;
+		INDEX = 663;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20475,7 +19947,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[4]";
-		INDEX = 730;
+		INDEX = 664;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20483,7 +19955,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[3]";
-		INDEX = 731;
+		INDEX = 665;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20491,7 +19963,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[2]";
-		INDEX = 732;
+		INDEX = 666;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20499,7 +19971,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[1]";
-		INDEX = 733;
+		INDEX = 667;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20507,7 +19979,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "stateOut[0]";
-		INDEX = 734;
+		INDEX = 668;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20515,7 +19987,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT";
-		INDEX = 735;
+		INDEX = 669;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20523,7 +19995,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[31]";
-		INDEX = 736;
+		INDEX = 670;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20531,7 +20003,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[30]";
-		INDEX = 737;
+		INDEX = 671;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20539,7 +20011,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[29]";
-		INDEX = 738;
+		INDEX = 672;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20547,7 +20019,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[28]";
-		INDEX = 739;
+		INDEX = 673;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20555,7 +20027,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[27]";
-		INDEX = 740;
+		INDEX = 674;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20563,7 +20035,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[26]";
-		INDEX = 741;
+		INDEX = 675;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20571,7 +20043,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[25]";
-		INDEX = 742;
+		INDEX = 676;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20579,7 +20051,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[24]";
-		INDEX = 743;
+		INDEX = 677;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20587,7 +20059,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[23]";
-		INDEX = 744;
+		INDEX = 678;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20595,7 +20067,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[22]";
-		INDEX = 745;
+		INDEX = 679;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20603,7 +20075,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[21]";
-		INDEX = 746;
+		INDEX = 680;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20611,7 +20083,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[20]";
-		INDEX = 747;
+		INDEX = 681;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20619,7 +20091,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[19]";
-		INDEX = 748;
+		INDEX = 682;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20627,7 +20099,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[18]";
-		INDEX = 749;
+		INDEX = 683;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20635,7 +20107,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[17]";
-		INDEX = 750;
+		INDEX = 684;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20643,7 +20115,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[16]";
-		INDEX = 751;
+		INDEX = 685;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20651,7 +20123,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[15]";
-		INDEX = 752;
+		INDEX = 686;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20659,7 +20131,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[14]";
-		INDEX = 753;
+		INDEX = 687;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20667,7 +20139,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[13]";
-		INDEX = 754;
+		INDEX = 688;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20675,7 +20147,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[12]";
-		INDEX = 755;
+		INDEX = 689;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20683,7 +20155,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[11]";
-		INDEX = 756;
+		INDEX = 690;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20691,7 +20163,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[10]";
-		INDEX = 757;
+		INDEX = 691;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20699,7 +20171,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[9]";
-		INDEX = 758;
+		INDEX = 692;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20707,7 +20179,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[8]";
-		INDEX = 759;
+		INDEX = 693;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20715,7 +20187,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[7]";
-		INDEX = 760;
+		INDEX = 694;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20723,7 +20195,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[6]";
-		INDEX = 761;
+		INDEX = 695;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20731,7 +20203,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[5]";
-		INDEX = 762;
+		INDEX = 696;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20739,7 +20211,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[4]";
-		INDEX = 763;
+		INDEX = 697;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20747,7 +20219,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[3]";
-		INDEX = 764;
+		INDEX = 698;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20755,7 +20227,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[2]";
-		INDEX = 765;
+		INDEX = 699;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20763,7 +20235,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[1]";
-		INDEX = 766;
+		INDEX = 700;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20771,7 +20243,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeOUT[0]";
-		INDEX = 767;
+		INDEX = 701;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20779,7 +20251,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "storeWr";
-		INDEX = 768;
+		INDEX = 702;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20787,7 +20259,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t";
-		INDEX = 769;
+		INDEX = 703;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20795,7 +20267,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[31]";
-		INDEX = 770;
+		INDEX = 704;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20803,7 +20275,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[30]";
-		INDEX = 771;
+		INDEX = 705;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20811,7 +20283,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[29]";
-		INDEX = 772;
+		INDEX = 706;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20819,7 +20291,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[28]";
-		INDEX = 773;
+		INDEX = 707;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20827,7 +20299,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[27]";
-		INDEX = 774;
+		INDEX = 708;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20835,7 +20307,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[26]";
-		INDEX = 775;
+		INDEX = 709;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20843,7 +20315,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[25]";
-		INDEX = 776;
+		INDEX = 710;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20851,7 +20323,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[24]";
-		INDEX = 777;
+		INDEX = 711;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20859,7 +20331,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[23]";
-		INDEX = 778;
+		INDEX = 712;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20867,7 +20339,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[22]";
-		INDEX = 779;
+		INDEX = 713;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20875,7 +20347,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[21]";
-		INDEX = 780;
+		INDEX = 714;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20883,7 +20355,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[20]";
-		INDEX = 781;
+		INDEX = 715;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20891,7 +20363,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[19]";
-		INDEX = 782;
+		INDEX = 716;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20899,7 +20371,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[18]";
-		INDEX = 783;
+		INDEX = 717;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20907,7 +20379,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[17]";
-		INDEX = 784;
+		INDEX = 718;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20915,7 +20387,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[16]";
-		INDEX = 785;
+		INDEX = 719;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20923,7 +20395,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[15]";
-		INDEX = 786;
+		INDEX = 720;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20931,7 +20403,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[14]";
-		INDEX = 787;
+		INDEX = 721;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20939,7 +20411,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[13]";
-		INDEX = 788;
+		INDEX = 722;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20947,7 +20419,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[12]";
-		INDEX = 789;
+		INDEX = 723;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20955,7 +20427,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[11]";
-		INDEX = 790;
+		INDEX = 724;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20963,7 +20435,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[10]";
-		INDEX = 791;
+		INDEX = 725;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20971,7 +20443,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[9]";
-		INDEX = 792;
+		INDEX = 726;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20979,7 +20451,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[8]";
-		INDEX = 793;
+		INDEX = 727;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20987,7 +20459,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[7]";
-		INDEX = 794;
+		INDEX = 728;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -20995,7 +20467,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[6]";
-		INDEX = 795;
+		INDEX = 729;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21003,7 +20475,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[5]";
-		INDEX = 796;
+		INDEX = 730;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21011,7 +20483,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[4]";
-		INDEX = 797;
+		INDEX = 731;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21019,7 +20491,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[3]";
-		INDEX = 798;
+		INDEX = 732;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21027,7 +20499,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[2]";
-		INDEX = 799;
+		INDEX = 733;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21035,7 +20507,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[1]";
-		INDEX = 800;
+		INDEX = 734;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21043,7 +20515,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "ulaOut_t[0]";
-		INDEX = 801;
+		INDEX = 735;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21051,7 +20523,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData";
-		INDEX = 802;
+		INDEX = 736;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21059,7 +20531,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[31]";
-		INDEX = 803;
+		INDEX = 737;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21067,7 +20539,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[30]";
-		INDEX = 804;
+		INDEX = 738;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21075,7 +20547,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[29]";
-		INDEX = 805;
+		INDEX = 739;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21083,7 +20555,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[28]";
-		INDEX = 806;
+		INDEX = 740;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21091,7 +20563,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[27]";
-		INDEX = 807;
+		INDEX = 741;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21099,7 +20571,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[26]";
-		INDEX = 808;
+		INDEX = 742;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21107,7 +20579,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[25]";
-		INDEX = 809;
+		INDEX = 743;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21115,7 +20587,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[24]";
-		INDEX = 810;
+		INDEX = 744;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21123,7 +20595,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[23]";
-		INDEX = 811;
+		INDEX = 745;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21131,7 +20603,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[22]";
-		INDEX = 812;
+		INDEX = 746;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21139,7 +20611,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[21]";
-		INDEX = 813;
+		INDEX = 747;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21147,7 +20619,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[20]";
-		INDEX = 814;
+		INDEX = 748;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21155,7 +20627,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[19]";
-		INDEX = 815;
+		INDEX = 749;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21163,7 +20635,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[18]";
-		INDEX = 816;
+		INDEX = 750;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21171,7 +20643,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[17]";
-		INDEX = 817;
+		INDEX = 751;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21179,7 +20651,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[16]";
-		INDEX = 818;
+		INDEX = 752;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21187,7 +20659,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[15]";
-		INDEX = 819;
+		INDEX = 753;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21195,7 +20667,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[14]";
-		INDEX = 820;
+		INDEX = 754;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21203,7 +20675,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[13]";
-		INDEX = 821;
+		INDEX = 755;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21211,7 +20683,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[12]";
-		INDEX = 822;
+		INDEX = 756;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21219,7 +20691,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[11]";
-		INDEX = 823;
+		INDEX = 757;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21227,7 +20699,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[10]";
-		INDEX = 824;
+		INDEX = 758;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21235,7 +20707,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[9]";
-		INDEX = 825;
+		INDEX = 759;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21243,7 +20715,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[8]";
-		INDEX = 826;
+		INDEX = 760;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21251,7 +20723,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[7]";
-		INDEX = 827;
+		INDEX = 761;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21259,7 +20731,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[6]";
-		INDEX = 828;
+		INDEX = 762;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21267,7 +20739,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[5]";
-		INDEX = 829;
+		INDEX = 763;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21275,7 +20747,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[4]";
-		INDEX = 830;
+		INDEX = 764;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21283,7 +20755,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[3]";
-		INDEX = 831;
+		INDEX = 765;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21291,7 +20763,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[2]";
-		INDEX = 832;
+		INDEX = 766;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21299,7 +20771,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[1]";
-		INDEX = 833;
+		INDEX = 767;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21307,7 +20779,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrData[0]";
-		INDEX = 834;
+		INDEX = 768;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21315,7 +20787,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg";
-		INDEX = 835;
+		INDEX = 769;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21323,7 +20795,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg[4]";
-		INDEX = 836;
+		INDEX = 770;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21331,7 +20803,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg[3]";
-		INDEX = 837;
+		INDEX = 771;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21339,7 +20811,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg[2]";
-		INDEX = 838;
+		INDEX = 772;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21347,7 +20819,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg[1]";
-		INDEX = 839;
+		INDEX = 773;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21355,7 +20827,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "wrReg[0]";
-		INDEX = 840;
+		INDEX = 774;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21363,7 +20835,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG";
-		INDEX = 841;
+		INDEX = 775;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21371,7 +20843,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[31]";
-		INDEX = 842;
+		INDEX = 776;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21379,7 +20851,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[30]";
-		INDEX = 843;
+		INDEX = 777;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21387,7 +20859,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[29]";
-		INDEX = 844;
+		INDEX = 778;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21395,7 +20867,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[28]";
-		INDEX = 845;
+		INDEX = 779;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21403,7 +20875,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[27]";
-		INDEX = 846;
+		INDEX = 780;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21411,7 +20883,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[26]";
-		INDEX = 847;
+		INDEX = 781;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21419,7 +20891,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[25]";
-		INDEX = 848;
+		INDEX = 782;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21427,7 +20899,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[24]";
-		INDEX = 849;
+		INDEX = 783;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21435,7 +20907,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[23]";
-		INDEX = 850;
+		INDEX = 784;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21443,7 +20915,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[22]";
-		INDEX = 851;
+		INDEX = 785;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21451,7 +20923,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[21]";
-		INDEX = 852;
+		INDEX = 786;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21459,7 +20931,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[20]";
-		INDEX = 853;
+		INDEX = 787;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21467,7 +20939,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[19]";
-		INDEX = 854;
+		INDEX = 788;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21475,7 +20947,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[18]";
-		INDEX = 855;
+		INDEX = 789;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21483,7 +20955,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[17]";
-		INDEX = 856;
+		INDEX = 790;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21491,7 +20963,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[16]";
-		INDEX = 857;
+		INDEX = 791;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21499,7 +20971,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[15]";
-		INDEX = 858;
+		INDEX = 792;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21507,7 +20979,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[14]";
-		INDEX = 859;
+		INDEX = 793;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21515,7 +20987,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[13]";
-		INDEX = 860;
+		INDEX = 794;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21523,7 +20995,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[12]";
-		INDEX = 861;
+		INDEX = 795;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21531,7 +21003,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[11]";
-		INDEX = 862;
+		INDEX = 796;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21539,7 +21011,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[10]";
-		INDEX = 863;
+		INDEX = 797;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21547,7 +21019,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[9]";
-		INDEX = 864;
+		INDEX = 798;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21555,7 +21027,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[8]";
-		INDEX = 865;
+		INDEX = 799;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21563,7 +21035,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[7]";
-		INDEX = 866;
+		INDEX = 800;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21571,7 +21043,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[6]";
-		INDEX = 867;
+		INDEX = 801;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21579,7 +21051,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[5]";
-		INDEX = 868;
+		INDEX = 802;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21587,7 +21059,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[4]";
-		INDEX = 869;
+		INDEX = 803;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21595,7 +21067,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[3]";
-		INDEX = 870;
+		INDEX = 804;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21603,7 +21075,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[2]";
-		INDEX = 871;
+		INDEX = 805;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21611,7 +21083,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[1]";
-		INDEX = 872;
+		INDEX = 806;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21619,7 +21091,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xCHG[0]";
-		INDEX = 873;
+		INDEX = 807;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21627,7 +21099,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT";
-		INDEX = 874;
+		INDEX = 808;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21635,7 +21107,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[31]";
-		INDEX = 875;
+		INDEX = 809;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21643,7 +21115,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[30]";
-		INDEX = 876;
+		INDEX = 810;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21651,7 +21123,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[29]";
-		INDEX = 877;
+		INDEX = 811;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21659,7 +21131,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[28]";
-		INDEX = 878;
+		INDEX = 812;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21667,7 +21139,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[27]";
-		INDEX = 879;
+		INDEX = 813;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21675,7 +21147,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[26]";
-		INDEX = 880;
+		INDEX = 814;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21683,7 +21155,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[25]";
-		INDEX = 881;
+		INDEX = 815;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21691,7 +21163,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[24]";
-		INDEX = 882;
+		INDEX = 816;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21699,7 +21171,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[23]";
-		INDEX = 883;
+		INDEX = 817;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21707,7 +21179,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[22]";
-		INDEX = 884;
+		INDEX = 818;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21715,7 +21187,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[21]";
-		INDEX = 885;
+		INDEX = 819;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21723,7 +21195,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[20]";
-		INDEX = 886;
+		INDEX = 820;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21731,7 +21203,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[19]";
-		INDEX = 887;
+		INDEX = 821;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21739,7 +21211,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[18]";
-		INDEX = 888;
+		INDEX = 822;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21747,7 +21219,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[17]";
-		INDEX = 889;
+		INDEX = 823;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21755,7 +21227,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[16]";
-		INDEX = 890;
+		INDEX = 824;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21763,7 +21235,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[15]";
-		INDEX = 891;
+		INDEX = 825;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21771,7 +21243,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[14]";
-		INDEX = 892;
+		INDEX = 826;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21779,7 +21251,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[13]";
-		INDEX = 893;
+		INDEX = 827;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21787,7 +21259,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[12]";
-		INDEX = 894;
+		INDEX = 828;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21795,7 +21267,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[11]";
-		INDEX = 895;
+		INDEX = 829;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21803,7 +21275,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[10]";
-		INDEX = 896;
+		INDEX = 830;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21811,7 +21283,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[9]";
-		INDEX = 897;
+		INDEX = 831;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21819,7 +21291,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[8]";
-		INDEX = 898;
+		INDEX = 832;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21827,7 +21299,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[7]";
-		INDEX = 899;
+		INDEX = 833;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21835,7 +21307,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[6]";
-		INDEX = 900;
+		INDEX = 834;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21843,7 +21315,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[5]";
-		INDEX = 901;
+		INDEX = 835;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21851,7 +21323,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[4]";
-		INDEX = 902;
+		INDEX = 836;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21859,7 +21331,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[3]";
-		INDEX = 903;
+		INDEX = 837;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21867,7 +21339,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[2]";
-		INDEX = 904;
+		INDEX = 838;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21875,7 +21347,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[1]";
-		INDEX = 905;
+		INDEX = 839;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -21883,7 +21355,7 @@ VECTOR("E:/Users/fmln/Downloads/cpu_hardware/CPUQuartus/schemeHard.vwf")
 	}
 	LINE{
 		SIGNAL = "xchgOUT[0]";
-		INDEX = 906;
+		INDEX = 840;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

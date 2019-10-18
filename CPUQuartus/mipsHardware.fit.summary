@@ -1,17 +1,17 @@
-Fitter Status : Successful - Fri Oct 18 16:12:27 2019
+Fitter Status : Successful - Fri Oct 18 17:25:28 2019
 Quartus II 64-Bit Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
 Revision Name : mipsHardware
 Top-level Entity Name : schemeHard
 Family : Stratix II
-Device : EP2S90F1508C3
+Device : EP2S130F1508C3
 Timing Models : Final
-Logic utilization : 5 %
-    Combinational ALUTs : 2,362 / 72,768 ( 3 % )
-    Dedicated logic registers : 1,563 / 72,768 ( 2 % )
-Total registers : 1563
-Total pins : 741 / 903 ( 82 % )
+Logic utilization : 4 %
+    Combinational ALUTs : 2,570 / 106,032 ( 2 % )
+    Dedicated logic registers : 1,823 / 106,032 ( 2 % )
+Total registers : 1823
+Total pins : 870 / 1,127 ( 77 % )
 Total virtual pins : 0
-Total block memory bits : 8,192 / 4,520,448 ( < 1 % )
-DSP block 9-bit elements : 0 / 384 ( 0 % )
+Total block memory bits : 8,192 / 6,747,840 ( < 1 % )
+DSP block 9-bit elements : 0 / 504 ( 0 % )
 Total PLLs : 0 / 12 ( 0 % )
 Total DLLs : 0 / 2 ( 0 % )

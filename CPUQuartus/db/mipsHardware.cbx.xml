@@ -793,12 +793,14 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux17" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux8" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|memToReg:inst7|lpm_mux:Mux16" CBX_FILE_NAME="mux_lpc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|unidadeControle:inst25|lpm_mux:Mux52" CBX_FILE_NAME="mux_qpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux1008" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux108" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux18" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux9" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux900" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|memToReg:inst7|lpm_mux:Mux17" CBX_FILE_NAME="mux_lpc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|unidadeControle:inst25|lpm_mux:Mux53" CBX_FILE_NAME="mux_qpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux1009" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux109" CBX_FILE_NAME="mux_kpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|schemeHard|Banco_reg:inst6|lpm_mux:Mux19" CBX_FILE_NAME="mux_kpc.tdf"/>

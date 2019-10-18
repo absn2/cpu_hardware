@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 224 528)
+	(rect 16 16 224 560)
 	(text "unidadeControle" (rect 5 0 84 12)(font "Arial" ))
-	(text "inst" (rect 8 496 25 508)(font "Arial" ))
+	(text "inst" (rect 8 528 25 540)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -99,6 +99,20 @@ applicable agreement for further details.
 		(text "multStop" (rect 0 0 43 12)(font "Arial" ))
 		(text "multStop" (rect 21 187 64 199)(font "Arial" ))
 		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "divStop" (rect 0 0 37 12)(font "Arial" ))
+		(text "divStop" (rect 21 203 58 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "divByZero" (rect 0 0 51 12)(font "Arial" ))
+		(text "divByZero" (rect 21 219 72 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
 	)
 	(port
 		(pt 208 32)
@@ -302,6 +316,13 @@ applicable agreement for further details.
 		(text "multBegin" (rect 0 0 48 12)(font "Arial" ))
 		(text "multBegin" (rect 139 475 187 487)(font "Arial" ))
 		(line (pt 208 480)(pt 192 480)(line_width 1))
+	)
+	(port
+		(pt 208 496)
+		(output)
+		(text "divBegin" (rect 0 0 42 12)(font "Arial" ))
+		(text "divBegin" (rect 145 491 187 503)(font "Arial" ))
+		(line (pt 208 496)(pt 192 496)(line_width 1))
 	)
 	(parameter
 		"fetch1"
@@ -524,6 +545,16 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"div2"
+		"0101101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"div3"
+		"0101110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"closeWR"
 		"1000100"
 		""
@@ -586,6 +617,11 @@ applicable agreement for further details.
 	(parameter
 		"mult"
 		"011000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"div"
+		"011010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
@@ -694,7 +730,7 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(drawing
-		(rectangle (rect 16 16 192 496)(line_width 1))
+		(rectangle (rect 16 16 192 528)(line_width 1))
 	)
 	(annotation_block (parameter)(rect 224 -64 324 16))
 )

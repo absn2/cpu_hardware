@@ -6,9 +6,9 @@ module div(
 	input logic divControl,
 	output logic divStop, // sinal informando que acabou o algoritmo
 	output logic divZero, 
-	output logic [64:0] qOut,
-	output logic [31:0] bOut,
-	output logic [31:0] dividendOut,
+	//output logic [64:0] qOut,
+	//output logic [31:0] bOut,
+	//output logic [31:0] dividendOut,
 	output logic [64:0] quotientOut,
 	output logic [31:0]hi,
 	output logic [31:0]lo
@@ -39,10 +39,9 @@ always @ (posedge clk) begin
 	
 	remainder = remainder - divisor;
 	
-	dividendOut = dividend;
-	bOut = remainder;
-	qOut = divisor;
-	
+	//dividendOut = dividend;
+	//bOut = remainder;
+	//qOut = divisor;
 	
 	if(remainder >= 0) begin
 		quotient = quotient << 1;
@@ -64,7 +63,7 @@ always @ (posedge clk) begin
 	if(counter == 0) begin
 		hi = quotient[64:33];
 		lo = quotient[32:1];
-		quotientOut = quotient;
+		//quotientOut = quotient;
 		divStop = 0;
 		counter = -10;		
 	end
@@ -73,6 +72,7 @@ always @ (posedge clk) begin
 		remainder = 32'd0;
 		quotient = 65'b0;
 	end
+	quotientOut = quotient;
 	//qOut = quotient;
 end
 

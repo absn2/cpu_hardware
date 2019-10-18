@@ -46,11 +46,12 @@ always @ (posedge clk) begin
 		produto[64] = 1'b1;
 	end
 	
+	
 	if(counter > 1) begin
 		counter = (counter - 1);
 	end
 	if(counter == 1) begin
-		hi = 32'b0;
+		hi = produto[64:33];
 		lo = produto[32:1];
 		counter = -10;	
 		multStop = 1'b1;				

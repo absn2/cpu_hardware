@@ -64,7 +64,7 @@ always @ (posedge clk) begin
 	if(counter == 0) begin
 		hi = quotient[64:33];
 		lo = quotient[32:1];
-		quotientOut = quotient;
+		//quotientOut = quotient;
 		divStop = 0;
 		counter = -10;		
 	end
@@ -73,6 +73,7 @@ always @ (posedge clk) begin
 		remainder = 32'd0;
 		quotient = 65'b0;
 	end
+	quotientOut = quotient;
 	//qOut = quotient;
 end
 
