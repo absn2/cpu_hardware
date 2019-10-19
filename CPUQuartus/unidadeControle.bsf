@@ -306,8 +306,8 @@ applicable agreement for further details.
 	(port
 		(pt 208 464)
 		(output)
-		(text "muxpcsource[1..0]" (rect 0 0 92 12)(font "Arial" ))
-		(text "muxpcsource[1..0]" (rect 95 459 187 471)(font "Arial" ))
+		(text "muxpcsource[2..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "muxpcsource[2..0]" (rect 95 459 187 471)(font "Arial" ))
 		(line (pt 208 464)(pt 192 464)(line_width 3))
 	)
 	(port
@@ -552,6 +552,66 @@ applicable agreement for further details.
 	(parameter
 		"div3"
 		"0101110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"overflowEx"
+		"0101111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"overflowEx2"
+		"0110000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"overflowEx3"
+		"0110001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"overflowEx4"
+		"0110010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"divByZeroEx"
+		"0110011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"divByZeroEx2"
+		"0110100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"divByZeroEx3"
+		"0110101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"divByZeroEx4"
+		"0110110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"opcodeEx"
+		"0110111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"opcodeEx2"
+		"0111000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"opcodeEx3"
+		"0111001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"opcodeEx4"
+		"0111010"
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter

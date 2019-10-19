@@ -19,6 +19,11 @@ integer counter = 33;
 
 always @ (posedge clk) begin
 	if(Reset == 1)begin
+		soma = 65'd0;
+		sub = 65'd0;
+		produto = 65'd0;
+		comp2 = 65'd0;
+		counter = 33;
 		hi = 32'd0;
 		lo = 32'd0;
 		multStop = 1'b0;

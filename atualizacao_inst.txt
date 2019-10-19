@@ -1,5 +1,5 @@
 
-// = falta terminar
+
 
 
 ----r----
@@ -16,7 +16,7 @@ slt
 break
 rte
 xcgh
-//div e mult
+div e mult
 
 ----i----
 addi
@@ -27,7 +27,7 @@ bgt
 ble
 slti
 lui
-// blm
+blm
 lw
 lh
 lb 
@@ -39,4 +39,4 @@ sb
 j
 jal
 
-// tratamento de exceção
+tratamento de exceção

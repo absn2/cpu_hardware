@@ -9,71 +9,99 @@ module div(
 	//output logic [64:0] qOut,
 	//output logic [31:0] bOut,
 	//output logic [31:0] dividendOut,
-	output logic [64:0] quotientOut,
-	output logic [31:0]hi,
-	output logic [31:0]lo
+	output logic [31:0]hiDiv,
+	output logic [31:0]loDiv
 );
 
-initial begin 
-	dividend = -20;
-end
 
-integer counter = 32;
-logic [64:0] quotient = 0;
+integer counter = 31;
+logic [31:0] quotient;
 logic [31:0] remainder;
 logic [31:0] dividend;
 logic [31:0] divisor;
+logic g;
+logic j;
+
+initial begin
+	divStop = 1'b0;
+end
 
 
 always @ (posedge clk) begin
-	if(counter == 32) begin
+	if(reset == 1'b1) begin
+		quotient = 32'b0;
+		remainder = 32'b0;
+		dividend = 32'b0;
+		divisor = 32'b0;
+		g = 1'b0;
+		j = 1'b0;
+		counter = 0;
+	end
+	
+	if(divControl == 1'b1) begin
+		loDiv = 32'd0;
+		hiDiv = 32'd0;
+		counter = 31;
 		dividend = a;
 		divisor = b;
+		divStop = 1'b0;
+		if(divisor == 0) begin // checking possible divByZero Exception
+			divZero = 1'b1;
+			counter = 0;
+		end else begin
+			divZero = 1'b0;
+		end
+				
+		if(a[31] != b[31]) begin
+			g = 1'b1;
+		end else begin
+			g = 1'b0;
+		end
+		if(dividend[31] == 1'b1) begin
+			dividend = (~dividend + 32'd1);
+			j = 1'b1;
+		end else begin
+			j = 1'b0;
+		end	
+		if(divisor[31] == 1'b1) begin
+			divisor = (~divisor + 32'd1);
+		end
+		quotient = 32'b0;
+		remainder = 32'b0;				
 	end
 	
-	remainder = (dividend%divisor);
+	remainder = (remainder << 1);
 	
-	if(dividend == 0) begin
-		divZero = 1;
-	end
+	remainder[0] = dividend[counter];
 	
-	remainder = remainder - divisor;
-	
-	//dividendOut = dividend;
-	//bOut = remainder;
-	//qOut = divisor;
-	
-	if(remainder >= 0) begin
-		quotient = quotient << 1;
-		quotient[0] = 1'b1;
-	end
-	
-	if(remainder < 0) begin
-		remainder = remainder + divisor;
-		quotient = quotient << 1;
-		quotient[0] = 1'b0;
-	end
-
-	divisor = divisor >> 1;
-	
-	if(counter > 0) begin
-		counter = counter - 1;
-	end
+	if(remainder >= divisor) begin
+		remainder = remainder - divisor;
+		quotient[counter] = 1;
+	end	
 	
 	if(counter == 0) begin
-		hi = quotient[64:33];
-		lo = quotient[32:1];
-		//quotientOut = quotient;
-		divStop = 0;
-		counter = -10;		
+		loDiv = quotient;
+		hiDiv = remainder;
+		divStop = 1'b1;
+		if(g == 1'b1) begin
+			loDiv = (~loDiv + 1);
+		end
+		if(j == 1'b1) begin
+			hiDiv = (~hiDiv + 1);
+		end
+		counter = -10;
 	end
 	
 	if(counter == -10) begin
-		remainder = 32'd0;
-		quotient = 65'b0;
+		quotient = 32'b0;
+		remainder = 32'b0;
+		dividend = 32'b0;
+		divisor = 32'b0;
+		g = 1'b0;
+		counter = 0;
 	end
-	quotientOut = quotient;
-	//qOut = quotient;
+	counter = (counter - 1);// check the cases where the remainder can be 0
+		
 end
 
 endmodule: div
