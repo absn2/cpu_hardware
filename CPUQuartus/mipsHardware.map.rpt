@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mipsHardware
-Sat Oct 19 02:35:40 2019
+Sat Oct 19 03:14:27 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -59,13 +59,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sat Oct 19 02:35:40 2019         ;
+; Analysis & Synthesis Status   ; Successful - Sat Oct 19 03:14:27 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; mipsHardware                                  ;
 ; Top-level Entity Name         ; schemeHard                                    ;
 ; Family                        ; Stratix II                                    ;
 ; Logic utilization             ; N/A                                           ;
-;     Combinational ALUTs       ; 3,132                                         ;
+;     Combinational ALUTs       ; 3,116                                         ;
 ;     Dedicated logic registers ; 1,938                                         ;
 ; Total registers               ; 1938                                          ;
 ; Total pins                    ; 808                                           ;
@@ -222,38 +222,38 @@ applicable agreement for further details.
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 3132  ;
+; Estimated ALUTs Used                          ; 3116  ;
 ; Dedicated logic registers                     ; 1938  ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 403   ;
+; Estimated ALUTs Unavailable                   ; 407   ;
 ;                                               ;       ;
-; Total combinational functions                 ; 3132  ;
+; Total combinational functions                 ; 3116  ;
 ; Combinational ALUT usage by number of inputs  ;       ;
 ;     -- 7 input functions                      ; 18    ;
-;     -- 6 input functions                      ; 1191  ;
-;     -- 5 input functions                      ; 540   ;
-;     -- 4 input functions                      ; 546   ;
-;     -- <=3 input functions                    ; 837   ;
+;     -- 6 input functions                      ; 1195  ;
+;     -- 5 input functions                      ; 526   ;
+;     -- 4 input functions                      ; 545   ;
+;     -- <=3 input functions                    ; 832   ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 2834  ;
+;     -- normal mode                            ; 2818  ;
 ;     -- extended LUT mode                      ; 18    ;
 ;     -- arithmetic mode                        ; 280   ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 4540  ;
+; Estimated ALUT/register pairs used            ; 4528  ;
 ;                                               ;       ;
 ; Total registers                               ; 1938  ;
 ;     -- Dedicated logic registers              ; 1938  ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 2,270 ;
+; Estimated ALMs:  partially or completely used ; 2,264 ;
 ;                                               ;       ;
 ; I/O pins                                      ; 808   ;
 ; Total block memory bits                       ; 8192  ;
 ; Maximum fan-out node                          ; clk   ;
 ; Maximum fan-out                               ; 1971  ;
-; Total fan-out                                 ; 23265 ;
+; Total fan-out                                 ; 23206 ;
 ; Average fan-out                               ; 3.94  ;
 +-----------------------------------------------+-------+
 
@@ -263,7 +263,7 @@ applicable agreement for further details.
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |schemeHard                                     ; 3132 (2)          ; 1938 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 808  ; 0            ; |schemeHard                                                                                                         ; work         ;
+; |schemeHard                                     ; 3116 (2)          ; 1938 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 808  ; 0            ; |schemeHard                                                                                                         ; work         ;
 ;    |Banco_reg:inst6|                            ; 736 (736)         ; 1024 (1024)  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Banco_reg:inst6                                                                                         ; work         ;
 ;    |Instr_Reg:inst4|                            ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Instr_Reg:inst4                                                                                         ; work         ;
 ;    |Memoria:inst2|                              ; 23 (23)           ; 0 (0)        ; 8192              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2                                                                                           ; work         ;
@@ -293,9 +293,9 @@ applicable agreement for further details.
 ;    |Registrador:hiUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:hiUnit                                                                                      ; work         ;
 ;    |Registrador:loUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:loUnit                                                                                      ; work         ;
 ;    |Registrador:xchgUnit|                       ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:xchgUnit                                                                                    ; work         ;
-;    |Ula32:inst3|                                ; 164 (164)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
+;    |Ula32:inst3|                                ; 163 (163)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
 ;    |aluSrcA:inst|                               ; 65 (65)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcA:inst                                                                                            ; work         ;
-;    |aluSrcB:inst1|                              ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
+;    |aluSrcB:inst1|                              ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
 ;    |branchMux:inst20|                           ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|branchMux:inst20                                                                                        ; work         ;
 ;    |div:inst31|                                 ; 529 (529)         ; 227 (227)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|div:inst31                                                                                              ; work         ;
 ;    |iord:inst5|                                 ; 67 (67)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|iord:inst5                                                                                              ; work         ;
@@ -307,7 +307,7 @@ applicable agreement for further details.
 ;    |setSize:inst30|                             ; 57 (57)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|setSize:inst30                                                                                          ; work         ;
 ;    |shiftSrcA:inst18|                           ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcA:inst18                                                                                        ; work         ;
 ;    |shiftSrcB:inst19|                           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcB:inst19                                                                                        ; work         ;
-;    |unidadeControle:inst25|                     ; 404 (404)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
+;    |unidadeControle:inst25|                     ; 390 (390)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
 ;    |xchgMux:inst10|                             ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|xchgMux:inst10                                                                                          ; work         ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -548,7 +548,7 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 ; Number of registers using Synchronous Load   ; 148   ;
 ; Number of registers using Asynchronous Clear ; 1376  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1412  ;
+; Number of registers using Clock Enable       ; 1414  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -582,6 +582,7 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 ; 13:1               ; 13 bits   ; 104 ALUTs     ; 52 ALUTs             ; 52 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[13]             ;
 ; 13:1               ; 13 bits   ; 104 ALUTs     ; 78 ALUTs             ; 26 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[18]             ;
 ; 136:1              ; 2 bits    ; 180 ALUTs     ; 30 ALUTs             ; 150 ALUTs              ; Yes        ; |schemeHard|unidadeControle:inst25|muxmemtoreg[1] ;
+; 136:1              ; 2 bits    ; 180 ALUTs     ; 30 ALUTs             ; 150 ALUTs              ; Yes        ; |schemeHard|unidadeControle:inst25|muxpcsource[0] ;
 ; 3:1                ; 58 bits   ; 116 ALUTs     ; 116 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|remainder                  ;
 ; 3:1                ; 7 bits    ; 14 ALUTs      ; 14 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|counter                    ;
 ; 3:1                ; 64 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|mult:inst28|counter                   ;
@@ -891,7 +892,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Sat Oct 19 02:35:21 2019
+    Info: Processing started: Sat Oct 19 03:14:07 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mipsHardware -c mipsHardware
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file setsize.sv
@@ -1642,15 +1643,15 @@ Info: 7 registers lost all their fanouts during netlist optimizations. The first
 Warning: Ignored assignments for entity "mipsHardware" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity mipsHardware -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity mipsHardware -section_id "Root Region" was ignored
-Info: Implemented 5545 device resources after synthesis - the final resource count might be different
+Info: Implemented 5529 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
     Info: Implemented 806 output pins
-    Info: Implemented 4705 logic cells
+    Info: Implemented 4689 logic cells
     Info: Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 424 warnings
     Info: Peak virtual memory: 4539 megabytes
-    Info: Processing ended: Sat Oct 19 02:35:40 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:38
+    Info: Processing ended: Sat Oct 19 03:14:27 2019
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:39
 
 

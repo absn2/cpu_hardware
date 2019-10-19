@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sat Oct 19 02:35:40 2019
+Analysis & Synthesis Status : Successful - Sat Oct 19 03:14:27 2019
 Quartus II 64-Bit Version : 9.1 Build 350 03/24/2010 SP 2 SJ Full Version
 Revision Name : mipsHardware
 Top-level Entity Name : schemeHard
 Family : Stratix II
 Logic utilization : N/A
-    Combinational ALUTs : 3,132
+    Combinational ALUTs : 3,116
     Dedicated logic registers : 1,938
 Total registers : 1938
 Total pins : 808

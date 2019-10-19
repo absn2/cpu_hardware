@@ -1469,7 +1469,7 @@ always @(posedge clk) begin
 							 muxshiftsrcb = 1'd0;
 							 muxxxchgctrl = 1'd0;
 							 pcwrite = 1'd0;
-							 pcwritecond = 1'd1;
+							 pcwritecond = 1'd0; // <----
 							 regwrite = 1'd0; 
 							 shiftcontrol = 3'd0;
 							 sscontrol = 2'd0;
@@ -2458,7 +2458,7 @@ always @(posedge clk) begin
 					muxhi = 1'd0;
 					muxlo = 1'd0;
 					muxmemtoreg = 4'd9; 
-					muxpcsource = 2'd0;
+					muxpcsource = 2'd1; // <---
 					muxregdst = 3'd2; 
 					muxshiftsrca = 1'd0;
 					muxshiftsrcb = 1'd0;

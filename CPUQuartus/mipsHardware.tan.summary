@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 14.582 ns
+Actual Time    : 14.511 ns
 From           : reset
-To             : div:inst31|loDiv[29]
+To             : div:inst31|loDiv[15]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 20.661 ns
-From           : aluSrcA:inst|aluSrcAOut[4]
-To             : aluresult[31]
+Actual Time    : 21.574 ns
+From           : aluSrcA:inst|aluSrcAOut[0]
+To             : sltOut
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -25,7 +25,7 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.196 ns
+Actual Time    : 7.137 ns
 From           : reset
 To             : resetD2
 From Clock     : --
@@ -35,9 +35,9 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.097 ns
+Actual Time    : -2.153 ns
 From           : reset
-To             : unidadeControle:inst25|stateOut[2]
+To             : unidadeControle:inst25|stateOut[4]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -45,9 +45,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 35.90 MHz ( period = 27.854 ns )
-From           : aluSrcA:inst|aluSrcAOut[4]
-To             : Registrador:PC|Saida[21]
+Actual Time    : 35.12 MHz ( period = 28.472 ns )
+From           : aluSrcA:inst|aluSrcAOut[0]
+To             : Registrador:PC|Saida[14]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -56,11 +56,11 @@ Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Registrador:PC|Saida[9]
-To             : aluSrcA:inst|aluSrcAOut[9]
+From           : Registrador:B|Saida[0]
+To             : setSize:inst30|saidaSetSize[0]
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 1689
+Failed Paths   : 1938
 
 Type           : Total number of failed paths
 Slack          : 
@@ -70,7 +70,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 1689
+Failed Paths   : 1938
 
 --------------------------------------------------------------------------------------
 
