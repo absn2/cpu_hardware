@@ -8,23 +8,13 @@ module setSize(
 always @ (*) 
 	begin
 		if(SSControl == 2'b01) begin // word
-			for (int i = 0; i < 32; i++) begin
-				saidaSetSize[i] = B[i];
-			end
-		end else if(SSControl == 2'b10) begin // halfword
-			for (int i = 0; i < 16; i++) begin
-				saidaSetSize[i] = B[i];
-			end
-			for (int i = 16; i < 32; i++) begin
-				saidaSetSize[i] = Data[i];
-			end			
-		end else if(SSControl == 2'b11) begin // byte
-			for (int i = 0; i < 8; i++) begin
-				saidaSetSize[i] = B[i];
-			end
-			for (int i = 8; i < 32; i++) begin
-				saidaSetSize[i] = Data[i];
-			end
+			saidaSetSize = B;
+		end 
+		else if(SSControl == 2'b10) begin // halfword
+			saidaSetSize = {Data[31:16],B[15:0]};
+		end 
+		else if(SSControl == 2'b11) begin // byte
+			saidaSetSize = {Data[31:8],B[7:0]};
 		end
 	end
 endmodule: setSize

@@ -53,45 +53,44 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity aluSrcA -secti
 set_global_assignment -name PARTITION_COLOR 16764057 -entity aluSrcA -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity aluSrcA -section_id Top
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE ON
-set_global_assignment -name SIMULATOR_POWERPLAY_VCD_FILE_OUTPUT_DESTINATION mipsHardware.vcd
+set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE OFF
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE schemeHard.vwf
-set_global_assignment -name SYSTEMVERILOG_FILE setSize.sv
-set_global_assignment -name SYSTEMVERILOG_FILE loadSize.sv
-set_global_assignment -name SYSTEMVERILOG_FILE concat.sv
-set_global_assignment -name MIF_FILE instrucoes.mif
-set_global_assignment -name SYSTEMVERILOG_FILE memToReg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE signExtend16to32.sv
-set_global_assignment -name BDF_FILE schemeHard.bdf
-set_global_assignment -name SYSTEMVERILOG_FILE regDST.sv
-set_global_assignment -name VHDL_FILE Banco_reg.vhd
-set_global_assignment -name SYSTEMVERILOG_FILE iord.sv
-set_global_assignment -name VHDL_FILE Registrador.vhd
-set_global_assignment -name VHDL_FILE Instr_Reg.vhd
-set_global_assignment -name VHDL_FILE Memoria.vhd
-set_global_assignment -name VHDL_FILE RegDesloc.vhd
-set_global_assignment -name VHDL_FILE ula32.vhd
-set_global_assignment -name SYSTEMVERILOG_FILE unidadeControle.sv
-set_global_assignment -name SYSTEMVERILOG_FILE aluSrcA.sv
-set_global_assignment -name SYSTEMVERILOG_FILE aluSrcB.sv
-set_global_assignment -name SYSTEMVERILOG_FILE pcSource.sv
-set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft2_2.sv
-set_global_assignment -name VECTOR_WAVEFORM_FILE schemeHard.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE testecontrole.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Banco_reg.vwf
-set_global_assignment -name SYSTEMVERILOG_FILE xchgMux.sv
-set_global_assignment -name SYSTEMVERILOG_FILE signExtend1to32.sv
-set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcA.sv
-set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcB.sv
-set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft16.sv
-set_global_assignment -name SYSTEMVERILOG_FILE branchMux.sv
-set_global_assignment -name SYSTEMVERILOG_FILE div.sv
-set_global_assignment -name SYSTEMVERILOG_FILE mult.sv
-set_global_assignment -name SYSTEMVERILOG_FILE loadOnlyByte.sv
-set_global_assignment -name SYSTEMVERILOG_FILE muxHi.sv
-set_global_assignment -name SYSTEMVERILOG_FILE muxLo.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name MIF_FILE instrucoes.mif
+set_global_assignment -name VHDL_FILE Registrador.vhd
+set_global_assignment -name VHDL_FILE Banco_reg.vhd
+set_global_assignment -name VHDL_FILE Instr_Reg.vhd
+set_global_assignment -name VHDL_FILE Memoria.vhd
+set_global_assignment -name VHDL_FILE ula32.vhd
+set_global_assignment -name VHDL_FILE RegDesloc.vhd
+set_global_assignment -name BDF_FILE schemeHard.bdf
+set_global_assignment -name SYSTEMVERILOG_FILE aluSrcA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE aluSrcB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE branchMux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE concat.sv
+set_global_assignment -name SYSTEMVERILOG_FILE iord.sv
+set_global_assignment -name SYSTEMVERILOG_FILE regDST.sv
+set_global_assignment -name SYSTEMVERILOG_FILE setSize.sv
+set_global_assignment -name SYSTEMVERILOG_FILE loadSize.sv
+set_global_assignment -name SYSTEMVERILOG_FILE memToReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE signExtend16to32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE unidadeControle.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcSource.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft2_2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE signExtend1to32.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftLeft16.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE shiftSrcB.sv
+set_global_assignment -name SYSTEMVERILOG_FILE div.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mult.sv
+set_global_assignment -name SYSTEMVERILOG_FILE loadOnlyByte.sv
+set_global_assignment -name SYSTEMVERILOG_FILE muxHi.sv
+set_global_assignment -name SYSTEMVERILOG_FILE muxLo.sv
+set_global_assignment -name SYSTEMVERILOG_FILE xchgMux.sv
+set_global_assignment -name VECTOR_WAVEFORM_FILE schemeHard.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Banco_reg.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE testecontrole.vwf

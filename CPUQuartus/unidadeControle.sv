@@ -457,7 +457,7 @@ always @(posedge clk) begin
 						 alucontrol = 3'd2; //  <---
 						 aluoutwrite = 1'd0;
 						 divby0 = 1'd0;
-						 epcwrite = 1'd0; // <----
+						 epcwrite = 1'd01; // <----
 						 hiwrite = 1'd0;
 						 iordmux = 3'd3; // <----
 						 irwrite = 1'd0;

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mipsHardware
-Sat Oct 19 08:39:36 2019
+Sat Oct 19 10:16:24 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -59,16 +59,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sat Oct 19 08:39:36 2019         ;
+; Analysis & Synthesis Status   ; Successful - Sat Oct 19 10:16:24 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; mipsHardware                                  ;
 ; Top-level Entity Name         ; schemeHard                                    ;
 ; Family                        ; Stratix II                                    ;
 ; Logic utilization             ; N/A                                           ;
-;     Combinational ALUTs       ; 3,130                                         ;
+;     Combinational ALUTs       ; 3,124                                         ;
 ;     Dedicated logic registers ; 1,940                                         ;
 ; Total registers               ; 1940                                          ;
-; Total pins                    ; 809                                           ;
+; Total pins                    ; 873                                           ;
 ; Total virtual pins            ; 0                                             ;
 ; Total block memory bits       ; 8,192                                         ;
 ; DSP block 9-bit elements      ; 0                                             ;
@@ -222,39 +222,39 @@ applicable agreement for further details.
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 3130  ;
+; Estimated ALUTs Used                          ; 3124  ;
 ; Dedicated logic registers                     ; 1940  ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 409   ;
+; Estimated ALUTs Unavailable                   ; 404   ;
 ;                                               ;       ;
-; Total combinational functions                 ; 3130  ;
+; Total combinational functions                 ; 3124  ;
 ; Combinational ALUT usage by number of inputs  ;       ;
 ;     -- 7 input functions                      ; 18    ;
-;     -- 6 input functions                      ; 1197  ;
-;     -- 5 input functions                      ; 530   ;
-;     -- 4 input functions                      ; 541   ;
+;     -- 6 input functions                      ; 1192  ;
+;     -- 5 input functions                      ; 533   ;
+;     -- 4 input functions                      ; 537   ;
 ;     -- <=3 input functions                    ; 844   ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 2832  ;
+;     -- normal mode                            ; 2826  ;
 ;     -- extended LUT mode                      ; 18    ;
 ;     -- arithmetic mode                        ; 280   ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 4544  ;
+; Estimated ALUT/register pairs used            ; 4533  ;
 ;                                               ;       ;
 ; Total registers                               ; 1940  ;
 ;     -- Dedicated logic registers              ; 1940  ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 2,272 ;
+; Estimated ALMs:  partially or completely used ; 2,267 ;
 ;                                               ;       ;
-; I/O pins                                      ; 809   ;
+; I/O pins                                      ; 873   ;
 ; Total block memory bits                       ; 8192  ;
 ; Maximum fan-out node                          ; clk   ;
 ; Maximum fan-out                               ; 1973  ;
-; Total fan-out                                 ; 23259 ;
-; Average fan-out                               ; 3.93  ;
+; Total fan-out                                 ; 23292 ;
+; Average fan-out                               ; 3.90  ;
 +-----------------------------------------------+-------+
 
 
@@ -263,16 +263,16 @@ applicable agreement for further details.
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |schemeHard                                     ; 3130 (2)          ; 1940 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 809  ; 0            ; |schemeHard                                                                                                         ; work         ;
+; |schemeHard                                     ; 3124 (2)          ; 1940 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 873  ; 0            ; |schemeHard                                                                                                         ; work         ;
 ;    |Banco_reg:inst6|                            ; 736 (736)         ; 1024 (1024)  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Banco_reg:inst6                                                                                         ; work         ;
 ;    |Instr_Reg:inst4|                            ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Instr_Reg:inst4                                                                                         ; work         ;
 ;    |Memoria:inst2|                              ; 23 (23)           ; 0 (0)        ; 8192              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2                                                                                           ; work         ;
 ;       |lpm_ram_dq:MEM_plus_One|                 ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One                                                                   ; work         ;
-;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram                                                       ;              ;
+;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram                                                       ; work         ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block                                  ;              ;
 ;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated   ;              ;
 ;       |lpm_ram_dq:MEM_plus_Three|               ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three                                                                 ;              ;
-;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram                                                     ; work         ;
+;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram                                                     ;              ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block                                ; work         ;
 ;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated ; work         ;
 ;       |lpm_ram_dq:MEM_plus_Two|                 ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two                                                                   ;              ;
@@ -293,9 +293,9 @@ applicable agreement for further details.
 ;    |Registrador:hiUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:hiUnit                                                                                      ; work         ;
 ;    |Registrador:loUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:loUnit                                                                                      ; work         ;
 ;    |Registrador:xchgUnit|                       ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:xchgUnit                                                                                    ; work         ;
-;    |Ula32:inst3|                                ; 168 (168)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
-;    |aluSrcA:inst|                               ; 65 (65)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcA:inst                                                                                            ; work         ;
-;    |aluSrcB:inst1|                              ; 34 (34)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
+;    |Ula32:inst3|                                ; 163 (163)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
+;    |aluSrcA:inst|                               ; 65 (65)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcA:inst                                                                                            ;              ;
+;    |aluSrcB:inst1|                              ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
 ;    |branchMux:inst20|                           ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|branchMux:inst20                                                                                        ; work         ;
 ;    |div:inst31|                                 ; 531 (531)         ; 228 (228)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|div:inst31                                                                                              ; work         ;
 ;    |iord:inst5|                                 ; 67 (67)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|iord:inst5                                                                                              ; work         ;
@@ -307,7 +307,7 @@ applicable agreement for further details.
 ;    |setSize:inst30|                             ; 57 (57)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|setSize:inst30                                                                                          ; work         ;
 ;    |shiftSrcA:inst18|                           ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcA:inst18                                                                                        ; work         ;
 ;    |shiftSrcB:inst19|                           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcB:inst19                                                                                        ; work         ;
-;    |unidadeControle:inst25|                     ; 390 (390)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
+;    |unidadeControle:inst25|                     ; 391 (391)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
 ;    |xchgMux:inst10|                             ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|xchgMux:inst10                                                                                          ; work         ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -892,7 +892,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Sat Oct 19 08:39:17 2019
+    Info: Processing started: Sat Oct 19 10:16:04 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mipsHardware -c mipsHardware
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file setsize.sv
@@ -1101,38 +1101,38 @@ Info: Elaborating entity "loadOnlyByte" for hierarchy "loadOnlyByte:inst17"
 Info: Elaborating entity "concat" for hierarchy "concat:inst22"
 Info: Elaborating entity "setSize" for hierarchy "setSize:inst30"
 Warning (10240): Verilog HDL Always Construct warning at setSize.sv(10): inferring latch(es) for variable "saidaSetSize", which holds its previous value in one or more paths through the always construct
-Info (10041): Inferred latch for "saidaSetSize[0]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[1]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[2]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[3]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[4]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[5]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[6]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[7]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[8]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[9]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[10]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[11]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[12]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[13]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[14]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[15]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[16]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[17]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[18]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[19]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[20]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[21]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[22]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[23]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[24]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[25]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[26]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[27]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[28]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[29]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[30]" at setSize.sv(14)
-Info (10041): Inferred latch for "saidaSetSize[31]" at setSize.sv(14)
+Info (10041): Inferred latch for "saidaSetSize[0]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[1]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[2]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[3]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[4]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[5]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[6]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[7]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[8]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[9]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[10]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[11]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[12]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[13]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[14]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[15]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[16]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[17]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[18]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[19]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[20]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[21]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[22]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[23]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[24]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[25]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[26]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[27]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[28]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[29]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[30]" at setSize.sv(13)
+Info (10041): Inferred latch for "saidaSetSize[31]" at setSize.sv(13)
 Info: Elaborating entity "Banco_reg" for hierarchy "Banco_reg:inst6"
 Info: Elaborating entity "memToReg" for hierarchy "memToReg:inst7"
 Warning (10270): Verilog HDL Case Statement warning at memToReg.sv(20): incomplete case statement has no default case item
@@ -1643,15 +1643,15 @@ Info: 7 registers lost all their fanouts during netlist optimizations. The first
 Warning: Ignored assignments for entity "mipsHardware" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity mipsHardware -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity mipsHardware -section_id "Root Region" was ignored
-Info: Implemented 5544 device resources after synthesis - the final resource count might be different
+Info: Implemented 5602 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
-    Info: Implemented 807 output pins
-    Info: Implemented 4703 logic cells
+    Info: Implemented 871 output pins
+    Info: Implemented 4697 logic cells
     Info: Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 424 warnings
-    Info: Peak virtual memory: 4539 megabytes
-    Info: Processing ended: Sat Oct 19 08:39:36 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:34
+    Info: Peak virtual memory: 4541 megabytes
+    Info: Processing ended: Sat Oct 19 10:16:24 2019
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:39
 
 

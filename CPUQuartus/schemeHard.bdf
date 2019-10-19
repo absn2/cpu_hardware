@@ -839,6 +839,40 @@ applicable agreement for further details.
 	)
 	(flipy)
 )
+(pin
+	(output)
+	(rect 456 320 472 496)
+	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
+	(text "storeB[31..0]" (rect 0 5 12 68)(font "Arial" )(vertical))
+	(pt 8 176)
+	(drawing
+		(line (pt 8 176)(pt 8 124)(line_width 1))
+		(line (pt 4 124)(pt 4 98)(line_width 1))
+		(line (pt 12 124)(pt 12 98)(line_width 1))
+		(line (pt 12 124)(pt 4 124)(line_width 1))
+		(line (pt 4 98)(pt 8 94)(line_width 1))
+		(line (pt 8 94)(pt 12 98)(line_width 1))
+		(line (pt 12 98)(pt 8 94)(line_width 1))
+	)
+	(rotate90)
+)
+(pin
+	(output)
+	(rect 504 280 520 456)
+	(text "OUTPUT" (rect 0 137 10 175)(font "Arial" (font_size 6))(vertical))
+	(text "storeData[31..0]" (rect 0 5 12 85)(font "Arial" )(vertical))
+	(pt 8 176)
+	(drawing
+		(line (pt 8 176)(pt 8 124)(line_width 1))
+		(line (pt 4 124)(pt 4 98)(line_width 1))
+		(line (pt 12 124)(pt 12 98)(line_width 1))
+		(line (pt 12 124)(pt 4 124)(line_width 1))
+		(line (pt 4 98)(pt 8 94)(line_width 1))
+		(line (pt 8 94)(pt 12 98)(line_width 1))
+		(line (pt 12 98)(pt 8 94)(line_width 1))
+	)
+	(rotate90)
+)
 (symbol
 	(rect 2352 96 2536 224)
 	(text "Registrador" (rect 5 0 61 12)(font "Arial" ))
@@ -5688,11 +5722,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 608 496)
-	(pt 608 600)
-	(bus)
-)
-(connector
 	(pt 2488 -544)
 	(pt 2488 -368)
 	(bus)
@@ -5867,11 +5896,6 @@ applicable agreement for further details.
 (connector
 	(pt 712 512)
 	(pt 712 944)
-)
-(connector
-	(pt 592 496)
-	(pt 592 976)
-	(bus)
 )
 (connector
 	(pt 2408 -752)
@@ -6482,6 +6506,46 @@ applicable agreement for further details.
 	(pt 576 888)
 	(pt 1088 888)
 )
+(connector
+	(pt 592 536)
+	(pt 464 536)
+	(bus)
+)
+(connector
+	(pt 464 536)
+	(pt 464 496)
+	(bus)
+)
+(connector
+	(pt 592 496)
+	(pt 592 536)
+	(bus)
+)
+(connector
+	(pt 592 536)
+	(pt 592 976)
+	(bus)
+)
+(connector
+	(pt 608 512)
+	(pt 512 512)
+	(bus)
+)
+(connector
+	(pt 512 512)
+	(pt 512 456)
+	(bus)
+)
+(connector
+	(pt 608 496)
+	(pt 608 512)
+	(bus)
+)
+(connector
+	(pt 608 512)
+	(pt 608 600)
+	(bus)
+)
 (junction (pt 3320 248))
 (junction (pt 1832 144))
 (junction (pt 1816 128))
@@ -6590,3 +6654,5 @@ applicable agreement for further details.
 (junction (pt 1080 1112))
 (junction (pt 992 1304))
 (junction (pt 576 888))
+(junction (pt 592 536))
+(junction (pt 608 512))
