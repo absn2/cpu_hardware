@@ -13,12 +13,17 @@ logic [64:0] soma;
 logic [64:0] sub;
 logic [64:0] produto;
 logic [31:0] comp2;
-integer counter = 33; 
+logic aux;
+integer counter = 33;
 
-
+initial begin
+	multStop = 1'b0;
+	aux = 1'b0;
+end 
 
 always @ (posedge clk) begin
 	if(Reset == 1)begin
+		multStop = 1'b0;
 		soma = 65'd0;
 		sub = 65'd0;
 		produto = 65'd0;
@@ -26,7 +31,6 @@ always @ (posedge clk) begin
 		counter = 33;
 		hi = 32'd0;
 		lo = 32'd0;
-		multStop = 1'b0;
 	end
 	if(multControl == 1'b1) begin
 		comp2 = (~a + 1'b1);
@@ -34,7 +38,8 @@ always @ (posedge clk) begin
 		sub = {comp2, 33'b0};
 		produto = {32'b0, b, 1'b0};
 		counter = 33;
-		multStop = 1'b0;	
+		multStop = 1'b0;
+		aux = 1'b1;	
 	end
 	
 	case(produto[1:0])
@@ -58,8 +63,11 @@ always @ (posedge clk) begin
 	if(counter == 1) begin
 		hi = produto[64:33];
 		lo = produto[32:1];
-		counter = -10;	
-		multStop = 1'b1;				
+		counter = -10;
+		if (aux == 1) begin
+		   multStop = 1'b1;
+		   aux = 0;	
+		end		
 	end	
 	if(counter == -10) begin
 		soma = 65'd0;

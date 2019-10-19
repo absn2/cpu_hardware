@@ -3051,42 +3051,6 @@ loadOnlyByte:inst17
 
 # end
 # entity
-mult
-# storage
-db|mipsHardware.(27).cnf
-db|mipsHardware.(27).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-mult.sv
-d7ca13a2e59cb525a748843cc519382
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-mult:inst28
-}
-# macro_sequence
-
-# end
-# entity
 muxHi
 # storage
 db|mipsHardware.(37).cnf
@@ -3577,62 +3541,6 @@ unidadeControle:inst25
 
 # end
 # entity
-schemeHard
-# storage
-db|mipsHardware.(36).cnf
-db|mipsHardware.(36).cnf
-# case_insensitive
-# source_file
-schemehard.bdf
-90c56d377e4dd511823ad6e6e1eb88
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
-div
-# storage
-db|mipsHardware.(28).cnf
-db|mipsHardware.(28).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-div.sv
-fca1b59abebf0376b7f61b714394fdb
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-div:inst31
-}
-# macro_sequence
-
-# end
-# entity
 altsyncram_g2a1
 # storage
 db|mipsHardware.(38).cnf
@@ -3727,13 +3635,105 @@ address_a0
 }
 # memory_file {
 instrucoes.mif
-75e5dd886f7dffb1ffde65a34d9bd35
+48ff887fcc9aa8bb69c8baffcd3822d
 }
 # hierarchies {
 Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+mult
+# storage
+db|mipsHardware.(36).cnf
+db|mipsHardware.(36).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mult.sv
+dc8f391ccf6047014bdb1baafb276
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+mult:inst28
+}
+# macro_sequence
+
+# end
+# entity
+div
+# storage
+db|mipsHardware.(28).cnf
+db|mipsHardware.(28).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+div.sv
+3124ec513d3bc6d16395a42ba6831
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+div:inst31
+}
+# macro_sequence
+
+# end
+# entity
+schemeHard
+# storage
+db|mipsHardware.(27).cnf
+db|mipsHardware.(27).cnf
+# case_insensitive
+# source_file
+schemehard.bdf
+afc5ac152f44d13c11ceab43dfeada7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
 }
 # macro_sequence
 

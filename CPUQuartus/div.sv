@@ -97,6 +97,7 @@ always @ (posedge clk) begin
 		end
 		if(aux == 1'b1) begin
 			divStop = 1'b1;
+			aux = 1'b0;
 		end
 		counter = -10;
 	end
