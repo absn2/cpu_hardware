@@ -21,9 +21,11 @@ logic [31:0] dividend;
 logic [31:0] divisor;
 logic g;
 logic j;
+logic aux;
 
 initial begin
 	divStop = 1'b0;
+	divZero = 0;
 end
 
 
@@ -36,9 +38,11 @@ always @ (posedge clk) begin
 		g = 1'b0;
 		j = 1'b0;
 		counter = 0;
+		aux = 1'b0;
 	end
 	
 	if(divControl == 1'b1) begin
+		
 		loDiv = 32'd0;
 		hiDiv = 32'd0;
 		counter = 31;
@@ -47,8 +51,9 @@ always @ (posedge clk) begin
 		divStop = 1'b0;
 		if(divisor == 0) begin // checking possible divByZero Exception
 			divZero = 1'b1;
-			counter = 0;
+			counter = 1;
 		end else begin
+			aux = 1'b1;
 			divZero = 1'b0;
 		end
 				
@@ -80,14 +85,18 @@ always @ (posedge clk) begin
 	end	
 	
 	if(counter == 0) begin
-		loDiv = quotient;
-		hiDiv = remainder;
-		divStop = 1'b1;
-		if(g == 1'b1 && loDiv != 0) begin
-			loDiv = (~loDiv + 1);
+		if(divZero == 1'b0) begin
+			loDiv = quotient;
+			hiDiv = remainder;
+			if(g == 1'b1 && loDiv != 0) begin
+				loDiv = (~loDiv + 1);
+			end
+			if(j == 1'b1 && hiDiv != 0) begin
+				hiDiv = (~hiDiv + 1);
+			end
 		end
-		if(j == 1'b1 && hiDiv != 0) begin
-			hiDiv = (~hiDiv + 1);
+		if(aux == 1'b1) begin
+			divStop = 1'b1;
 		end
 		counter = -10;
 	end

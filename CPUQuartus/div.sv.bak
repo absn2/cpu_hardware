@@ -24,6 +24,7 @@ logic j;
 
 initial begin
 	divStop = 1'b0;
+	divZero = 0;
 end
 
 
@@ -47,7 +48,7 @@ always @ (posedge clk) begin
 		divStop = 1'b0;
 		if(divisor == 0) begin // checking possible divByZero Exception
 			divZero = 1'b1;
-			counter = 0;
+			counter = 1;
 		end else begin
 			divZero = 1'b0;
 		end
@@ -80,15 +81,17 @@ always @ (posedge clk) begin
 	end	
 	
 	if(counter == 0) begin
-		loDiv = quotient;
-		hiDiv = remainder;
+		if(divZero == 1'b0) begin
+			loDiv = quotient;
+			hiDiv = remainder;
+			if(g == 1'b1 && loDiv != 0) begin
+				loDiv = (~loDiv + 1);
+			end
+			if(j == 1'b1 && hiDiv != 0) begin
+				hiDiv = (~hiDiv + 1);
+			end
+		end
 		divStop = 1'b1;
-		if(g == 1'b1) begin
-			loDiv = (~loDiv + 1);
-		end
-		if(j == 1'b1 && hiDiv != 0) begin
-			hiDiv = (~hiDiv + 1);
-		end
 		counter = -10;
 	end
 	
