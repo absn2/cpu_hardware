@@ -86,7 +86,7 @@ always @ (posedge clk) begin
 		if(g == 1'b1) begin
 			loDiv = (~loDiv + 1);
 		end
-		if(j == 1'b1) begin
+		if(j == 1'b1 && hiDiv != 0) begin
 			hiDiv = (~hiDiv + 1);
 		end
 		counter = -10;

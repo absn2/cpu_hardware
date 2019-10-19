@@ -15943,7 +15943,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		ZEND = 1080000;
 		NUMERATOR = 1350;
 		DENOMINATOR = 1080000;
-		TOP_INDEX = 205;
+		TOP_INDEX = 158;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -22690,7 +22690,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4";
+		SIGNAL = "Banco_reg:inst6|Reg3";
 		INDEX = 842;
 		FORMAT = T;
 		SCALE = 1;
@@ -22698,7 +22698,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[31]";
+		SIGNAL = "Banco_reg:inst6|Reg3[31]";
 		INDEX = 843;
 		FORMAT = E;
 		SCALE = 1;
@@ -22706,7 +22706,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[30]";
+		SIGNAL = "Banco_reg:inst6|Reg3[30]";
 		INDEX = 844;
 		FORMAT = E;
 		SCALE = 1;
@@ -22714,7 +22714,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[29]";
+		SIGNAL = "Banco_reg:inst6|Reg3[29]";
 		INDEX = 845;
 		FORMAT = E;
 		SCALE = 1;
@@ -22722,7 +22722,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[28]";
+		SIGNAL = "Banco_reg:inst6|Reg3[28]";
 		INDEX = 846;
 		FORMAT = E;
 		SCALE = 1;
@@ -22730,7 +22730,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[27]";
+		SIGNAL = "Banco_reg:inst6|Reg3[27]";
 		INDEX = 847;
 		FORMAT = E;
 		SCALE = 1;
@@ -22738,7 +22738,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[26]";
+		SIGNAL = "Banco_reg:inst6|Reg3[26]";
 		INDEX = 848;
 		FORMAT = E;
 		SCALE = 1;
@@ -22746,7 +22746,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[25]";
+		SIGNAL = "Banco_reg:inst6|Reg3[25]";
 		INDEX = 849;
 		FORMAT = E;
 		SCALE = 1;
@@ -22754,7 +22754,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[24]";
+		SIGNAL = "Banco_reg:inst6|Reg3[24]";
 		INDEX = 850;
 		FORMAT = E;
 		SCALE = 1;
@@ -22762,7 +22762,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[23]";
+		SIGNAL = "Banco_reg:inst6|Reg3[23]";
 		INDEX = 851;
 		FORMAT = E;
 		SCALE = 1;
@@ -22770,7 +22770,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[22]";
+		SIGNAL = "Banco_reg:inst6|Reg3[22]";
 		INDEX = 852;
 		FORMAT = E;
 		SCALE = 1;
@@ -22778,7 +22778,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[21]";
+		SIGNAL = "Banco_reg:inst6|Reg3[21]";
 		INDEX = 853;
 		FORMAT = E;
 		SCALE = 1;
@@ -22786,7 +22786,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[20]";
+		SIGNAL = "Banco_reg:inst6|Reg3[20]";
 		INDEX = 854;
 		FORMAT = E;
 		SCALE = 1;
@@ -22794,7 +22794,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[19]";
+		SIGNAL = "Banco_reg:inst6|Reg3[19]";
 		INDEX = 855;
 		FORMAT = E;
 		SCALE = 1;
@@ -22802,7 +22802,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[18]";
+		SIGNAL = "Banco_reg:inst6|Reg3[18]";
 		INDEX = 856;
 		FORMAT = E;
 		SCALE = 1;
@@ -22810,7 +22810,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[17]";
+		SIGNAL = "Banco_reg:inst6|Reg3[17]";
 		INDEX = 857;
 		FORMAT = E;
 		SCALE = 1;
@@ -22818,7 +22818,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[16]";
+		SIGNAL = "Banco_reg:inst6|Reg3[16]";
 		INDEX = 858;
 		FORMAT = E;
 		SCALE = 1;
@@ -22826,7 +22826,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[15]";
+		SIGNAL = "Banco_reg:inst6|Reg3[15]";
 		INDEX = 859;
 		FORMAT = E;
 		SCALE = 1;
@@ -22834,7 +22834,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[14]";
+		SIGNAL = "Banco_reg:inst6|Reg3[14]";
 		INDEX = 860;
 		FORMAT = E;
 		SCALE = 1;
@@ -22842,7 +22842,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[13]";
+		SIGNAL = "Banco_reg:inst6|Reg3[13]";
 		INDEX = 861;
 		FORMAT = E;
 		SCALE = 1;
@@ -22850,7 +22850,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[12]";
+		SIGNAL = "Banco_reg:inst6|Reg3[12]";
 		INDEX = 862;
 		FORMAT = E;
 		SCALE = 1;
@@ -22858,7 +22858,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[11]";
+		SIGNAL = "Banco_reg:inst6|Reg3[11]";
 		INDEX = 863;
 		FORMAT = E;
 		SCALE = 1;
@@ -22866,7 +22866,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[10]";
+		SIGNAL = "Banco_reg:inst6|Reg3[10]";
 		INDEX = 864;
 		FORMAT = E;
 		SCALE = 1;
@@ -22874,7 +22874,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[9]";
+		SIGNAL = "Banco_reg:inst6|Reg3[9]";
 		INDEX = 865;
 		FORMAT = E;
 		SCALE = 1;
@@ -22882,7 +22882,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[8]";
+		SIGNAL = "Banco_reg:inst6|Reg3[8]";
 		INDEX = 866;
 		FORMAT = E;
 		SCALE = 1;
@@ -22890,7 +22890,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[7]";
+		SIGNAL = "Banco_reg:inst6|Reg3[7]";
 		INDEX = 867;
 		FORMAT = E;
 		SCALE = 1;
@@ -22898,7 +22898,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[6]";
+		SIGNAL = "Banco_reg:inst6|Reg3[6]";
 		INDEX = 868;
 		FORMAT = E;
 		SCALE = 1;
@@ -22906,7 +22906,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[5]";
+		SIGNAL = "Banco_reg:inst6|Reg3[5]";
 		INDEX = 869;
 		FORMAT = E;
 		SCALE = 1;
@@ -22914,7 +22914,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[4]";
+		SIGNAL = "Banco_reg:inst6|Reg3[4]";
 		INDEX = 870;
 		FORMAT = E;
 		SCALE = 1;
@@ -22922,7 +22922,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[3]";
+		SIGNAL = "Banco_reg:inst6|Reg3[3]";
 		INDEX = 871;
 		FORMAT = E;
 		SCALE = 1;
@@ -22930,7 +22930,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[2]";
+		SIGNAL = "Banco_reg:inst6|Reg3[2]";
 		INDEX = 872;
 		FORMAT = E;
 		SCALE = 1;
@@ -22938,7 +22938,7 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[1]";
+		SIGNAL = "Banco_reg:inst6|Reg3[1]";
 		INDEX = 873;
 		FORMAT = E;
 		SCALE = 1;
@@ -22946,8 +22946,536 @@ VECTOR("E:/Users/absn2/Desktop/cpu_hardware/CPUQuartus/schemeHard.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Banco_reg:inst6|Reg4[0]";
+		SIGNAL = "Banco_reg:inst6|Reg3[0]";
 		INDEX = 874;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4";
+		INDEX = 875;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[31]";
+		INDEX = 876;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[30]";
+		INDEX = 877;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[29]";
+		INDEX = 878;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[28]";
+		INDEX = 879;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[27]";
+		INDEX = 880;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[26]";
+		INDEX = 881;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[25]";
+		INDEX = 882;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[24]";
+		INDEX = 883;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[23]";
+		INDEX = 884;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[22]";
+		INDEX = 885;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[21]";
+		INDEX = 886;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[20]";
+		INDEX = 887;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[19]";
+		INDEX = 888;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[18]";
+		INDEX = 889;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[17]";
+		INDEX = 890;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[16]";
+		INDEX = 891;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[15]";
+		INDEX = 892;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[14]";
+		INDEX = 893;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[13]";
+		INDEX = 894;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[12]";
+		INDEX = 895;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[11]";
+		INDEX = 896;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[10]";
+		INDEX = 897;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[9]";
+		INDEX = 898;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[8]";
+		INDEX = 899;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[7]";
+		INDEX = 900;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[6]";
+		INDEX = 901;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[5]";
+		INDEX = 902;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[4]";
+		INDEX = 903;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[3]";
+		INDEX = 904;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[2]";
+		INDEX = 905;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[1]";
+		INDEX = 906;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg4[0]";
+		INDEX = 907;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5";
+		INDEX = 908;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[31]";
+		INDEX = 909;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[30]";
+		INDEX = 910;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[29]";
+		INDEX = 911;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[28]";
+		INDEX = 912;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[27]";
+		INDEX = 913;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[26]";
+		INDEX = 914;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[25]";
+		INDEX = 915;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[24]";
+		INDEX = 916;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[23]";
+		INDEX = 917;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[22]";
+		INDEX = 918;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[21]";
+		INDEX = 919;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[20]";
+		INDEX = 920;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[19]";
+		INDEX = 921;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[18]";
+		INDEX = 922;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[17]";
+		INDEX = 923;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[16]";
+		INDEX = 924;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[15]";
+		INDEX = 925;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[14]";
+		INDEX = 926;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[13]";
+		INDEX = 927;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[12]";
+		INDEX = 928;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[11]";
+		INDEX = 929;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[10]";
+		INDEX = 930;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[9]";
+		INDEX = 931;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[8]";
+		INDEX = 932;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[7]";
+		INDEX = 933;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[6]";
+		INDEX = 934;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[5]";
+		INDEX = 935;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[4]";
+		INDEX = 936;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[3]";
+		INDEX = 937;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[2]";
+		INDEX = 938;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[1]";
+		INDEX = 939;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "Banco_reg:inst6|Reg5[0]";
+		INDEX = 940;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
