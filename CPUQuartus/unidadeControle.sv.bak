@@ -140,8 +140,8 @@ parameter srav = 6'd7;
 parameter xchg1 = 6'd5;
 parameter jr = 6'd8;
 parameter break1 = 6'd13;
-parameter mfhi: 6'd16;
-parameter mflo: 6'd18;
+parameter mfhi = 6'd16;
+parameter mflo = 6'd18;
 parameter rte = 6'd19;
 parameter mult = 6'd24;
 parameter div = 6'd26;
@@ -1760,7 +1760,7 @@ always @(posedge clk) begin
 							 xchgctrl = 1'd0;
 						end
 						jal: begin
-							 alucontrol = 3'd1; // <---
+							 alucontrol = 3'd0; // <---
 							 aluoutwrite = 1'd0; // <---
 							 divby0 = 1'd0;
 							 epcwrite = 1'd0;
@@ -2954,7 +2954,7 @@ always @(posedge clk) begin
 					xchgctrl = 1'd0;
 				end
 				jal2: begin
-			        alucontrol = 3'd2;
+			        alucontrol = 3'd0;
 					aluoutwrite = 1'd0;
 					divby0 = 1'd0;														
 					epcwrite = 1'd0;
@@ -2985,7 +2985,7 @@ always @(posedge clk) begin
 			
 				end
 				jal3: begin
-			        alucontrol = 3'd2;
+			        alucontrol = 3'd0;
 					aluoutwrite = 1'd0;
 					divby0 = 1'd0;														
 					epcwrite = 1'd0;

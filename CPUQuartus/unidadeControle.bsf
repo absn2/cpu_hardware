@@ -670,6 +670,16 @@ applicable agreement for further details.
 		""
 		(type "PARAMETER_UNSIGNED_BIN")	)
 	(parameter
+		"mfhi"
+		"010000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"mflo"
+		"010010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
 		"rte"
 		"010011"
 		""

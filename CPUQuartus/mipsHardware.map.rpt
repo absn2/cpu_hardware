@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mipsHardware
-Fri Oct 18 22:30:20 2019
+Sat Oct 19 02:35:40 2019
 Quartus II 64-Bit Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
 
 
@@ -59,16 +59,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Fri Oct 18 22:30:20 2019         ;
+; Analysis & Synthesis Status   ; Successful - Sat Oct 19 02:35:40 2019         ;
 ; Quartus II 64-Bit Version     ; 9.1 Build 350 03/24/2010 SP 2 SJ Full Version ;
 ; Revision Name                 ; mipsHardware                                  ;
 ; Top-level Entity Name         ; schemeHard                                    ;
 ; Family                        ; Stratix II                                    ;
 ; Logic utilization             ; N/A                                           ;
-;     Combinational ALUTs       ; 3,071                                         ;
+;     Combinational ALUTs       ; 3,132                                         ;
 ;     Dedicated logic registers ; 1,938                                         ;
 ; Total registers               ; 1938                                          ;
-; Total pins                    ; 806                                           ;
+; Total pins                    ; 808                                           ;
 ; Total virtual pins            ; 0                                             ;
 ; Total block memory bits       ; 8,192                                         ;
 ; DSP block 9-bit elements      ; 0                                             ;
@@ -222,39 +222,39 @@ applicable agreement for further details.
 +-----------------------------------------------+-------+
 ; Resource                                      ; Usage ;
 +-----------------------------------------------+-------+
-; Estimated ALUTs Used                          ; 3071  ;
+; Estimated ALUTs Used                          ; 3132  ;
 ; Dedicated logic registers                     ; 1938  ;
 ;                                               ;       ;
-; Estimated ALUTs Unavailable                   ; 368   ;
+; Estimated ALUTs Unavailable                   ; 403   ;
 ;                                               ;       ;
-; Total combinational functions                 ; 3071  ;
+; Total combinational functions                 ; 3132  ;
 ; Combinational ALUT usage by number of inputs  ;       ;
-;     -- 7 input functions                      ; 22    ;
-;     -- 6 input functions                      ; 1152  ;
-;     -- 5 input functions                      ; 530   ;
-;     -- 4 input functions                      ; 580   ;
-;     -- <=3 input functions                    ; 787   ;
+;     -- 7 input functions                      ; 18    ;
+;     -- 6 input functions                      ; 1191  ;
+;     -- 5 input functions                      ; 540   ;
+;     -- 4 input functions                      ; 546   ;
+;     -- <=3 input functions                    ; 837   ;
 ;                                               ;       ;
 ; Combinational ALUTs by mode                   ;       ;
-;     -- normal mode                            ; 2769  ;
-;     -- extended LUT mode                      ; 22    ;
+;     -- normal mode                            ; 2834  ;
+;     -- extended LUT mode                      ; 18    ;
 ;     -- arithmetic mode                        ; 280   ;
 ;     -- shared arithmetic mode                 ; 0     ;
 ;                                               ;       ;
-; Estimated ALUT/register pairs used            ; 4444  ;
+; Estimated ALUT/register pairs used            ; 4540  ;
 ;                                               ;       ;
 ; Total registers                               ; 1938  ;
 ;     -- Dedicated logic registers              ; 1938  ;
 ;     -- I/O registers                          ; 0     ;
 ;                                               ;       ;
-; Estimated ALMs:  partially or completely used ; 2,222 ;
+; Estimated ALMs:  partially or completely used ; 2,270 ;
 ;                                               ;       ;
-; I/O pins                                      ; 806   ;
+; I/O pins                                      ; 808   ;
 ; Total block memory bits                       ; 8192  ;
 ; Maximum fan-out node                          ; clk   ;
 ; Maximum fan-out                               ; 1971  ;
-; Total fan-out                                 ; 22994 ;
-; Average fan-out                               ; 3.93  ;
+; Total fan-out                                 ; 23265 ;
+; Average fan-out                               ; 3.94  ;
 +-----------------------------------------------+-------+
 
 
@@ -263,22 +263,22 @@ applicable agreement for further details.
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                      ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                 ; Library Name ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
-; |schemeHard                                     ; 3071 (2)          ; 1938 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 806  ; 0            ; |schemeHard                                                                                                         ; work         ;
+; |schemeHard                                     ; 3132 (2)          ; 1938 (0)     ; 8192              ; 0            ; 0       ; 0         ; 0         ; 808  ; 0            ; |schemeHard                                                                                                         ; work         ;
 ;    |Banco_reg:inst6|                            ; 736 (736)         ; 1024 (1024)  ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Banco_reg:inst6                                                                                         ; work         ;
 ;    |Instr_Reg:inst4|                            ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Instr_Reg:inst4                                                                                         ; work         ;
 ;    |Memoria:inst2|                              ; 23 (23)           ; 0 (0)        ; 8192              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2                                                                                           ; work         ;
 ;       |lpm_ram_dq:MEM_plus_One|                 ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One                                                                   ; work         ;
 ;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram                                                       ;              ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block                                  ;              ;
-;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated   ; work         ;
-;       |lpm_ram_dq:MEM_plus_Three|               ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three                                                                 ; work         ;
+;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated   ;              ;
+;       |lpm_ram_dq:MEM_plus_Three|               ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three                                                                 ;              ;
 ;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram                                                     ; work         ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block                                ; work         ;
 ;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated ; work         ;
-;       |lpm_ram_dq:MEM_plus_Two|                 ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two                                                                   ; work         ;
-;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram                                                       ; work         ;
-;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block                                  ; work         ;
-;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated   ; work         ;
+;       |lpm_ram_dq:MEM_plus_Two|                 ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two                                                                   ;              ;
+;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram                                                       ;              ;
+;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block                                  ;              ;
+;                |altsyncram_g2a1:auto_generated| ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated   ;              ;
 ;       |lpm_ram_dq:MEM|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM                                                                            ; work         ;
 ;          |altram:sram|                          ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM|altram:sram                                                                ; work         ;
 ;             |altsyncram:ram_block|              ; 0 (0)             ; 0 (0)        ; 2048              ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block                                           ; work         ;
@@ -293,21 +293,21 @@ applicable agreement for further details.
 ;    |Registrador:hiUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:hiUnit                                                                                      ; work         ;
 ;    |Registrador:loUnit|                         ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:loUnit                                                                                      ; work         ;
 ;    |Registrador:xchgUnit|                       ; 0 (0)             ; 32 (32)      ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Registrador:xchgUnit                                                                                    ; work         ;
-;    |Ula32:inst3|                                ; 163 (163)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
+;    |Ula32:inst3|                                ; 164 (164)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|Ula32:inst3                                                                                             ; work         ;
 ;    |aluSrcA:inst|                               ; 65 (65)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcA:inst                                                                                            ; work         ;
-;    |aluSrcB:inst1|                              ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
+;    |aluSrcB:inst1|                              ; 33 (33)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|aluSrcB:inst1                                                                                           ; work         ;
 ;    |branchMux:inst20|                           ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|branchMux:inst20                                                                                        ; work         ;
-;    |div:inst31|                                 ; 478 (478)         ; 227 (227)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|div:inst31                                                                                              ; work         ;
+;    |div:inst31|                                 ; 529 (529)         ; 227 (227)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|div:inst31                                                                                              ; work         ;
 ;    |iord:inst5|                                 ; 67 (67)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|iord:inst5                                                                                              ; work         ;
 ;    |loadSize:inst29|                            ; 57 (57)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|loadSize:inst29                                                                                         ; work         ;
 ;    |memToReg:inst7|                             ; 135 (135)         ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|memToReg:inst7                                                                                          ; work         ;
-;    |mult:inst28|                                ; 351 (351)         ; 223 (223)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|mult:inst28                                                                                             ; work         ;
+;    |mult:inst28|                                ; 357 (357)         ; 223 (223)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|mult:inst28                                                                                             ; work         ;
 ;    |pcSource:inst16|                            ; 98 (98)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|pcSource:inst16                                                                                         ; work         ;
 ;    |regDST:inst15|                              ; 11 (11)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|regDST:inst15                                                                                           ; work         ;
 ;    |setSize:inst30|                             ; 57 (57)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|setSize:inst30                                                                                          ; work         ;
 ;    |shiftSrcA:inst18|                           ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcA:inst18                                                                                        ; work         ;
 ;    |shiftSrcB:inst19|                           ; 5 (5)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|shiftSrcB:inst19                                                                                        ; work         ;
-;    |unidadeControle:inst25|                     ; 402 (402)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
+;    |unidadeControle:inst25|                     ; 404 (404)         ; 112 (112)    ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|unidadeControle:inst25                                                                                  ;              ;
 ;    |xchgMux:inst10|                             ; 32 (32)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |schemeHard|xchgMux:inst10                                                                                          ; work         ;
 +-------------------------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -558,13 +558,13 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; div:inst31|counter[2]                  ; 1       ;
 ; div:inst31|counter[1]                  ; 1       ;
-; div:inst31|counter[0]                  ; 2       ;
 ; div:inst31|counter[4]                  ; 2       ;
 ; div:inst31|counter[3]                  ; 2       ;
+; div:inst31|counter[2]                  ; 1       ;
+; div:inst31|counter[0]                  ; 2       ;
 ; mult:inst28|counter[5]                 ; 3       ;
-; mult:inst28|counter[0]                 ; 2       ;
+; mult:inst28|counter[0]                 ; 3       ;
 ; Total number of inverted registers = 7 ;         ;
 +----------------------------------------+---------+
 
@@ -574,39 +574,39 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
-; 3:1                ; 63 bits   ; 126 ALUTs     ; 0 ALUTs              ; 126 ALUTs              ; Yes        ; |schemeHard|mult:inst28|lo[24]                    ;
+; 3:1                ; 63 bits   ; 126 ALUTs     ; 0 ALUTs              ; 126 ALUTs              ; Yes        ; |schemeHard|mult:inst28|lo[23]                    ;
 ; 4:1                ; 32 bits   ; 64 ALUTs      ; 0 ALUTs              ; 64 ALUTs               ; Yes        ; |schemeHard|div:inst31|hiDiv[22]                  ;
-; 4:1                ; 32 bits   ; 64 ALUTs      ; 0 ALUTs              ; 64 ALUTs               ; Yes        ; |schemeHard|div:inst31|loDiv[31]                  ;
-; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:A|Saida[5]                ;
+; 4:1                ; 32 bits   ; 64 ALUTs      ; 0 ALUTs              ; 64 ALUTs               ; Yes        ; |schemeHard|div:inst31|loDiv[30]                  ;
+; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:A|Saida[6]                ;
 ; 32:1               ; 32 bits   ; 672 ALUTs     ; 672 ALUTs            ; 0 ALUTs                ; Yes        ; |schemeHard|Registrador:B|Saida[19]               ;
 ; 13:1               ; 13 bits   ; 104 ALUTs     ; 52 ALUTs             ; 52 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[13]             ;
-; 13:1               ; 13 bits   ; 104 ALUTs     ; 78 ALUTs             ; 26 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[26]             ;
+; 13:1               ; 13 bits   ; 104 ALUTs     ; 78 ALUTs             ; 26 ALUTs               ; Yes        ; |schemeHard|RegDesloc:inst13|temp[18]             ;
 ; 136:1              ; 2 bits    ; 180 ALUTs     ; 30 ALUTs             ; 150 ALUTs              ; Yes        ; |schemeHard|unidadeControle:inst25|muxmemtoreg[1] ;
-; 3:1                ; 64 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|mult:inst28|produto                   ;
-; 3:1                ; 94 bits   ; 188 ALUTs     ; 188 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|mult:inst28|soma                      ;
 ; 3:1                ; 58 bits   ; 116 ALUTs     ; 116 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|remainder                  ;
 ; 3:1                ; 7 bits    ; 14 ALUTs      ; 14 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|counter                    ;
+; 3:1                ; 64 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|mult:inst28|counter                   ;
+; 3:1                ; 94 bits   ; 188 ALUTs     ; 188 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|mult:inst28|sub                       ;
 ; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux31                   ;
-; 3:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux4                    ;
-; 3:1                ; 32 bits   ; 64 ALUTs      ; 64 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcA:inst|Mux5                     ;
-; 3:1                ; 8 bits    ; 16 ALUTs      ; 8 ALUTs              ; 8 ALUTs                ; No         ; |schemeHard|setSize:inst30|saidaSetSize[12]       ;
+; 3:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux13                   ;
+; 3:1                ; 32 bits   ; 64 ALUTs      ; 64 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcA:inst|Mux28                    ;
+; 3:1                ; 8 bits    ; 16 ALUTs      ; 8 ALUTs              ; 8 ALUTs                ; No         ; |schemeHard|setSize:inst30|saidaSetSize[15]       ;
 ; 3:1                ; 8 bits    ; 16 ALUTs      ; 8 ALUTs              ; 8 ALUTs                ; No         ; |schemeHard|loadSize:inst29|lsOut[15]             ;
 ; 3:1                ; 33 bits   ; 66 ALUTs      ; 66 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|unidadeControle:inst25|state          ;
 ; 4:1                ; 31 bits   ; 62 ALUTs      ; 62 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|divisor                    ;
 ; 4:1                ; 31 bits   ; 62 ALUTs      ; 62 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|div:inst31|dividend                   ;
-; 4:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux25                   ;
-; 8:1                ; 32 bits   ; 160 ALUTs     ; 64 ALUTs             ; 96 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux34                     ;
+; 4:1                ; 15 bits   ; 30 ALUTs      ; 30 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|aluSrcB:inst1|Mux27                   ;
+; 8:1                ; 32 bits   ; 160 ALUTs     ; 64 ALUTs             ; 96 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux48                     ;
 ; 8:1                ; 32 bits   ; 160 ALUTs     ; 128 ALUTs            ; 32 ALUTs               ; No         ; |schemeHard|Ula32:inst3|Mux12                     ;
-; 6:1                ; 32 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|iord:inst5|Mux7                       ;
-; 5:1                ; 2 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux1                  ;
-; 5:1                ; 24 bits   ; 72 ALUTs      ; 72 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux8                  ;
-; 5:1                ; 6 bits    ; 18 ALUTs      ; 18 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux4                  ;
-; 5:1                ; 5 bits    ; 15 ALUTs      ; 15 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|regDST:inst15|Mux1                    ;
+; 6:1                ; 32 bits   ; 128 ALUTs     ; 128 ALUTs            ; 0 ALUTs                ; No         ; |schemeHard|iord:inst5|Mux1                       ;
+; 5:1                ; 2 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux0                  ;
+; 5:1                ; 24 bits   ; 72 ALUTs      ; 72 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux18                 ;
+; 5:1                ; 6 bits    ; 18 ALUTs      ; 18 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|pcSource:inst16|Mux7                  ;
+; 5:1                ; 5 bits    ; 15 ALUTs      ; 15 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|regDST:inst15|Mux4                    ;
 ; 65:1               ; 2 bits    ; 86 ALUTs      ; 16 ALUTs             ; 70 ALUTs               ; No         ; |schemeHard|unidadeControle:inst25|state          ;
 ; 67:1               ; 8 bits    ; 352 ALUTs     ; 96 ALUTs             ; 256 ALUTs              ; No         ; |schemeHard|unidadeControle:inst25|state          ;
 ; 67:1               ; 14 bits   ; 616 ALUTs     ; 238 ALUTs            ; 378 ALUTs              ; No         ; |schemeHard|unidadeControle:inst25|state          ;
-; 9:1                ; 16 bits   ; 96 ALUTs      ; 96 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux21                  ;
-; 10:1               ; 14 bits   ; 84 ALUTs      ; 84 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux6                   ;
+; 9:1                ; 16 bits   ; 96 ALUTs      ; 96 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux16                  ;
+; 10:1               ; 14 bits   ; 84 ALUTs      ; 84 ALUTs             ; 0 ALUTs                ; No         ; |schemeHard|memToReg:inst7|Mux5                   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------+
 
 
@@ -891,7 +891,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Full Version
-    Info: Processing started: Fri Oct 18 22:30:00 2019
+    Info: Processing started: Sat Oct 19 02:35:21 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mipsHardware -c mipsHardware
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info: Found 1 design units, including 1 entities, in source file setsize.sv
@@ -962,6 +962,7 @@ Info: Found 1 design units, including 1 entities, in source file muxhi.sv
 Info: Found 1 design units, including 1 entities, in source file muxlo.sv
     Info: Found entity 1: muxLo
 Info: Elaborating entity "schemeHard" for the top level hierarchy
+Warning: Block or symbol "div" of instance "inst31" overlaps another block or symbol
 Info: Elaborating entity "unidadeControle" for hierarchy "unidadeControle:inst25"
 Info: Elaborating entity "Ula32" for hierarchy "Ula32:inst3"
 Info: Elaborating entity "aluSrcA" for hierarchy "aluSrcA:inst"
@@ -1023,7 +1024,6 @@ Info: Elaborated megafunction instantiation "Memoria:inst2|LPM_RAM_DQ:MEM|altram
 Info: Found 1 design units, including 1 entities, in source file db/altsyncram_g2a1.tdf
     Info: Found entity 1: altsyncram_g2a1
 Info: Elaborating entity "altsyncram_g2a1" for hierarchy "Memoria:inst2|LPM_RAM_DQ:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated"
-Critical Warning: Memory depth (256) in the design file differs from memory depth (12) in the Memory Initialization File "instrucoes.mif" -- setting initial value for remaining addresses to 0
 Info: Elaborating entity "iord" for hierarchy "iord:inst5"
 Warning (10270): Verilog HDL Case Statement warning at iord.sv(15): incomplete case statement has no default case item
 Warning (10240): Verilog HDL Always Construct warning at iord.sv(15): inferring latch(es) for variable "iordOut", which holds its previous value in one or more paths through the always construct
@@ -1642,15 +1642,15 @@ Info: 7 registers lost all their fanouts during netlist optimizations. The first
 Warning: Ignored assignments for entity "mipsHardware" -- entity does not exist in design
     Warning: Assignment for entity set_global_assignment -name LL_ROOT_REGION ON -entity mipsHardware -section_id "Root Region" was ignored
     Warning: Assignment for entity set_global_assignment -name LL_MEMBER_STATE LOCKED -entity mipsHardware -section_id "Root Region" was ignored
-Info: Implemented 5487 device resources after synthesis - the final resource count might be different
+Info: Implemented 5545 device resources after synthesis - the final resource count might be different
     Info: Implemented 2 input pins
-    Info: Implemented 804 output pins
-    Info: Implemented 4649 logic cells
+    Info: Implemented 806 output pins
+    Info: Implemented 4705 logic cells
     Info: Implemented 32 RAM segments
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 424 warnings
-    Info: Peak virtual memory: 4541 megabytes
-    Info: Processing ended: Fri Oct 18 22:30:20 2019
-    Info: Elapsed time: 00:00:20
-    Info: Total CPU time (on all processors): 00:00:20
+    Info: Peak virtual memory: 4539 megabytes
+    Info: Processing ended: Sat Oct 19 02:35:40 2019
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:38
 
 

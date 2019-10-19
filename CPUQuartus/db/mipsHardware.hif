@@ -3159,6 +3159,168 @@ muxLo:inst32
 
 # end
 # entity
+div
+# storage
+db|mipsHardware.(28).cnf
+db|mipsHardware.(28).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+div.sv
+a14d98ac2f31b9c9e3837d6f144e075
+9
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+div:inst31
+}
+# macro_sequence
+
+# end
+# entity
+schemeHard
+# storage
+db|mipsHardware.(36).cnf
+db|mipsHardware.(36).cnf
+# case_insensitive
+# source_file
+schemehard.bdf
+7eca4773227e51f56717ffdea482558
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+altsyncram_g2a1
+# storage
+db|mipsHardware.(38).cnf
+db|mipsHardware.(38).cnf
+# case_insensitive
+# source_file
+db|altsyncram_g2a1.tdf
+155748b9a21c1b6347c1c3ef96c273c0
+7
+# used_port {
+wren_a
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+data_a7
+-1
+3
+data_a6
+-1
+3
+data_a5
+-1
+3
+data_a4
+-1
+3
+data_a3
+-1
+3
+data_a2
+-1
+3
+data_a1
+-1
+3
+data_a0
+-1
+3
+clock1
+-1
+3
+clock0
+-1
+3
+address_a7
+-1
+3
+address_a6
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+instrucoes.mif
+153316976766c3f4bf243eaa8be16e61
+}
+# hierarchies {
+Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
+Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
+Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
+Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
 unidadeControle
 # storage
 db|mipsHardware.(10).cnf
@@ -3170,7 +3332,7 @@ ON
 # case_sensitive
 # source_file
 unidadecontrole.sv
-a6219c60625f7e198cec2f511fe9a2a3
+6976a5fca9def31d1b26ea2f4baf5b7a
 9
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -3572,168 +3734,6 @@ DEF
 }
 # hierarchies {
 unidadeControle:inst25
-}
-# macro_sequence
-
-# end
-# entity
-schemeHard
-# storage
-db|mipsHardware.(36).cnf
-db|mipsHardware.(36).cnf
-# case_insensitive
-# source_file
-schemehard.bdf
-991d8de967d0cec4e86b6942a43cf456
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-|
-}
-# macro_sequence
-
-# end
-# entity
-div
-# storage
-db|mipsHardware.(28).cnf
-db|mipsHardware.(28).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_sensitive
-# source_file
-div.sv
-1587acd1b7e59e7ec0696a69e489e36b
-9
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-IGNORE_VERILOG_INITIAL_CONSTRUCTS
-OFF
-VERILOG_CONSTANT_LOOP_LIMIT
-5000
-VERILOG_NON_CONSTANT_LOOP_LIMIT
-250
-}
-# hierarchies {
-div:inst31
-}
-# macro_sequence
-
-# end
-# entity
-altsyncram_g2a1
-# storage
-db|mipsHardware.(38).cnf
-db|mipsHardware.(38).cnf
-# case_insensitive
-# source_file
-db|altsyncram_g2a1.tdf
-155748b9a21c1b6347c1c3ef96c273c0
-7
-# used_port {
-wren_a
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-data_a7
--1
-3
-data_a6
--1
-3
-data_a5
--1
-3
-data_a4
--1
-3
-data_a3
--1
-3
-data_a2
--1
-3
-data_a1
--1
-3
-data_a0
--1
-3
-clock1
--1
-3
-clock0
--1
-3
-address_a7
--1
-3
-address_a6
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# memory_file {
-instrucoes.mif
-0329454e61a5043557ca89ec8e28a
-}
-# hierarchies {
-Memoria:inst2|lpm_ram_dq:MEM|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
-Memoria:inst2|lpm_ram_dq:MEM_plus_One|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
-Memoria:inst2|lpm_ram_dq:MEM_plus_Two|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
-Memoria:inst2|lpm_ram_dq:MEM_plus_Three|altram:sram|altsyncram:ram_block|altsyncram_g2a1:auto_generated
 }
 # macro_sequence
 

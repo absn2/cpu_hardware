@@ -83,7 +83,7 @@ always @ (posedge clk) begin
 		loDiv = quotient;
 		hiDiv = remainder;
 		divStop = 1'b1;
-		if(g == 1'b1) begin
+		if(g == 1'b1 && loDiv != 0) begin
 			loDiv = (~loDiv + 1);
 		end
 		if(j == 1'b1 && hiDiv != 0) begin

@@ -1760,8 +1760,8 @@ always @(posedge clk) begin
 							 xchgctrl = 1'd0;
 						end
 						jal: begin
-							 alucontrol = 3'd1; // <---
-							 aluoutwrite = 1'd0; // <---
+							 alucontrol = 3'd0; // <---
+							 aluoutwrite = 1'd1; // <---
 							 divby0 = 1'd0;
 							 epcwrite = 1'd0;
 							 hiwrite = 1'd0;
@@ -2954,7 +2954,7 @@ always @(posedge clk) begin
 					xchgctrl = 1'd0;
 				end
 				jal2: begin
-			        alucontrol = 3'd2;
+			        alucontrol = 3'd0;
 					aluoutwrite = 1'd0;
 					divby0 = 1'd0;														
 					epcwrite = 1'd0;
@@ -2985,7 +2985,7 @@ always @(posedge clk) begin
 			
 				end
 				jal3: begin
-			        alucontrol = 3'd2;
+			        alucontrol = 3'd0;
 					aluoutwrite = 1'd0;
 					divby0 = 1'd0;														
 					epcwrite = 1'd0;
